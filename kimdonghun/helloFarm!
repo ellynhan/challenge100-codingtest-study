@@ -1,8 +1,0 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "안녕 잔디심기 \n";
-  
-  return 0;
-}
