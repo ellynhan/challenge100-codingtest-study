@@ -2,7 +2,7 @@
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![All Contributors](https://img.shields.io/badge/All_contributors-3-orange.svg?style=flat-square)](#)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/pulls)
+[![Forks Welcome](https://img.shields.io/badge/PRs-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
 
