@@ -38,3 +38,13 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 -  comment는 자유
 
 ## ✅ 참여 명단 리스트
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href=https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon Han</b></sub></a><br /><a href="https://github.com/ellynhan/Challenge100_Code_Test_Study">💻</a></td>
+    <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunggil Kang</b></sub></a><br /><a href="https://github.com/seunggil1/Challenge100_Code_Test_Study">💻</a></td>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
