@@ -13,15 +13,24 @@
 
 **목표는 100문제 풀이 달성!** 하지만 그 후로도 쭉 스터디를 이어나가셔도 좋습니다.🥰
 
+<br />
+<br />
+
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
 2. 생성된 원격 저장소에 `이름` 혹은 `github ID`로 폴더를 생성한다.
 3. 생성된 폴더에 자신의 소스코드를 업로드 한다.
 4. 이때 `commit 규칙`을 지키도록한다!
-5. 매주 **토요일**에 원본 저장소로 `Pull Request`를 한다.
+5. 매주 **토요일**에 원본 저장소로 `Pull Request`를 한다.    
+
+<br />
+<br />
 
 ## ✅ 소스코드 파일 이름 규칙
 - 자유롭게 작성 
+
+<br />
+<br />
 
 ## ✅ commit 규칙
 - commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도 / 걸린시간 
@@ -32,23 +41,37 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 ```
 - 플랫폼 작성법 통일: [BOJ]-백준, [PGS]-프로그래머스, [LTC]-리트코드, [CFS]-코드포스, [SEA]-삼성SW Expert Academy, [ETC]-그외
 
+<br />
+<br />
+
 ## ✅ PR 규칙
 - PR 제목: 이름 / 주차 / 몇 문제
 -  ```jaewon han / 8월 1주차 / 4문제 ```
 -  comment는 자유
 
-## ✅ 현황판
-- 업데이트 예정입니다.
-- ![img](./.Readme/dashboard.png)
+<br />
+<br />
+
 ## ✅ 참여 명단 리스트
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon Han</b></sub></a><br /><a href="https://github.com/ellynhan/Challenge100_Code_Test_Study">💻</a></td>
     <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunggil Kang</b></sub></a><br /><a href="https://github.com/seunggil1/Challenge100_Code_Test_Study">💻</a></td>
     <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donghun Kim</b></sub></a><br /><a href="https://github.com/kdh2996/Challenge100_Code_Test_Study">💻</a></td>
+</table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<br />
+<br />
 
+## ✅ 참여자 진행도
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+
+<br />
+<br />
+
+## ✅ 현황판
+- 업데이트 예정입니다. 밑은 예시
+
+![img](./.Readme/dashboard.png)
