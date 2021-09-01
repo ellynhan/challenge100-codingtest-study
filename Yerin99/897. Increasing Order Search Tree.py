@@ -1,4 +1,4 @@
-# class TreeNode는 해당 리트코드 문제 내 내장 class
+# class TreeNode: 해당 리트코드 문제 내 내장 class
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
