@@ -87,6 +87,11 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 <br />
 <br />
 
+## ✅ 참여자 티어
+- CodeSik: ![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=iqeq2328)](https://solved.ac/kinetic27)
+<br />
+<br />
+
 ## ✅ 현황판
 - 업데이트 예정입니다. 밑은 예시
 
