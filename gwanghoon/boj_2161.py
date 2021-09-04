@@ -22,4 +22,3 @@ if __name__ == "__main__":
     print(" ".join(result))
 
 "9분 12초"
-
