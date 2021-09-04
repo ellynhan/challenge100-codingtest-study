@@ -24,5 +24,4 @@ if __name__ == "__main__":
     SL = makeStickList(size)
     result = sol(SL)
     print(result)
-
 "32분 45초: input()은 시간초과 뜨니 sys.stdin.readline() 사용하기"
