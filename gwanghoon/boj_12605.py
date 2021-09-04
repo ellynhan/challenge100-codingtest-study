@@ -18,3 +18,5 @@ def printResult(lineList):
 if __name__ == "__main__":
     line = int(sys.stdin.readline())
     printResult(lineList(line))
+
+    
