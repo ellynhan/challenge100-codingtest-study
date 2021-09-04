@@ -82,9 +82,9 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 - jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
 - seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- icy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- icy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
 - Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
 - Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/2)
 <br />
