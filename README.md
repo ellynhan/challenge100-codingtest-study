@@ -66,7 +66,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon Han</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunggil Kang</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donghun Kim</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>icy8047</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gwanghoon Jung</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Namhee Kim</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b></sub></a><br /></td>
@@ -87,7 +87,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 - jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
 - seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
-- icy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
 - gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
 - namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
 - Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
