@@ -13,20 +13,11 @@
 소요시간:
     9분
 """
+import re
 
 class Solution:
     def isPalindrome(self, sentence: str) -> bool:
-        stack = list()
-        for s in sentence:
-            if s.isalnum():
-                stack.append(s.lower())
+        sentence = sentence.lower()
+        sentence = re.sub('[^a-z0-9]', '', sentence)
 
-        palindrome = list()
-
-        for i in range(len(stack)-1, 0, -1):
-            palindrome.append(stack[i])
-
-        for i in range(len(stack)-1):
-            if palindrome[i] != stack[i]:
-                return False
-        return True
+        return sentence == sentence[::-1]
