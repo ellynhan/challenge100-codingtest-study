@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-4-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-11-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -10,7 +10,6 @@
 ---
 # 💯 알고리즘 및 코딩 테스트 문제 풀이 챌린지 100 📝
 `누구나` 참여 가능한 알고리즘 및 코테 문제 풀이 스터디입니다.
-
 **목표는 100문제 풀이 달성!** 하지만 그 후로도 쭉 스터디를 이어나가셔도 좋습니다.🥰
 
 <br />
@@ -25,6 +24,7 @@
 6. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
 7. 오픈톡방 <https://open.kakao.com/o/gI9Vfmxd> 들어오시면 매주 토요일 PR알림 
 
++ 추가: 매주 3문제 이상씩 풀도록 합니다! PR이나 commit에 comment로 코드리뷰 자유
 <br />
 <br />
 
@@ -66,20 +66,38 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon Han</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunggil Kang</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donghun Kim</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>icy8047</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gwanghoon Jung</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Namhee Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b></sub></a><br /></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?s=60&v=4?s=100" width="100px;" alt=""/><br /><sub><b>CodeSik</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/dydnrn12"><img src="https://avatars.githubusercontent.com/u/22445022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juhyeong</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/lysuk96"><img src="https://avatars.githubusercontent.com/u/48303178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Iysuk96</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dongyeon</b></sub></a><br /></td>
+  </tr>
 </table>
+
 
 <br />
 <br />
 
 ## ✅ 참여자 진행도
-- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
-- icy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
+- kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
+- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
+- Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/2)
+- Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
+- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/4)
+<br />
+<br />
 
-<br />
-<br />
 
 ## ✅ 현황판
 - 업데이트 예정입니다. 밑은 예시
