@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-11-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-12-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -76,6 +76,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/dydnrn12"><img src="https://avatars.githubusercontent.com/u/22445022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juhyeong</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/lysuk96"><img src="https://avatars.githubusercontent.com/u/48303178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Iysuk96</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dongyeon</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gusah009</b></sub></a><br /></td>
   </tr>
 </table>
 
