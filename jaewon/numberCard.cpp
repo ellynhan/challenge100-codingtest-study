@@ -30,6 +30,9 @@ int lower_bound(vector<int>& v, int target){
 }
 
 int main(void) {
+    ios_base :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL); //얘네 안붙이면 틀렸다고함. 
     int n, m;
     cin >> n;
     vector<int> v;
