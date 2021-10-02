@@ -55,5 +55,8 @@ logs = ["a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"]
 print(reorderLogFiles(logs))
 
 # 주의 : 문제 예제 제대로 확인 후 넘어갈 것, 이것때매 5분 날림
-# 풀이 : 람다 표현식 제대로 익힐 것. 답지 풀이와 비슷하나 내 코드가 좀 더 느림. 소팅 한번 더해서 그런듯?
+# 풀이 : 람다 표현식 제대로 익힐 것. 답지 풀이와 비슷하나 내 코드가 좀 더 느림. / 소팅한번 덜하고, isdigit으로 할 시 32ms 걸림
 # 걸린 시간 : 40분
+
+# Runtime: 54 ms, faster than 18.63% of Python3 online submissions for Reorder Data in Log Files.
+# Memory Usage: 14.2 MB, less than 87.38% of Python3 online submissions for Reorder Data in Log Files.
