@@ -18,7 +18,7 @@
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
 2. 생성된 원격 저장소에 `이름` 혹은 `github ID`로 폴더를 생성한다.
-3. 생성된 폴더에 자신의 소스코드를 업로드 한다.
+3. 생성된 폴더에 자신의 소스코드를 업로드 한다. (폴더명에 콜론":" 안됩니다!)
 4. 이때 `commit 규칙`을 지키도록한다!
 5. 매주 **토요일**에 원본 저장소로 `Pull Request`를 한다.    
 6. ***주의!! 기존 폴더를 지우면 안됩니다!!*** 개인 폴더 내부만 수정해주세요 :)
@@ -30,6 +30,7 @@
 
 ## ✅ 소스코드 파일 이름 규칙
 - 자유롭게 작성 
+- 폴더명 또는 소스코드 파일명에 콜론 ":" 안됩니다 :D
 
 <br />
 <br />
@@ -85,18 +86,18 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 <br />
 
 ## ✅ 참여자 진행도
-- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/8)
-- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/14)
-- kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
-- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/9)
-- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
-- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
-- Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/5)
-- Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/15)
-- Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/6)
-- Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/7)
-- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/11)
-- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/22)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/21)
+- kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/15)
+- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/15)
+- Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/14)
+- Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/36)
+- Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
+- Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
+- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/14)
+- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/18)
 <br />
 <br />
 
