@@ -102,7 +102,3 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 <br />
 
 
-## ✅ 현황판
-- 업데이트 예정입니다. 밑은 예시
-
-![img](./.Readme/dashboard.png)
