@@ -10,8 +10,10 @@
 ---
 # 💯 알고리즘 및 코딩 테스트 문제 풀이 챌린지 100 📝
 `누구나` 참여 가능한 알고리즘 및 코테 문제 풀이 스터디입니다.
+
 **목표는 100문제 풀이 달성!** 하지만 그 후로도 쭉 스터디를 이어나가셔도 좋습니다.🥰
 
+참여 방법 설명글: <https://waytocse.tistory.com/59>
 <br />
 <br />
 
@@ -87,18 +89,18 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 <br />
 
 ## ✅ 참여자 진행도
-- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/26)
-- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/40)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/20)
-- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/18)
-- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/19)
-- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/22)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/27)
+- gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/22)
+- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
 - Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/17)
 - Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/43)
 - Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
 - Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/13)
-- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/17)
-- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
+- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/26)
+- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
 - songmody: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/6)
 <br />
 <br />
