@@ -4,6 +4,7 @@
 #include <queue>
 #include <cstdlib>
 #include <algorithm>
+#include <cassert>
 
 using namespace std;
 
@@ -54,6 +55,9 @@ bool DFS(int node, int depth)
 
 int main()
 {
+  ios_base :: sync_with_stdio(false);
+  cin.tie(NULL);
+  cout.tie(NULL);
   cin >> N >> M;
   int point1, point2;
   FOR(m, M) {
@@ -76,6 +80,11 @@ int main()
         setB.insert(j);
         edge[i][j] = 2;
         edge[j][i] = 2;
+        impossibleFlag = DFS(i, 1);
+        if (!impossibleFlag) {
+          cout << -1 << '\n';
+          return 0;
+        }
         impossibleFlag = DFS(j, 0);
         if (!impossibleFlag) {
           cout << -1 << '\n';
@@ -85,18 +94,6 @@ int main()
         int B = setB.size();
         noConnections.push_back(abs(A - B));
         
-        // cout << '\n';
-        // cout << i << ' ' << j << '\n';
-        
-        // for (auto it = setA.begin(); it != setA.end(); it++) {
-        //   cout << *it << ' ';
-        // }
-        // cout << '\n';
-        // for (auto it = setB.begin(); it != setB.end(); it++) {
-        //   cout << *it << ' ';
-        // }
-        // cout << '\n';
-        // cout << '\n';
         flag = false;
       }
       if (edge[i][j] == 2) flag = false;
@@ -104,11 +101,10 @@ int main()
     if (flag) fullConnection++;
   }
 
-  // cout << "FULL " << fullConnection << '\n';
-
-  sort(noConnections.begin(), noConnections.end(), std::greater<int>());
-
+  // Knapsack?
+  sort(noConnections.begin(), noConnections.end(), greater<int>());
   int A = 0, B = 0;
+  
   FOR(i, noConnections.size()) {
     if (A > B) {
       B += noConnections[i];
@@ -119,7 +115,7 @@ int main()
   
   int answer = abs(A - B);
   answer -= fullConnection;
-  if (answer < 0) {
+  if (answer <= 0) {
     if (N % 2 == 1) cout << 1 << '\n';
     else cout << 0 << '\n';
   } else {
