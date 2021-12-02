@@ -6,3 +6,10 @@ dfs는 사용할 수 없고 bfs만 사용가능
 https://www.acmicpc.net/problem/16928
 dp + bfs, 직관으로 했을 때 틀렸던 부분이 많음.
 사다리, 뱀을 계속 살리면 무한루프, visited 표시하면 틀림...
+
+3. 6064번
+https://www.acmicpc.net/problem/6064
+수학 문제.
+풀이 방법따라 메모리 공간, 시간이 천차만별이 됨.
+vector대신 set을 쓰면 더 느려지고,
+머리를 잘쓰면 그냥 변수 10개 이하로 끝낼 수 있다.
