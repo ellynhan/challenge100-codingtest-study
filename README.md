@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-13-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-14-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -81,6 +81,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dongyeon</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gusah009</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/songmody"><img src="https://avatars.githubusercontent.com/u/48988927?v=4?s=100" width="100px;" alt=""/><br /><sub><b>songmody</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Ernstjunger-1914"><img src="https://avatars.githubusercontent.com/u/77431606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ernstjunger-1914</b></sub></a><br /></td>
   </tr>
 </table>
 
@@ -89,19 +90,20 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 <br />
 
 ## ✅ 참여자 진행도
-- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/74)
-- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
-- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/46)
+- gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/78)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/51)
+- namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
 - jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
 - Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/43)
 - lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/42)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/35)
 - Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
-- songmody: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
+- songmody: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/33)
 - Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/26)
 - gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
 - Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
 - Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
+- Ernstjunger-1914:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
 <br />
 <br />
 
