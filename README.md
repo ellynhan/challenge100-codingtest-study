@@ -66,12 +66,12 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 ## ✅ 참여 명단 리스트
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon Han</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunggil Kang</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donghun Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>seunggil</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kimdonghun</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gwanghoon Jung</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Namhee Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gwanghoon</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>namhee</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b></sub></a><br /></td>
   </tr>
   <tr>
@@ -82,6 +82,9 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gusah009</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/songmody"><img src="https://avatars.githubusercontent.com/u/48988927?v=4?s=100" width="100px;" alt=""/><br /><sub><b>songmody</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Ernstjunger-1914"><img src="https://avatars.githubusercontent.com/u/77431606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ernstjunger-1914</b></sub></a><br /></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yongjunleeme"><img src="https://avatars.githubusercontent.com/u/48748376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yongjunleeme</b></sub></a><br /></td>
   </tr>
 </table>
 
@@ -102,6 +105,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 - Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/23)
 - Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
 - Ernstjunger-1914:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
+- yongjunleeme: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)
 <br />
 <br />
 
