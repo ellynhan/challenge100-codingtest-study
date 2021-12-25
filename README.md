@@ -91,20 +91,20 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 
 ## ✅ 참여자 진행도
 - gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/78)
-- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/51)
+- seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/54)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
 - namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
-- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
 - Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/43)
-- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/42)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/35)
-- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
 - songmody: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/33)
 - Yerin99: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/26)
 - gwanghoon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
-- Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+- Iysuk96:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/23)
 - Juhyeong:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/12)
-- Ernstjunger-1914:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/3)
+- Ernstjunger-1914:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/6)
 <br />
 <br />
 
-
+## ✅ 참여자 취뽀
+- Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
