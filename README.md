@@ -95,7 +95,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 ## ✅ 참여자 진행도
 - gusah009: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/79)
 - seunggil: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/56)
-- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
+- lcy8047: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/51)
 - namhee: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/48)
 - Codesik: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/43)
 - kimdonghun: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/35)
@@ -111,4 +111,4 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 
 ## ✅ 참여자 취뽀
 - Dongyeon:![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
-- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/45)
+- jaewon: ![progress](https://us-central1-progress-markdown.cloudfunctions.net/progress/46)
