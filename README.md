@@ -13,6 +13,8 @@
 
 **목표는 100문제 풀이 달성!** 하지만 그 후로도 쭉 스터디를 이어나가셔도 좋습니다.🥰
 
+++ 최대 28명으로 진행하겠습니다 :) 
+
 참여 방법 설명글: <https://waytocse.tistory.com/59>
 <br />
 <br />
@@ -84,7 +86,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>seunggil</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/59" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kimdonghun</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/42" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/54" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gwanghoon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/25" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gwanghoon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/27" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>namhee</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/51" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/26" /></sub></a><br /></td>
   </tr>
@@ -111,6 +113,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/llddang"><img src="https://avatars.githubusercontent.com/u/77055208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>llddang</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/mia2583"><img src="https://avatars.githubusercontent.com/u/83392142?s=88&v=4?s=100" width="100px;" alt=""/><br /><sub><b>myeongseo</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/thkang727"><img src="https://avatars.githubusercontent.com/u/65062771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>thkang727</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/junbo9"><img src="https://avatars.githubusercontent.com/u/96970186?v=4?s=100" width="100px;" alt=""/><br /><sub><b>junbo9</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/2" /></sub></a><br /></td>
   </tr>
 </table>
 
