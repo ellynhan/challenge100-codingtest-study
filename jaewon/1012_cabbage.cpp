@@ -29,7 +29,6 @@ void bfs(pair<int, int> curr){
             }
         }
     }
-
 }
 
 
