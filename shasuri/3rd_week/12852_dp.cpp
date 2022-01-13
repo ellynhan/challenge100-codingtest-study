@@ -81,7 +81,7 @@ void print(void)
 {
     cout << NRecord.pathLength << endl;
 
-    cout << N << " ";
+    cout << N << " "; // 초기 값인 N 먼저 출력
     int i = N;
     while (i >= 2)
     {
