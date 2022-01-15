@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     ioboost;
-    int n,m;
+    int n, m;
     cin >> n >> m;
     map<string, string> M;
     
