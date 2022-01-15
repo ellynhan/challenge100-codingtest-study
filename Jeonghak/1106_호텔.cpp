@@ -1,7 +1,4 @@
-#include "bits/stdc++.h"
-using namespace std;
-
-int C, N, DP[1001]={0}, money=0;
+int C, N, DP[100001]={0}, money=0;
 
 int main()
 {
@@ -14,26 +11,19 @@ int main()
         if(DP[a] < b)
             DP[a] = b;
     }
-    for(int c=1; c<=1000; c++){
-            Max = DP[c];
-            if(c%2 == 0){  
-                for(int j=1; j<=c/2; j++){
-                    Max = max(DP[c-j] + DP[j], Max);
-                }
-            }
-            else{
-                for(int j=1; j<=c/2; j++){
-                    if(j==c/2)
-                        Max = max(DP[j]*2, Max);
-                    else
-                        Max = max(DP[c-j] + DP[j], Max);
-                }
-            }
-            DP[c] = Max;
-            money++;
-            if(DP[c] >= C) break;
+    for(int c=1; c<=100000; c++){
+        Max = DP[c];
+        for(int j=1; j<=c/2; j++){
+            Max = max(DP[c-j] + DP[j], Max);
+            if(j==c/2)
+                Max = max(DP[j]*2, Max);
         }
-        if(DP[money] >= C)
+        DP[c] = Max;
+        money++;
+        if(DP[c] >= C) {
             cout << money << endl;
+            break;
+        }
+    }
     return 0;
 }
