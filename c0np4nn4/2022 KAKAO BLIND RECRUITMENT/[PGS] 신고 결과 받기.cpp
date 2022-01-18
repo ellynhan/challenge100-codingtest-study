@@ -13,8 +13,8 @@ vector<string> split(string& str, const char delimiter) {
 vector<int> solution(vector<string> id_list, vector<string> report, int k) {
     vector<int> answer;
     
-    bool report_info[1001][1001];
-    int report_count[1001];
+    bool report_info[10000][10000];
+    int report_count[10000];
     
     int user_len = id_list.size();
     
