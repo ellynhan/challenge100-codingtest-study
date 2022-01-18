@@ -1,3 +1,15 @@
+vector<string> split(string& str, const char delimiter) {
+    istringstream iss(str);
+    string buffer;
+    
+    vector<string> result;
+    while (getline(iss, buffer, delimiter)) {
+        result.push_back(buffer);
+    }
+    
+    return result;
+}
+
 vector<int> solution(vector<string> id_list, vector<string> report, int k) {
     vector<int> answer;
     
