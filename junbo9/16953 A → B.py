@@ -12,5 +12,5 @@ while(b!=a):
         print(-1)
         break
 else:
-    print(r) 
+    print(r)  
  
