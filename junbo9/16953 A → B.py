@@ -13,3 +13,4 @@ while(b!=a):
         break
 else:
     print(r) 
+ 
