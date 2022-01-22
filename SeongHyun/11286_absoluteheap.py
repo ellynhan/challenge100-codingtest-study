@@ -14,3 +14,5 @@ for _ in range(num):
             print(heapq.heappop(Q)[1])
         else:
             print(0)
+
+            
