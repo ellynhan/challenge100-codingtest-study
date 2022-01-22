@@ -3,7 +3,7 @@
 #define MAX 1000000
 using namespace std;
 
-int prime[MAX] = {true,};
+int prime[MAX];
 
 void init()
 {
