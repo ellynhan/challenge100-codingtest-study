@@ -1,21 +1,9 @@
-#include<stdio.h>
-
-int main() {
-    int N,max=0;
-    int nums[1001] = {0,};
-    int values[1001] = {0,};
-    scanf("%d",&N);
-    for(int i=1;i<=N;i++) {
-        scanf("%d",&nums[i]);
-        values[i]=0;
-        for(int j=0;j<i;j++) {
-            if(nums[j]<nums[i] && values[i]<values[j]+1) {
-                values[i] = values[j]+1;
-            }
-            if(max < values[i]) {
-                max = values[i];
-            }
-        }
-    }
-    printf("%d",max);
-}
+N = int(input())
+nums = [0] + list(map(int, input().split()))
+values = [0]
+for i in range(1, N+1):
+    values.append(0)
+    for j in range(0, i):
+        if nums[j] < nums[i]:
+            values[i] = max(values[i], values[j]+1)
+print(max(values))
