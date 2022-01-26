@@ -1,4 +1,5 @@
 # https://programmers.co.kr/learn/courses/30/lessons/42579
+# dict sort관련 블로그 : https://rfriend.tistory.com/473
 
 from collections import defaultdict
 def solution(genres, plays):
