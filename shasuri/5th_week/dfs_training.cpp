@@ -1,3 +1,4 @@
+// [SEA] 12317. 기초 DFS 연습 / ??? / 1시간
 #define MAX_NSIZE 40
 #define UNIQUE_ABILITY 100
 
