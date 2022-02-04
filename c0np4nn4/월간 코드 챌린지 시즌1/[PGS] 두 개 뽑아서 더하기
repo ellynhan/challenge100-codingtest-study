@@ -1,0 +1,30 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+
+
+vector<int> solution(vector<int> numbers) {
+    vector<int> answer;
+    bool isExist[301];
+    for (int i = 0; i < 301; i++) {
+        isExist[i] = false;
+    }
+    
+    for (int i = 0; i < numbers.size(); i++) {
+        for (int j = i + 1; j < numbers.size(); j++) {
+            if (isExist[numbers[i]+numbers[j]] == false) { 
+                isExist[numbers[i]+numbers[j]] = true; 
+            }
+            else { continue; }
+        }
+    }
+    
+    for (int k = 0; k < 300; k++) {
+        if (isExist[k]) {
+            answer.push_back(k);
+        }
+    }
+    return answer;
+}
