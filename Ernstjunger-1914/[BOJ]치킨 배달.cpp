@@ -35,7 +35,7 @@ void func(int x, int cnt) {
   for(int i=x; i<chicken.size(); i++) {
     if(flag[i]) {
       continue;
-    }
+    } 
 
     flag[i]=1;
     choose.push_back({ chicken[i].x, chicken[i].y });
