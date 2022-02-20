@@ -1,6 +1,5 @@
 #include<iostream>
 #include<vector>
-#include<string.h>
 using namespace std;
 
 int seq[100001];
@@ -9,7 +8,7 @@ vector<char> ans;
 
 int main(){
 	int N; cin >> N;
-	for(int i = 0; i<N; i++)
+	for(int i=0; i<N; i++)
         cin >> seq[i];
 
     int curr = 0;
