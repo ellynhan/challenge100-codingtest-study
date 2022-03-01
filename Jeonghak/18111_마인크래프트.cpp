@@ -15,7 +15,6 @@ void Input(){
 
 int main()
 {
-    // 제거하는 경우
     Input();
     int result=100000000, height=0;
     for(int k=0; k<=256; k++){
@@ -24,7 +23,6 @@ int main()
         for(int i=0; i<N; i++){
             for(int j=0; j<M; j++){
                 int gap = map[i][j] - k;
-                // inven-- inven++ 이런 짓 해서 틀리고 있었음 
                 if(gap < 0) {
                     currT += -gap;
                     inven -= -gap;
