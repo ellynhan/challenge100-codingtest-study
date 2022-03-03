@@ -81,7 +81,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 ## ✅ 참여자와 진행도
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/70" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/77" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>seunggil</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/94" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/kdh2996"><img src="https://avatars.githubusercontent.com/u/49389321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kimdonghun</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/117" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/69" /></sub></a><br /></td>
