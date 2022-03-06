@@ -30,7 +30,10 @@ bool CreateBackspace(string &s, string &t, int s_cursor, int t_cursor)
     t_cursor++;
   }
 
-  if (t_cursor == t.size()) return true;
+  if (t_cursor == t.size()) {
+    if ((s.size() - s_cursor) % 2 == 1) return false;
+    else                                return true;
+  }
   s_cursor += 2;
 
   while (s_cursor < s.size()) {
