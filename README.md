@@ -90,7 +90,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/30" /></sub></a><br /></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?s=60&v=4?s=100" width="100px;" alt=""/><br /><sub><b>CodeSik</b><br>👏취뽀👏</sub></a><br /></td>
+    <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?s=60&v=4?s=100" width="100px;" alt=""/><br /><sub><b>CodeSik</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/43" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/dydnrn12"><img src="https://avatars.githubusercontent.com/u/22445022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juhyeong</b><br>중도포기</sub></a><br /></td>
     <td align="center"><a href="https://github.com/lysuk96"><img src="https://avatars.githubusercontent.com/u/48303178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉lysuk96🎉</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/101" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dongyeon</b><br>👏취뽀👏</sub></a><br /></td>
