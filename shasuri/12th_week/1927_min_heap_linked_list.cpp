@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 #define MAX_NODE 100000
 #define HEAP_EMPTY_CODE 0
 using namespace std;
@@ -31,15 +31,17 @@ HeapNode *getSmallerChild(HeapNode *, HeapNode *);
 
 int main(void)
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(0);
 
     int N, cmd;
-    cin >> N;
+    // cin >> N;
+    scanf("%d", &N);
 
     for (int i = 0; i < N; i++)
     {
-        cin >> cmd;
+        // cin >> cmd;
+        scanf("%d", &cmd);
         command(cmd);
     }
 }
@@ -123,9 +125,10 @@ void swapValue(HeapNode *t, HeapNode *u)
 
 void popPrint(void)
 {
-    cout <<
-        // "# " <<
-        heapPop() << endl;
+    // cout <<
+    //     // "# " <<
+    //     heapPop() << endl;
+    printf("%d\n", heapPop());
 }
 
 int heapPop(void)
