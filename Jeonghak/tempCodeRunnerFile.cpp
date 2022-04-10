@@ -1,1 +1,2 @@
-blindnessCnt
+
+    cout<< curr_node << endl;
