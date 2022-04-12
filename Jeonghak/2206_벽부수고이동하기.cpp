@@ -16,13 +16,20 @@ string map[MAX];
 bool visit[MAX][MAX][2];
 int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
-// int dist[MAX][MAX];
+
+void Input()
+{
+    cin >> N >> M;
+    for(int i=0; i<N; i++){
+        cin >> map[i];
+    }
+}
+
 void BFS()
 {
     queue<Pos> q;
     q.push({0, 0, 1, false});
     visit[0][0][0] = visit[0][0][1] = true;
-    // dist[0][0] = 1;
     
     while(!q.empty()){
         Pos pos = q.front();
@@ -54,13 +61,7 @@ void BFS()
         }
     }
 }
-void Input()
-{
-    cin >> N >> M;
-    for(int i=0; i<N; i++){
-        cin >> map[i];
-    }
-}
+
 int main()
 {
     Input();
