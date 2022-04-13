@@ -17,6 +17,7 @@ int main()
             DP[i][j] += DP[i-1][j] + DP[i][j-1] - DP[i-1][j-1];
         }
     }
+    
     while(M--)
     {
         cin >> x1 >> y1 >> x2 >> y2;
