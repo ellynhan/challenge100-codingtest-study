@@ -8,6 +8,7 @@ using namespace std;
 vector<pair<int, int>> Tree[MAX];
 int N, end_node, max_cost;
 bool visit[MAX];
+
 void Input()
 {   
     cin >> N;
@@ -45,6 +46,7 @@ void DFS(int curr_node, int curr_cost)
         }
     }
 }
+
 int main()
 {
     ios::sync_with_stdio(false);
