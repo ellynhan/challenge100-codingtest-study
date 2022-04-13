@@ -3,19 +3,7 @@
 
 using namespace std;
 int T,N,result;
-// void Input()
-// {
 
-// }
-// void Solve()
-// {
-//     for(int i=2; i<N; i++){
-//         DP[i][0] += max(DP[i-2][0] + DP[i-1][1], DP[i-2][0]);
-//         DP[i][1] += max(DP[i-2][1] + DP[i-1][0], DP[i-1][0]);
-//         result = max(DP[i][0], DP[i][1]);
-//     }
-//     cout << result;
-// }
 int main()
 {
     cin >> T;
@@ -39,6 +27,7 @@ int main()
             cout << DP[0][i] << ' ' << DP[1][i] << endl;
             result = max(DP[0][i], DP[1][i]);
         }
+        
         cout << result;
     }
 }
