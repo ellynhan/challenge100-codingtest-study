@@ -2,6 +2,7 @@
 #include<vector>
 
 using namespace std;
+
 int T,N,result;
 
 int main()
