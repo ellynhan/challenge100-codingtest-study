@@ -12,6 +12,7 @@ void solve()
     q.push({before, ""});
     visited[before] = true;
     int currN, nextN;
+    
     while(!q.empty())
     {
         currN = q.front().first;
