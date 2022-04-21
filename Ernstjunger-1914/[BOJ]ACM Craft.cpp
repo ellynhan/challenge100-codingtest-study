@@ -2,7 +2,7 @@
 #define ioboost ios::sync_with_stdio(0), cin.tie(NULL), cout.tie(NULL)
 
 using namespace std;
-using ll=long long;
+using ll = long long;
 
 int main() {
   ioboost;
