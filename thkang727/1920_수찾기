@@ -1,0 +1,37 @@
+#
+#   1920
+#   자료구조 실버4
+# #
+
+import sys
+
+input = sys.stdin.readline
+
+n = int(input())
+input_n = list(map(int, input().split()))
+input_n.sort()
+
+y = int(input())
+input_y = list(map(int, input().split()))
+
+
+
+for i in input_y:
+    is_there= False
+    left = 0
+    right = len(input_n)-1
+
+    while(left <= right):
+        mid = (left + right) // 2
+        if i == input_n[mid]:
+            print('1')
+            is_there = True
+            #input_n.remove(i)
+            break
+        if i < input_n[mid]:
+            right = mid - 1
+        elif i > input_n[mid]:
+            left = mid + 1
+    if is_there == False:
+        print('0')
+
