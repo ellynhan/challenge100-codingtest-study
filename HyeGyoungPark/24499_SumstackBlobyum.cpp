@@ -30,7 +30,7 @@ int main(void){
     for(int i=0; i<k; i++){
         now+=pie[i];
     }
-
+ 
     if(premax<now) premax = now;
 
 
