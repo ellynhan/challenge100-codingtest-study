@@ -39,4 +39,6 @@ int main(void){
     delete[] pie;
     delete[] sum;
 
+    return 0;
+    
 }
