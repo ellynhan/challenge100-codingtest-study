@@ -1,56 +1,43 @@
 import java.util.*;
+import java.util.Map.Entry;
 import java.io.*;
 
 class Trie {
-    Map<Character, Trie> children = new HashMap<>();
+    Map<String, Trie> children = new TreeMap<>();
 
     void insert(String word) {
+        StringTokenizer token = new StringTokenizer(word);
+
         Trie now = this;
-
-        for (int i = 0, length = word.length(); i < length; i++) {
-            now = now.children.computeIfAbsent(word.charAt(i), k -> new Trie());
+        for (int i = 0, length = Integer.parseInt(token.nextToken()); i < length; i++) {
+            String s = token.nextToken();
+            now = now.children.computeIfAbsent(s, k -> new Trie());
         }
-        return;
-    }
-
-    boolean search(String word) {
-        Trie now = this;
-
-        for (int i = 0, length = word.length(); i < length; i++) {
-            now = now.children.getOrDefault(word.charAt(i), null);
-            if (now == null)
-                return false;
-        }
-        return true;
     }
 }
 
 public class Main {
+    static String line = new String(new char[31]).replace("\0", "--");
+    static StringBuilder ans = new StringBuilder();
+
+    static void dfs(int depth, Trie now) {
+
+        for (Entry<String, Trie> iter : now.children.entrySet()) {
+            ans.append(line.subSequence(0, depth * 2)).append(iter.getKey()).append('\n');
+            dfs(depth + 1, iter.getValue());
+        }
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader re = new BufferedReader(new InputStreamReader(System.in));
-        int testCase = Integer.parseInt(re.readLine());
 
-        StringBuilder ans = new StringBuilder();
-        test: for (int t = 1; t <= testCase; t++) {
-            int n = Integer.parseInt(re.readLine());
-            String[] inputData = new String[n];
+        int n = Integer.parseInt(re.readLine());
 
-            for (int i = 0; i < n; i++) {
-                inputData[i] = re.readLine();
-            }
-
-            Arrays.sort(inputData, Collections.reverseOrder());
-            Trie trie = new Trie();
-            for (String s : inputData) {
-                if (trie.search(s)) {
-                    ans.append("NO").append('\n');
-                    continue test;
-                } else {
-                    trie.insert(s);
-                }
-            }
-            ans.append("YES").append('\n');
+        Trie trie = new Trie();
+        for (int i = 0; i < n; i++) {
+            trie.insert(re.readLine());
         }
+        dfs(0, trie);
         System.out.print(ans);
         re.close();
     }
