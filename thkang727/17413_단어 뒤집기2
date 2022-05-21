@@ -1,0 +1,28 @@
+#
+#   17413
+#   문자열 실버3
+# #
+import sys
+
+strlist = list(sys.stdin.readline().rstrip())
+i=0
+
+while i < len(strlist):
+    if strlist[i]=='<':
+        i+=1
+        while strlist[i] !='>':
+            i+=1
+        i+=1
+    elif strlist[i].isalnum():
+        start = i
+        while i < len(strlist) and strlist[i].isalnum():
+            i +=1
+        tmp = strlist[start:i]
+        tmp.reverse()
+        strlist[start:i] = tmp
+    else:
+        i+=1
+print("".join(strlist))
+
+
+
