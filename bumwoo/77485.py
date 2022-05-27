@@ -29,5 +29,3 @@ def solution(rows, columns, queries):
         result.append(min(nums))
         answer = graph
     return result
-
-#git test
