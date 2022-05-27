@@ -12,8 +12,8 @@ def solution(rows, columns, queries):
         graph = []
         for i in range(len(answer)):
             graph.append(answer[i][:])
-        # graph = copy.deepcopy(answer)로 할 경우 시간 초과
-        # 행 하나 리스트 마다 slicing 복사가 더 빠름
+        # graph = copy.deepcopy(answer)로 할 경우 시간 초과.
+        # 행 하나 리스트 마다 slicing 복사가 더 빠름.
         for i in range(q[1], q[3]):
             graph[q[0] - 1][i] = answer[q[0] - 1][i-1]
             nums.append(graph[q[0] - 1][i])
