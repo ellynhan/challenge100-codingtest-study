@@ -118,7 +118,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/beomukim"><img src="https://avatars.githubusercontent.com/u/86512449?v=4?s=100" width="100px;" alt=""/><br /><sub><b>beomukim</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/2" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/cokemania2"><img src="https://avatars.githubusercontent.com/u/38974863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cokemania2</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/6" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/cokemania2"><img src="https://avatars.githubusercontent.com/u/38974863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cokemania2</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/10" /></sub></a><br /></td>
   </tr>
 </table>
 
