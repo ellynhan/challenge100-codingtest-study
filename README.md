@@ -87,7 +87,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lcy8047</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/78" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gwanghoon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/34" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/nhee0410"><img src="https://avatars.githubusercontent.com/u/49919262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>namhee</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/95" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/30" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yerin99</b><br>중도포기</sub></a><br /></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?s=60&v=4?s=100" width="100px;" alt=""/><br /><sub><b>CodeSik</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/61" /></sub></a><br /></td>
@@ -100,7 +100,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yongjunleeme"><img src="https://avatars.githubusercontent.com/u/48748376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yongjunleeme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/30" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/JeonghakLee"><img src="https://avatars.githubusercontent.com/u/55916802?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeonghak</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/30" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/JeonghakLee"><img src="https://avatars.githubusercontent.com/u/55916802?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeonghak</b><br>중도포기</sub></a><br /></td>
     <td align="center"><a href="https://github.com/shasuri"><img src="https://avatars.githubusercontent.com/u/29942514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>shasuri</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/30" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/HyeGyoungPark"><img src="https://avatars.githubusercontent.com/u/64782678?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeGyoungPark</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/39" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/c0np4nn4"><img src="https://avatars.githubusercontent.com/u/49471288?v=4?s=100" width="100px;" alt=""/><br /><sub><b>c0np4nn4</b><br>중도포기</sub></a><br /></td>
@@ -113,7 +113,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/mia2583"><img src="https://avatars.githubusercontent.com/u/83392142?s=88&v=4?s=100" width="100px;" alt=""/><br /><sub><b>myeongseo</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/37" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/thkang727"><img src="https://avatars.githubusercontent.com/u/65062771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>thkang727</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/62" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/junbo9"><img src="https://avatars.githubusercontent.com/u/96970186?v=4?s=100" width="100px;" alt=""/><br /><sub><b>junbo9</b><br>중도포기</sub></a><br /></td>
-    <td align="center"><a href="https://github.com/gomgom9"><img src="https://avatars.githubusercontent.com/u/96054406?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GomGom9</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/34" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/gomgom9"><img src="https://avatars.githubusercontent.com/u/96054406?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GomGom9</b><br>중도포기</sub></a><br /></td>
      <td align="center"><a href="https://github.com/eodudrepublic"><img src="https://avatars.githubusercontent.com/u/71918029?v=4?s=100" width="100px;" alt=""/><br /><sub><b>eodudrepublic</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/43" /></sub></a><br /></td>
   </tr>
   <tr>
