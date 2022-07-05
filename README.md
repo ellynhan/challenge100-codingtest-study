@@ -121,6 +121,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
     <td align="center"><a href="https://github.com/cokemania2"><img src="https://avatars.githubusercontent.com/u/38974863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cokemania2</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/10" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/sangbeomheo"><img src="https://avatars.githubusercontent.com/u/41741221?s=100&v=4" width="100px;" alt=""/><br /><sub><b>sangbeomheo</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/wldsbs"><img src="https://avatars.githubusercontent.com/u/52478817?s=100&v=4" width="100px;" alt=""/><br /><sub><b>wldsbs</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Ga-ng"><img src="https://avatars.githubusercontent.com/u/93857041?s=100&v=4" width="100px;" alt=""/><br /><sub><b>ga-ng</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/4" /></sub></a><br /></td>
   </tr>
 </table>
 
