@@ -1,1 +1,0 @@
-a,_,b=map(ord,input());print("DRPSPR"[a-b])
