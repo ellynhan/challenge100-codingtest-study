@@ -17,7 +17,7 @@ nodeNum = int(input())
 
 graph = [[] for _ in range(cptNum+1)]
 visited = [0 for _ in range(cptNum+1)]
-cnt = 1
+cnt = 0
 
 for i in range(nodeNum):
     a, b = map(int, input().split())
