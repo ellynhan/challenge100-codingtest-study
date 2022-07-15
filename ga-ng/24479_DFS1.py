@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10**9)
+
 def dfs(r):
     global cnt
     
@@ -8,9 +11,9 @@ def dfs(r):
     
     for i in graph[r]:
         if visited[i] == 0:
-            # cnt += 1
             dfs(i)
 
+input = sys.stdin.readline
 
 n, m, r = map(int, input().split())
 
