@@ -41,3 +41,4 @@ while q:
         if 0<nextp<101 and game[nextp] == 0:
             game[nextp] = game[p] + 1
             q.append(nextp)
+            
