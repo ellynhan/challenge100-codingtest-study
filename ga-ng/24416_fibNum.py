@@ -1,5 +1,3 @@
-n = int(input())
-cnt2 = 1
 
 def fib(n):
     global cnt2
@@ -20,6 +18,10 @@ def fibonacci(n):
         cnt += 1
     
     return cnt
+
+
+n = int(input())
+cnt2 = 1
 
 
 fib(n)
