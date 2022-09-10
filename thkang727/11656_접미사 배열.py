@@ -1,11 +1,7 @@
 #
-#   1011   Fly me to the Alpha Centauri
-#   수학 골드5
+#   11656   접미사 배열
+#   문자열 실버4
 # #
-
-import sys
-
-input = sys.stdin.readline
 
 
 s = input()
