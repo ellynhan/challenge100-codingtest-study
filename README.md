@@ -81,10 +81,10 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 ### 🎉 챌린지 달성 🎉
 <table>
   <tr>
-   <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉Jaewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/110" /></sub></a><br /></td>
-   <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉seunggil</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/142" /></sub></a><br /></td>
+   <td align="center"><a href="https://github.com/ellynhan"><img src="https://avatars.githubusercontent.com/u/38302837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉Jaewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/111" /></sub></a><br /></td>
+   <td align="center"><a href="https://github.com/seunggil1"><img src="https://avatars.githubusercontent.com/u/38664481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉seunggil</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/143" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/lysuk96"><img src="https://avatars.githubusercontent.com/u/48303178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉lysuk96</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/101" /></sub></a><br /></td>
-  <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉gusah009</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/178" /></sub></a><br /></td>
+  <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉gusah009</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/182" /></sub></a><br /></td>
   <td align="center"><a href="https://github.com/Ernstjunger-1914"><img src="https://avatars.githubusercontent.com/u/77431606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>🎉Ernstjunger-1914</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/102" /></sub></a><br /></td>
   </tr>
 </table>
@@ -121,9 +121,10 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/EunjiShin"><img src="https://avatars.githubusercontent.com/u/38103085?s=100&v=4" width="100px;" alt=""/><br /><sub><b>EunjiShin</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/25" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/suyeonsu"><img src="https://avatars.githubusercontent.com/u/54935106?s=100&v=4" width="100px;" alt=""/><br /><sub><b>suyeonsu</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/31" /></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/minsuhan1"><img src="https://avatars.githubusercontent.com/u/50696567?s=100&v=4" width="100px;" alt=""/><br /><sub><b>minsuhan1</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/suyeonsu"><img src="https://avatars.githubusercontent.com/u/54935106?s=100&v=4" width="100px;" alt=""/><br /><sub><b>suyeonsu</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/34" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/minsuhan1"><img src="https://avatars.githubusercontent.com/u/50696567?s=100&v=4" width="100px;" alt=""/><br /><sub><b>minsuhan1</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/26" /></sub></a><br /></td>
     <td align="center"><a href="https://github.com/weaver9651"><img src="https://avatars.githubusercontent.com/u/16550538?s=100&v=4" width="100px;" alt=""/><br /><sub><b>weaver9651</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/2" /></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/jokercsi"><img src="https://avatars.githubusercontent.com/u/39941719?s=100&v=4" width="100px;" alt=""/><br /><sub><b>jokercsi</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1" /></sub></a><br /></td>
   </tr>
 </table>
 <br />
