@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1363BD2917CE030079237B /* 3273.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1363BC2917CE030079237B /* 3273.cpp */; };
+		4D1363C12917D33B0079237B /* 1406.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1363C02917D33B0079237B /* 1406.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		4D1363B22917CC720079237B /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1363BB2917CCB90079237B /* 1475.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1475.cpp; sourceTree = "<group>"; };
 		4D1363BC2917CE030079237B /* 3273.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3273.cpp; sourceTree = "<group>"; };
+		4D1363C02917D33B0079237B /* 1406.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1406.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +67,27 @@
 		4D1363BA2917CCA70079237B /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				4D1363BE2917D2E60079237B /* 0x03 Array */,
+				4D1363BF2917D2F40079237B /* 0x04 LinkedList */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		4D1363BE2917D2E60079237B /* 0x03 Array */ = {
+			isa = PBXGroup;
+			children = (
 				4D1363BB2917CCB90079237B /* 1475.cpp */,
 				4D1363BC2917CE030079237B /* 3273.cpp */,
 			);
-			path = BOJ;
+			path = "0x03 Array";
+			sourceTree = "<group>";
+		};
+		4D1363BF2917D2F40079237B /* 0x04 LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				4D1363C02917D33B0079237B /* 1406.cpp */,
+			);
+			path = "0x04 LinkedList";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1363BD2917CE030079237B /* 3273.cpp in Sources */,
+				4D1363C12917D33B0079237B /* 1406.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
