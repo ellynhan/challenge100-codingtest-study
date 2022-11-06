@@ -18,7 +18,7 @@
 // 시간복잡도: O(n)
 // 최악시간: 500,000
 // 난이도: Silver 2
-// Timer: 23분
+// Timer: 23m
 // Url: https://www.acmicpc.net/problem/1406
 
 #include <iostream>
