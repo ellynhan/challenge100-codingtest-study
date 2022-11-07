@@ -12,8 +12,8 @@
  [Output]
  5 7 7 -1
  */
-// 시간복잡도: O(nlogn)
-// 최악시간: 6,000,000
+// 시간복잡도: O(n)
+// 최악시간: 1,000,000
 // 난이도: Gold 4
 // Timer: 18m
 // Url: https://www.acmicpc.net/problem/17298
