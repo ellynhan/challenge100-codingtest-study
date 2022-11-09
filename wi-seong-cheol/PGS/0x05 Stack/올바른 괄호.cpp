@@ -5,12 +5,6 @@
 //  Created by wi_seong on 2022/11/09.
 //
 
-/*
- [Input]
- 
- [Output]
- 
- */
 // 시간복잡도: O(n)
 // 최악시간: 100,000
 // 난이도: Level 2
