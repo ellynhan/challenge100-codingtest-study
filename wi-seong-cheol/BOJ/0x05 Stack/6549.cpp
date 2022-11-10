@@ -7,18 +7,22 @@
 
 /*
  [Input]
- 
+ 7 2 1 4 5 1 3 3
+ 4 1000 1000 1000 1000
+ 0
  [Output]
- 
+ 8
+ 4000
  */
-// 시간복잡도: O()
-// 최악시간:
-// 난이도:
-// Timer: 17 + 
+// 시간복잡도: O(n)
+// 최악시간: 100,000
+// 난이도: Platinum 5
+// Timer: 40m
 // Url: https://www.acmicpc.net/problem/6549
 
 #include <iostream>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
 #define X first
@@ -36,9 +40,19 @@ int main() {
         stack<pair<int, int>> S;
         for(int i = 0; i < n; i++) {
             int h; cin >> h;
-            
+            int idx = i;
+            while(!S.empty() && h <= S.top().X) {
+                ans = max(ans, 1LL * (i - S.top().Y) * S.top().X);
+                idx = S.top().Y;
+                S.pop();
+            }
+            S.push(make_pair(h, idx));
         }
-        cout << ans;
+        while(!S.empty()) {
+            ans = max(ans, 1LL * (n - S.top().Y) * S.top().X);
+            S.pop();
+        }
+        cout << ans << '\n';
     }
     return 0;
 }
