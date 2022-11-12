@@ -25,20 +25,14 @@ for i in range(n):
     else:
         heapq.heappush(right, (num, num))
     
-    print(left)
-    print(right)
-    print()
-    
+
     if right and left[0][1] > right[0][1]:
         max = heapq.heappop(left)[1]
         min = heapq.heappop(right)[1]
         heapq.heappush(left, (-min, min))
         heapq.heappush(right, (max, max))
-    
-    print(left)
-    print(right)
-    print()
-    
+
+    print(left[0][1])
         
     
 # print(heapq.heappop(lst))   ## 최소 힙
