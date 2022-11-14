@@ -15,7 +15,7 @@
 // 최악시간: 100,000
 // 난이도: Silver 1
 // Timer: 17m
-// Url: https://www.acmicpc.net/problem/
+// Url: https://www.acmicpc.net/problem/1697
 
 #include <iostream>
 #include <queue>
