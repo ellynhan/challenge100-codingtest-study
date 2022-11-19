@@ -20,7 +20,7 @@
 // 최악시간: 90,000
 // 난이도: Gold 3
 // Timer: 1h
-// Url: https://www.acmicpc.net/problem/
+// Url: https://www.acmicpc.net/problem/2573
 
 #include <iostream>
 #include <queue>
