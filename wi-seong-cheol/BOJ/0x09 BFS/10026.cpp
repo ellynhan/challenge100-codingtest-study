@@ -1,5 +1,5 @@
 //
-//  1697.cpp
+//  10026.cpp
 //  main
 //
 //  Created by wi_seong on 2022/11/14.
