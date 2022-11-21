@@ -11,10 +11,10 @@
  [Output]
  4
  */
-// 시간복잡도: O()
-// 최악시간:
-// 난이도:
-// Timer:
+// 시간복잡도: O(logN)
+// 최악시간: 9.33
+// 난이도: Silver 1
+// Timer: 10m
 // Url: https://www.acmicpc.net/problem/1629
 
 #include <iostream>
