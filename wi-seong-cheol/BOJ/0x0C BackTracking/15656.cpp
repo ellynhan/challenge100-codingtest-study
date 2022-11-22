@@ -41,7 +41,7 @@ int n, m;
 int ans[10];
 int board[10];
 
-void func(int k, int st) {
+void func(int k) {
     if(k == m) {
         for(int i = 0; i < m; i++)
             cout << ans[i] << ' ';
@@ -50,7 +50,7 @@ void func(int k, int st) {
     }
     for(int i = 0; i < n; i++) {
         ans[k] = board[i];
-        func(k + 1, i + 1);
+        func(k + 1);
     }
 }
 
@@ -62,7 +62,7 @@ int main() {
     for(int i = 0; i < n; i++)
         cin >> board[i];
     sort(board, board + n);
-    func(0, 0);
+    func(0);
     
     return 0;
 }
