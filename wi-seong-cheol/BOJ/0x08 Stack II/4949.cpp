@@ -5,7 +5,7 @@
 //  Created by wi_seong on 2022/11/10.
 //
 
-/*
+/* 
  [Input]
  So when I die (the [first] I will see in (heaven) is a score list).
  [ first in ] ( first out ).
