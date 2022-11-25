@@ -1,11 +1,11 @@
 //
-//  7309.cpp
+//  10828.cpp
 //  main
 //
 //  Created by wi_seong on 2022/11/07.
 //
 
-/*
+/* 
  [Input]
  14
  push 1
@@ -39,7 +39,7 @@
 // 최악시간: 10,000
 // 난이도: Silver 4
 // Timer: 7m
-// Url: https://www.acmicpc.net/problem/7309
+// Url: https://www.acmicpc.net/problem/10828
 
 #include <iostream>
 #include <stack>
