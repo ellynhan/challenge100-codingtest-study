@@ -16,7 +16,7 @@
 // 최악시간: 500,000
 // 난이도: Gold 5
 // Timer: 18m
-// Url: https://www.acmicpc.net/problem/
+// Url: https://www.acmicpc.net/problem/2493
 
 #include <iostream>
 #include <stack>
