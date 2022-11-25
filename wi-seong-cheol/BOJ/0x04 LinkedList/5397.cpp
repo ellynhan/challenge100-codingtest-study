@@ -7,7 +7,7 @@
 
 /*
  [Input]
- 2
+ 2 
  <<BP<A>>Cd-
  ThIsIsS3Cr3t
  [Output]
