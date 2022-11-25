@@ -5,7 +5,7 @@
 //  Created by wi_seong on 2022/11/07.
 //
 
-/*
+/* 
  [Input]
  5
  6 9 5 7 4
