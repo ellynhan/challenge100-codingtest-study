@@ -25,7 +25,6 @@ int n, k, len;
 int pre[5001], nxt[5001];
 vector<int> v;
 
-
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);

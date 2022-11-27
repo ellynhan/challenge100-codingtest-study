@@ -5,7 +5,7 @@
 //  Created by wi_seong on 2022/11/07.
 //
 
-/*
+/* 
  [Input]
  5
  6 9 5 7 4
@@ -16,7 +16,7 @@
 // 최악시간: 500,000
 // 난이도: Gold 5
 // Timer: 18m
-// Url: https://www.acmicpc.net/problem/
+// Url: https://www.acmicpc.net/problem/2493
 
 #include <iostream>
 #include <stack>
