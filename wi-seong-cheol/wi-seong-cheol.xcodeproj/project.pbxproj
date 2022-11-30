@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DFF664929324243000DEDDE /* 11931.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A8029308921004B5BE8 /* 11931.cpp */; };
+		4DFF96352935A39600E570AD /* 11651.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A7C29308921004B5BE8 /* 11651.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -232,7 +232,8 @@
 				4DE8F4C6292B259C00FB909D /* 0x0B Recursion */,
 				4D6EAD9D292CCC3D00EF82BF /* 0x0C BackTracking */,
 				4D471A34292DCAA4004B5BE8 /* 0x0D Simulation */,
-				4D471A7B29308921004B5BE8 /* 0x0F Sort I */,
+				4D471A7B29308921004B5BE8 /* 0x0E Sort I */,
+				4DCC5E4329378A7A00B23424 /* 0x0F Sort II */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -333,7 +334,7 @@
 			path = "0x0D Simulation";
 			sourceTree = "<group>";
 		};
-		4D471A7B29308921004B5BE8 /* 0x0F Sort I */ = {
+		4D471A7B29308921004B5BE8 /* 0x0E Sort I */ = {
 			isa = PBXGroup;
 			children = (
 				4D471A7E29308921004B5BE8 /* 2751.cpp */,
@@ -343,7 +344,7 @@
 				4D471A8029308921004B5BE8 /* 11931.cpp */,
 				4D471A8129308921004B5BE8 /* 15688.cpp */,
 			);
-			path = "0x0F Sort I";
+			path = "0x0E Sort I";
 			sourceTree = "<group>";
 		};
 		4D5084DF291B7F8D0096DD61 /* 0x06 Queue */ = {
@@ -429,6 +430,13 @@
 				4D34B68C291C762C00DA6D66 /* 주식가격.cpp */,
 			);
 			path = "0x05 Stack";
+			sourceTree = "<group>";
+		};
+		4DCC5E4329378A7A00B23424 /* 0x0F Sort II */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "0x0F Sort II";
 			sourceTree = "<group>";
 		};
 		4DE8F4C6292B259C00FB909D /* 0x0B Recursion */ = {
@@ -542,7 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFF664929324243000DEDDE /* 11931.cpp in Sources */,
+				4DFF96352935A39600E570AD /* 11651.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
