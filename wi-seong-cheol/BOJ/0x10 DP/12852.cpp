@@ -50,7 +50,6 @@ int main() {
         if(cur == 1) break;
         cur = pre[cur];
     }
-        
     
     return 0;
 }
