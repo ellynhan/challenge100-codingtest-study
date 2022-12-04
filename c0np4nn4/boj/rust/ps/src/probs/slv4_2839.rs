@@ -51,4 +51,3 @@ fn main() {
         println!("{}", get_minimum_count(weight));
     }
 }
-
