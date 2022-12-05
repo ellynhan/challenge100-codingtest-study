@@ -8,44 +8,44 @@
 /*
  [Input]
  5
- 1
- 2
- 3
- 4
  5
+ 4
+ 3
+ 2
+ 1
  [Output]
- 5
- 4
- 3
- 2
  1
+ 2
+ 3
+ 4
+ 5
  */
 // 시간복잡도: O(nlogn)
 // 최악시간: 6,000,000
 // 난이도: Silver 5
 // Timer: 5m
-// Url: https://www.acmicpc.net/problem/11931
+// Url: https://www.acmicpc.net/problem/2751
 
 #include <iostream>
 #include <vector>
 
 using namespace std;
-const int SIZE = 1000001;
 int n;
-int arr[SIZE];
-int tmp[SIZE];
+vector<int> v;
+vector<int> tmp(1000001);
 
 void merge(int st, int en) {
     int mid = (st + en) / 2;
     int lidx = st;
     int ridx = mid;
     for(int i = st; i < en; i++) {
-        if(ridx == en) tmp[i] = arr[lidx++];
-        else if(lidx == mid) tmp[i] = arr[ridx++];
-        else if(arr[lidx] >= arr[ridx]) tmp[i] = arr[lidx++];
-        else tmp[i] = arr[ridx++];
+        if(ridx == en) tmp[i] = v[lidx++];
+        else if(lidx == mid) tmp[i] = v[ridx++];
+        else if(v[lidx] <= v[ridx]) tmp[i] = v[lidx++];
+        else tmp[i] = v[ridx++];
     }
-    for(int i = st; i < en; i++) arr[i] = tmp[i];
+    for(int i = st; i < en; i++)
+        v[i] = tmp[i];
 }
 
 void merge_sort(int st, int en) {
@@ -61,11 +61,13 @@ int main() {
     cin.tie(0);
     
     cin >> n;
-    for(int i = 0; i < n; i++)
-        cin >> arr[i];
+    for(int i = 0; i < n; i++) {
+        int x; cin >> x;
+        v.push_back(x);
+    }
     merge_sort(0, n);
-    for(int i = 0; i < n; i++)
-        cout << arr[i] << '\n';
+    for(auto x: v)
+        cout << x << '\n';
     
     return 0;
 }
