@@ -1,5 +1,3 @@
-// 34분
-
 #include <algorithm>
 #include <iostream>
 #include <vector>
