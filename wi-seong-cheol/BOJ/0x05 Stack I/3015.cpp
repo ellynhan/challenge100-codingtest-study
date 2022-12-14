@@ -20,7 +20,7 @@
  */
 // 시간복잡도: O(n)
 // 최악시간: 500,000
-// 난이도: Gold 1
+// 난이도: Platinum 5
 // Timer: 19m
 // Url: https://www.acmicpc.net/problem/3015
 
