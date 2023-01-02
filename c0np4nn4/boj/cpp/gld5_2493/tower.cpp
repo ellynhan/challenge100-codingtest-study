@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stack>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
@@ -25,7 +24,6 @@ int main() {
       while (!towers.empty() && towers.top().second < tower_height) {
         towers.pop();
       }
-
       if (towers.empty()) {
         cout << 0 << ' ';
         towers.push(make_pair(i, tower_height));
