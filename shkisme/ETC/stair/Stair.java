@@ -1,3 +1,5 @@
+package stair;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -5,7 +7,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+
 public class Stair {
+
   public static void main(String[] args) throws IOException {
     new Stair().solution();
   }
@@ -31,7 +35,8 @@ public class Stair {
     } while (nextInt != 0);
 
     List<Integer> verticalLines = generateVerticalLines(yTemps); // Y 선분 리스트 (누적값)
-    List<Boundary> boundaries = generateStairBoundary(horizontalLines,verticalLines); // X 경계값 클래스 리스트
+    List<Boundary> boundaries = generateStairBoundary(horizontalLines,
+        verticalLines); // X 경계값 클래스 리스트
     int boundaryValue = boundaries.get(boundaries.size() - 1).getXpoint(); // 한계점 (X의 최대 누적값)
 
     while (scanner.hasNext()) {
@@ -44,17 +49,18 @@ public class Stair {
       }
       for (Boundary boundary : boundaries) {
         Position Xposition = judgeXposition(xPoint, boundary);
-        if (Xposition == Position.IN){
+        if (Xposition == Position.IN) {
           printPositionWhenIn(yPoint, boundary);
           break;
         }
-        if (Xposition == Position.ON){
+        if (Xposition == Position.ON) {
           printPositionWhenOn(yPoint, boundary);
           break;
         }
       }
     }
   }
+
   // Y 선분 리스트 생성 함수
   private List<Integer> generateVerticalLines(List<Integer> yTemps) {
     List<Integer> verticalLines = new ArrayList<>();
@@ -68,6 +74,7 @@ public class Stair {
     verticalLines.add(0);
     return verticalLines;
   }
+
   // 계단의 경계점 클래스 리스트 생성 함수(경계점 == 계단이 내려가는 지점)
   private List<Boundary> generateStairBoundary(List<Integer> horizontalLines,
       List<Integer> verticalLines) {
@@ -79,6 +86,7 @@ public class Stair {
     }
     return boundaries;
   }
+
   // X 값이 경계값보다 작을 때 프린트 함수
   private void printPositionWhenIn(int yPoint, Boundary boundary) {
     if (yPoint < boundary.getMaxPoint()) {
@@ -89,6 +97,7 @@ public class Stair {
       System.out.println("out");
     }
   }
+
   // X 값이 경계값일 때 프린트 함수
   private void printPositionWhenOn(int yPoint, Boundary boundary) {
     if (yPoint < boundary.getMinPoint()) {
@@ -99,6 +108,7 @@ public class Stair {
       System.out.println("on");
     }
   }
+
   // X 값이 경계값 안쪽인지, 경계값인지 판별하는 함수
   private Position judgeXposition(int xPoint, Boundary boundary) {
     if (xPoint < boundary.getXpoint()) {
@@ -108,35 +118,6 @@ public class Stair {
       return Position.ON;
     }
     return Position.OUT;
-  }
-
-}
-enum Position {
-  ON, IN, OUT;
-}
-
-class Boundary {
-
-  private final int xPoint;
-  private final int maxPoint;
-  private final int minPoint;
-
-  public Boundary(int xPoint, int maxPoint, int minPoint) {
-    this.xPoint = xPoint;
-    this.maxPoint = maxPoint;
-    this.minPoint = minPoint;
-  }
-
-  public int getXpoint() {
-    return xPoint;
-  }
-
-  public int getMaxPoint() {
-    return maxPoint;
-  }
-
-  public int getMinPoint() {
-    return minPoint;
   }
 
 }
