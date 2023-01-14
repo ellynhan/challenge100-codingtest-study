@@ -16,10 +16,10 @@
  [Output]
  2
  */
-// 시간복잡도: O()
-// 최악시간:
-// 난이도:
-// Timer:
+// 시간복잡도: O(n^2)
+// 최악시간: 1,000,000
+// 난이도: ?
+// Timer: 20m
 // Url: https://www.acmicpc.net/problem/27211
 
 #include <iostream>
