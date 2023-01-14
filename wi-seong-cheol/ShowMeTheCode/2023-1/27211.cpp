@@ -18,7 +18,7 @@
  */
 // 시간복잡도: O(n^2)
 // 최악시간: 1,000,000
-// 난이도: ?
+// 난이도: Gold 5
 // Timer: 20m
 // Url: https://www.acmicpc.net/problem/27211
 
