@@ -42,7 +42,7 @@ int main() {
     cin >> s >> p;
     f = failure();
     int j = 0;
-    for(int i = 1; i < s.size(); i++) {
+    for(int i = 0; i < s.size(); i++) {
         if('0' <= s[i] && s[i] <= '9') continue;
         while(j > 0 && s[i] != p[j]) j = f[j - 1];
         if(s[i] == p[j]) j++;
