@@ -37,7 +37,6 @@ int main() {
         ans++;
         vector<int> nxt;
         for(int i = 0; i < v.size() - 1; i += 2) {
-            cnt++;
             int x = v[i];
             int y = v[i + 1];
             if(x == a && y == b) {
