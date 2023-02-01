@@ -22,15 +22,16 @@
 #include <vector>
 
 using namespace std;
+#define ll long long
 #define MX 1000001
 int t, n;
 vector<bool> isPrime(MX, true);
 
 void sieve() {
     isPrime[1] = false;
-    for(int i = 2; i < MX; i++) {
+    for(ll i = 2; i < MX; i++) {
         if(!isPrime[i]) continue;
-        for(int j = i + i; j <= MX; j += i)
+        for(ll j = i * i; j <= MX; j += i)
             isPrime[j] = false;
     }
 }
