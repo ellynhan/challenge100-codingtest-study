@@ -25,8 +25,8 @@
  5
  14
  */
-// 시간복잡도: O()
-// 최악시간:
+// 시간복잡도: O(ElogE)
+// 최악시간: 12,000,000
 // 난이도: Platinum 4
 // Timer: 1h
 // Url: https://www.acmicpc.net/problem/1854
