@@ -19,8 +19,8 @@
  5
  8
  */
-// 시간복잡도: O(V^2)
-// 최악시간: 1,000,000
+// 시간복잡도: O(nk)
+// 최악시간: 30,000,000
 // 난이도: Platinum 4
 // Timer: 1h
 // Url: https://www.acmicpc.net/problem/13907
