@@ -31,7 +31,6 @@
 using namespace std;
 #define ll long long
 #define pli pair<ll, int>
-const int INF = 0x3f3f3f3f;
 const int NMX = 100'001;
 const int MMX = 500'001;
 int n, m, st, en, u, v;
