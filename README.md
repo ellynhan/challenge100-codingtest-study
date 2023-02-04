@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-45-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-46-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -109,7 +109,6 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/7"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/suyeonsu"><img src="https://avatars.githubusercontent.com/u/54935106?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>suyeonsu</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/6"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/weaver9651"><img src="https://avatars.githubusercontent.com/u/16550538?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>weaver9651</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/4"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/isaNgMiN"><img src="https://avatars.githubusercontent.com/u/39620529?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>isaNgMiN</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/74"/></sub></a><br /></td>
 </table><br />
 
 ### 💀 챌린지 포기 💀
