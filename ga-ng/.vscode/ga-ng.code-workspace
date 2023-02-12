@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../aiprog"
+		},
+		{
+			"path": "../../../cppVS"
+		}
+	],
+    "settings": {}
+}
