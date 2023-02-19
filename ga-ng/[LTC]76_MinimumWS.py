@@ -7,67 +7,33 @@ class Solution:
         cnt = {}
         tcnt = {}
 
+
         for char in t:  ## t 내의 빈도 저장
             tcnt[char] = 1 + tcnt.get(char, 0)
-        # print(tcnt)
 
-        vaild = True
+        have, need = 0, len(tcnt)
+
+        vaild = False
         for right in range(len(s)): 
             cnt[s[right]] = 1 + cnt.get(s[right], 0)    ## window 내의 빈도 저장
-            # print("cnt: ",cnt)
-            for char, num in tcnt.items():
-                check = False
-                # print(char, char in cnt.keys())
 
-                if char not in cnt.keys():
-                    check = False
-                    break
-                elif cnt[char] == 0 or cnt[char] < num:
-                    check = False
-                    break
-                else:
-                    check = True
+            if s[right] in tcnt.keys() and cnt[s[right]] == tcnt[s[right]]:
+                have += 1
 
 
-            # print(check)
-            if check:
-                vaild = True
-            else:
-                vaild = False
-            ## 다 있으면 vaild True, 하나라도 없으면 false
-            # print("========================")
-            while vaild:
-                # print("---------while----------")
-                # print(left, right+1)
+            while have == need:
                 window = s[left: right+1]
-                # print("window: ",window)
                 winLen = len(window)
 
                 if winLen < minLen:
                     minLen = winLen
                     ans = window
 
-                # print(cnt)
-                # print(s[left])
                 cnt[s[left]] -= 1
+
+                if s[left] in tcnt.keys() and cnt[s[left]] < tcnt[s[left]]:
+                    have -= 1
+
                 left += 1
 
-                # print(cnt)
-                for char, num in tcnt.items():
-                    if char not in cnt.keys() or cnt[char] < 1:
-                        vaild = False
-                        break
-                    elif cnt[char] < 1 or cnt[char] < num:
-                        vaild = False
-                        break
-
-            # print("-------endwhile--------")
-            # print(s[left:right+1])
-            # print("out")
-
-            # print("=======endfor======")
-                
-        
-
-        
         return ans
