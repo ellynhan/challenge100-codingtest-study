@@ -1,0 +1,72 @@
+class Solution {
+
+  public int solution(int m, int n, String[] board) {
+    StringBuilder[] myBoard = new StringBuilder[board.length];
+    for (int i = 0; i < m; i++) {
+      myBoard[i] = new StringBuilder(board[i]);
+    }
+    boolean flag = true;
+
+    while (flag) {
+      boolean[][] remove = new boolean[m][n];
+      flag = false;
+      for (int i = 1; i < m; i++) {
+        for (int j = 1; j < n; j++) {
+          if (myBoard[i].charAt(j) != '0') {
+            char c = myBoard[i].charAt(j);
+            if (c == myBoard[i].charAt(j - 1) &&
+                c == myBoard[i - 1].charAt(j) &&
+                c == myBoard[i - 1].charAt(j - 1)) {
+              flag = true;
+              remove[i][j] = true;
+              remove[i][j - 1] = true;
+              remove[i - 1][j] = true;
+              remove[i - 1][j - 1] = true;
+            }
+          }
+        }
+      }
+
+      for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+          if (remove[i][j]) {
+            myBoard[i].setCharAt(j, '0');
+          }
+        }
+      }
+
+      for (int j = 0; j < n; j++) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < m; i++) {
+          if (myBoard[i].charAt(j) != '0') {
+            sb.append(myBoard[i].charAt(j));
+          }
+        }
+
+        int sbIndex = 0;
+        for (int i = 0; i < m; i++) {
+          if (i < m - sb.length()) {
+            myBoard[i].setCharAt(j, '0');
+          } else {
+            myBoard[i].setCharAt(j, sb.charAt(sbIndex++));
+          }
+        }
+      }
+    }
+
+    int answer = 0;
+    for (int i = 0; i < m; i++) {
+      for (int j = 0; j < n; j++) {
+        if (myBoard[i].charAt(j) == '0') {
+          answer++;
+        }
+      }
+    }
+    return answer;
+  }
+
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+    System.out.println(solution.solution(4, 5, new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"}));
+  }
+}
