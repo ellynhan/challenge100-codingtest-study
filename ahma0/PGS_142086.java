@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Solution {
+
     public int[] solution(String s) {
         int[] answer = new int[s.length()];
         LinkedHashMap<Character, Integer> map = new LinkedHashMap();
