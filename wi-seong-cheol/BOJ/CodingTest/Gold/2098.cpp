@@ -19,7 +19,7 @@
 // 최악시간: 1,048,576
 // 난이도: Gold 1
 // Timer: 1h
-// Url: https://www.acmicpc.net/problem/123
+// Url: https://www.acmicpc.net/problem/2098
 
 #include <iostream>
 #include <algorithm>
