@@ -7,14 +7,14 @@
 
 /*
  [Input]
- 
+ 10000
  [Output]
- 
+ 656444295
  */
-// 시간복잡도: O()
-// 최악시간:
-// 난이도:
-// Timer:
+// 시간복잡도: O(n ^ 2)
+// 최악시간: 100,000,000
+// 난이도: Gold 3
+// Timer: 1h
 // Url: https://www.acmicpc.net/problem/1670
 
 #include <iostream>
