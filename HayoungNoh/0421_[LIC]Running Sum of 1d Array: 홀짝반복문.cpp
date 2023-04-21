@@ -1,4 +1,4 @@
-class Solution {//0420 11:50~11:54
+class Solution {//0421 11:50~11:54
 public:
     int numberOfSteps(int num) {
         int result =0;
