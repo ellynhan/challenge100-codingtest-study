@@ -57,18 +57,6 @@ pair<int, int> board[21][21];
 int dx[] = {-1, 1, 0, 0}; // 위, 아래, 왼쪽, 오른쪽
 int dy[] = {0, 0, -1, 1};
 
-void Print() {
-    cout << '\n';
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < n; j++)
-            cout << board[i][j].X << ' ';
-        cout << '\t';
-        for(int j = 0; j < n; j++)
-            cout << board[i][j].Y << ' ';
-        cout << '\n';
-    }
-}
-
 bool OOB(int x, int y) { return x < 0 || x >= n || y < 0 || y >= n; }
 
 // 상어 냄새 지우기
