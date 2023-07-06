@@ -17,35 +17,15 @@ arr = list(map(int, input().split()))
 k = int(input()) #정렬중인 회원들의 수
 
 
-def part_sort(start, end):
-    # print(start,end)
-    if start >= end:
-        return
-    
-    arr[start:end] = sorted(arr[start:end])
-n = N 
-count = 1
+index = N // k
 
-while n > 0 :
-    if n == k:
-        break
+new_arr = []
 
-    n = N // (2 ** count)
-    start = 0
-    end = 2 ** count
-    for i in range(n): 
-        part_sort(start,end)
-        start += 2 ** count
-        end += 2 ** count
-    count += 1    
-    
-
-for i in arr:
-    print(i,end = ' ')    
-    
-
-
-
+for i in range(0, N, index):
+    new_arr = arr[i:i+index]
+    new_arr.sort()
+    for j in new_arr:
+        print(j, end = ' ')
 
 
 
