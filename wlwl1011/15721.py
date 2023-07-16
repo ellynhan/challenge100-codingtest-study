@@ -6,87 +6,72 @@ stdout = io.BytesIO()
 sys.stdout.write = lambda s: stdout.write(s.encode("ascii"))
 atexit.register(lambda: os.write(1, stdout.getvalue()))
 
-N = int(input())
+#1회차
+#뻔 – 데기 – 뻔 – 데기 –  
+#뻔 – 뻔 – 데기 – 데기
+
+#2회차
+#‘뻔 – 데기 – 뻔 - 데기 –
+#뻔 – 뻔 – 뻔 – 데기 – 데기 – 데기’
+
+A = int(input())
 T = int(input())
-answer = int(input())
-arr = [ 0 for i in range(N)]
-start = 0
-n = 1
-if T == 0:
-    print(0)
+C = int(input())
 
-while T:
-    if answer == 0:
-        T-=1
-        if T == 0:
-            print(start)
-            break
-        
-    start = ( start + 1 ) % N     
-    #answer[start] = 1
-    if answer == 1:
-        T-=1
-        if T == 0:
-            print(start)
-            break
-
-    start = ( start + 1 ) % N 
-    #answer[start] = 0
-    if answer == 0:
-        T-=1
-        if T == 0:
-            print(start)
-            break
-
-    start = ( start + 1 ) % N 
-    #answer[start] = 1
-    if answer == 1:
-        T-=1
-        if T == 0:
-            print(start)
-            break
-
-    start = ( start + 1) % N 
-    flag = -1
-    temp_n = n
-    while temp_n+1 > 0:
-        #answer[start] = 0
-        if answer == 0:
-            T-=1
+bbun = 0
+dagie = 0
+count = 0 
+people = 0
+while True:
+    count += 1
+    
+    for _ in range(2):
+        flag = False
+        bbun += 1
+        people += 1
+        if C == 0:
+            T -= 1
             if T == 0:
-                print(start)
-                falg = start
-                break
-        temp_n -= 1   
-        start = ( start + 1) % N  
-    if flag >= 0 :
-        
-        break
-
-    flag = -1
-    temp_n = n
-    while temp_n+1 > 0:    
-        #answer[start+1] = 1
-        if answer == 1:
-            T-=1
+                flag = True
+                break 
+               
+        flag = False        
+        dagie += 1
+        people += 1
+        if C == 1:
+            T -= 1
             if T == 0:
-                print(start)
-                falg = start
+                flag = True
                 break
-        temp_n -= 1  
-        start = ( start + 1) % N 
-    if flag >= 0 :
-        break       
-    n += 1
+
+    if flag:
+        print((people-1)%A)
+        break     
+
+    flag = False
+
+    for _ in range(count+1):
+        bbun +=1
+        people += 1
+        if C == 0:
+            T -= 1
+            if T == 0:
+                flag = True
+                break    
+    if flag:
+        print((people-1)%A)
+        break   
+
+    flag = False
     
-        
-   
-
-
-
-    
-    
-
-        
-
-
+    for _ in range(count+1):
+        dagie += 1   
+        people += 1
+        if C == 1:
+            T -= 1
+            if T == 0:
+                flag = True
+                break
+    if flag:
+        print((people-1)%A)
+        break          
