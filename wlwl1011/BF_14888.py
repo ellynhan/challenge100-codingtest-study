@@ -31,9 +31,10 @@ def solve(depth,number):
     for j in range(4): #덧셈, 뺄셈, 곱셈, 나눗셈
         if operand[j] == 0:
             continue
-        #이 부분은 주석처리하니까 통과합니다 ...?
-        # if j == 3 and number == 0:
-        #     continue
+        # 왜 아래의 코드를 넣지않아도 제대로 작동하나요?
+        #연산자를 어떻게 끼워넣어도 항상 -10억보다 크거나 같고, 10억보다 작거나 같은 결과가 나오는 입력만 주어진다
+        if j == 3 and  arr[depth] == 0 :
+            continue
         new_value = check(number, arr[depth], j)    
         operand[j] -= 1
         solve(depth+1, new_value)
