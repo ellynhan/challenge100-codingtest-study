@@ -18,79 +18,93 @@ def isBarrier(x, y):
         return False    
 
 def isInNumber(x,y):
-    if 0<= x < N and 0 <= y < M:
+    if 0< x < N-1 and 0 <= y < M-1:
         return True
     else:
         return False
 
-def move(r_x, r_y, b_x, b_y, depth):
-    global answer
-    # print(r_x, r_y, b_x, b_y)
-    # print(arr[r_x][r_y],arr[b_x][b_y])
+def isHold(x,y):
+    if arr[x][y] == 'O':
+        return True
+    else:
+        return False
+
+def move(r_x, r_y, b_x, b_y, direction, depth):
+    check_red_change = False
+    check_blue_change = False
     if depth > 10:
         return
+    # print("------------")
+    # print('depth:', depth)
+    # print('direction:', direction)
+    # print('red: ' ,r_x, r_y )
+    # print('blue: ', b_x, b_y )
+    global answer
 
-    if arr[r_x][r_y] == 'O' and arr[b_x][b_y] != 'O':
+    red_in_hold = False
+    blue_in_hole = False
+    # print('moveing~')   
+
+    while True:
+        tr_x = r_x + dx[direction]
+        tr_y = r_y + dy[direction]
+
+        if isInNumber(tr_x, tr_y) == False or isBarrier(tr_x, tr_y) == True:
+            break
+        elif isHold(tr_x, tr_y):
+            r_x = 0
+            r_y = 0
+            red_in_hold = True
+            break
+        elif tr_x == b_x and tr_y == b_y:
+            break
+        else:
+            check_red_change = True
+            r_x = tr_x
+            r_y = tr_y
+            visited[r_x][r_y] = 1
+            
+    while True:    
+        tb_x = b_x + dx[direction]
+        tb_y = b_y + dy[direction]
+
+        if isInNumber(tb_x, tb_y) == False or isBarrier(tb_x, tb_y) == True:
+            break
+        elif isHold(tb_x, tb_y):
+            b_x= 0
+            b_y =0
+            blue_in_hole = True
+            break
+        elif tb_x == r_x and tb_y == r_y:
+            break
+        else:
+            check_blue_change = True
+            b_x = tb_x
+            b_y = tb_y
+            visited[b_x][b_y] = 1
+
+    # print('red: ' ,r_x, r_y )
+    # print('blue: ', b_x, b_y )     
+    if red_in_hold == True and blue_in_hole == False:
         answer = min(answer, depth)
-        return 
+        return
+    elif red_in_hold == True and blue_in_hole == True:
+        answer = -1
+        return
+ 
+    
+    if not check_red_change and not check_blue_change: #변경된거 없음
+        return
 
-
-    for i in range(4):
-
-        #빨간구슬
+    for i in range(4):      
         tr_x = r_x + dx[i]
         tr_y = r_y + dy[i]
 
-        #파란 구슬
-        tb_x = b_x + dx[i]
-        tb_y = b_y + dy[i]
-        #범위 벽
-
-
-        #빨간 구슬 파란구슬 모두 범위가 아님
-        if isInNumber(tr_x,tr_y)==0 and isInNumber(tb_x, tb_y)==0 : 
+        if isInNumber(tr_x, tr_y) == False or isBarrier(tr_x, tr_y) == True:
             continue
-        #빨간 구슬 파란구슬 모두 범위 안에 있고
-        elif isInNumber(tr_x,tr_y)==1 and isInNumber(tb_x, tb_y)==1 : 
-            #가고자하는 곳이 모두 벽임
-            if isBarrier(tr_x, tr_y)==1 and isBarrier(tb_x, tb_y)==1:
-                continue
-            #빨간구슬은 벽이고, 파란 구슬은 벽이 아닐때
-            elif isBarrier(tr_x, tr_y) == 1 and isBarrier(tb_x, tb_y) == 0:
-                    #빨간색은 기존의 위치를 유지하되 파란 구슬은 엄직여라
-                if visited[tb_x][tb_y] == 0:   
-                    visited[tb_x][tb_y] = 1 
-                    move(r_x, r_y, tb_x, tb_y,depth+1)
-                    visited[tb_x][tb_y] = 0
-            #빨간 구슬은 벽이 아니고 파란 구슬은 벽일때        
-            elif isBarrier(tr_x, tr_y) == 0 and isBarrier(tb_x, tb_y) == 1:   
-                #파란색은 기존의 위치를 유지해라
-                if visited[tr_x][tr_y] == 0:   
-                    visited[tr_x][tr_y] = 1
-                    move(tr_x, tr_y, b_x, b_y,depth+1)
-                    visited[tr_x][tr_y] = 0
-            else: #둘다 이동이 가능하다       
-                if visited[tr_x][tr_y] == 0 and  visited[tb_x][tb_y] == 0:  
-                    move(tr_x, tr_y, tb_x, tb_y,depth+1)
-            #빨간 구슬만 범위안이면
-        elif isInNumber(tr_x, tr_y) == 1 and isInNumber(tb_x, tb_y) == 0:     
-            if isBarrier(tr_x, tr_y)==1:
-                continue
-            else:
-                if visited[tr_x][tr_y] == 0:   
-                    visited[tr_x][tr_y] = 1
-                    move(tr_x, tr_y, b_x, b_y,depth+1)   
-                    visited[tr_x][tr_y] = 0
-        elif isInNumber(tr_x, tr_y) == 0 and isInNumber(tb_x, tb_y) == 1:             
-            if isBarrier(tb_x, tb_y)==1:
-                continue
-            else:
-                if visited[tb_x][tb_y] == 0:
-                    visited[tb_x][tb_y] = 1
-                    move(r_x, r_y, tb_x, tb_y,depth+1) 
-                    visited[tb_x][tb_y] = 0
-
-
+        if visited[tr_x][tr_y] == 0:
+            move(r_x, r_y, b_x, b_y, i, depth+1) 
+                   
       
 
 answer = int(1e9)
@@ -108,14 +122,19 @@ for i in range(N):
             red_y= j
         elif temp[j] == 'B':
             blue_x = i
-            blud_y = j
+            blue_y = j
+            # print(i,j)
         elif temp[j] == '#':
             visited[i][j] = 1    
 
-    
-move(red_x, red_y, blue_x, blue_y, 0)
+for i in range(4):    
+    # print('\n',i,"start\n")
+    visited =  [[0 for _ in range(M)] for _ in range(N)]
+    move(red_x, red_y, blue_x, blue_y,  i, 1)
 
-print(answer)
+
+# print('answer is..... ')
+# print(answer)
 if answer > 10:
     print(-1)
 else:
