@@ -30,6 +30,8 @@ for _ in range(m):
 q = deque([1])
 
 while q:
+    print(q)
+    print(board)
     x = q.popleft()
     #100번 칸에 도착했다면
     if x == 100:
