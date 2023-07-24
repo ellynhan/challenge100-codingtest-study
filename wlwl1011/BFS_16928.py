@@ -3,56 +3,57 @@ input = lambda: sys.stdin.readline().rstrip('\r\n')
 stdout = io.BytesIO()
 sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda: os.write(1, stdout.getvalue()))
+from collections import deque
 
 #착한 칸이 사다리면, 사다리를 타고 위로 올라간다. ->  원래 있던 칸의 번호보다 크고
 # 뱀이 있는 칸에 도착하면, 뱀을 따라서 내려가게 된다. ->  원래 있던 칸의 번호보다 작아진다.
 
-N, M = map(int, input().split())
-ladder = [ [0]*2 for _ in range(N) ]
-snake = [ [0]*2 for _ in range(M) ]
+n, m = map(int, input().split())
 
-for i in range(N):
-    x, y = map(int, input().split())
-    ladder[i] = [x, y]
+#1부터 100번째 칸 방문 횟수
+board = [0] * 101
+#맵 방문 표시
+visited = [False] * 101
 
-for i in range(M):
-    u, v = map(int, input().split())
-    snake[i] = [u, v]    
+#사다리, 뱀 딕셔너리 선언
+ladder = dict()
+snake = dict()
 
-start = 1
-count = 0
+#사다리 정보 입력 받기
+for _ in range(n):
+    a, b = map(int, input().split())
+    ladder[a] = b
+for _ in range(m):
+    a, b = map(int, input().split())
+    snake[a] = b
 
-ladder.sort(key= lambda x : (x[1],[0])) #최대한 100에 가깝게 정렬한다.
-snake.sort(key= lambda x : (x[1], x[0]), reverse=True)
+q = deque([1])
 
-while ladder:
-    print(start)
-    print(count)
-    if 100 - start <= 6 :
+while q:
+    x = q.popleft()
+    #100번 칸에 도착했다면
+    if x == 100:
+        print(board[x])
         break
-    x, y = ladder.pop()
-    u, v = snake.pop()
-    print(x,y)
-    print(u, v)
-    flag = True
-    #주사위를 걸치고 사다리를 타고 .
-    
-    if x - start > 6:
-        while True:
-            if x - start <= 6:
-                break
-            #여기사이에 꽝이 있는지 확인해야함.
-            if start + 6 != u:
-                flag = False
-                start += 5
-                count += 1
-        if flag :
-            snake.append([u,v]) #안 썼으면 ..
-    start = y
-    count += 1        
 
-print(count + 1)                
-
-    #사다리를 거치고, 주사위를 몇번 더 돌려서 가는게 빠른지
+    #주사위에 있는 1 부터 6까지 차례대로 입력 받아
+    for dice in range(1,7):
+        #다음으로 이동할 위치 보기
+        next_place = x + dice
+        #맵을 벗어나지 않거나 아직 방문하지 않은 칸이라면
+        if next_place <= 100 and not visited[next_place]:
+            #이동할 위치에 사다리가 있다면
+            if next_place in ladder.keys():
+                next_place = ladder[next_place]
+            #이동할 위치에 뱀이 있다면
+            if next_place in snake.keys():
+                next_place = snake[next_place]
+            #이동할 위치에 아무것도 없다면
+            if not visited[next_place]:
+                #방문 표시
+                visited[next_place] = True
+                #주사위 굴린 횟수 추가
+                board[next_place] = board[x] + 1
+                q.append(next_place)        
 
 
