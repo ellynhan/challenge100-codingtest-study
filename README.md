@@ -106,8 +106,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/watertree34"><img src="https://avatars.githubusercontent.com/u/40683453?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>watertree34</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/ehddud1006"><img src="https://avatars.githubusercontent.com/u/62373865?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ehddud1006</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
-</tr><tr>         <td align="center"><a href="https://github.com/JeonghakLee"><img src="https://avatars.githubusercontent.com/u/55916802?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>JeonghakLee</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
+</tr><tr>         
 </table><br />
 
 ### 💀 챌린지 포기 💀
@@ -136,6 +135,8 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>siren16</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>CodeSik</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>lcy8047</b><br>중도포기</sub></a><br /></td>
+  <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/thkang727"><img src="https://avatars.githubusercontent.com/u/65062771?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>thkang727</b><br>중도포기</sub></a><br /></td>
+        
 </table><br />
 
