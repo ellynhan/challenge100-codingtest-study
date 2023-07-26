@@ -106,7 +106,6 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/watertree34"><img src="https://avatars.githubusercontent.com/u/40683453?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>watertree34</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/ehddud1006"><img src="https://avatars.githubusercontent.com/u/62373865?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ehddud1006</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
-</tr><tr>         
 </table><br />
 
 ### 💀 챌린지 포기 💀
@@ -120,23 +119,23 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 </tr><tr>         <td align="center"><a href="https://github.com/cokemania2"><img src="https://avatars.githubusercontent.com/u/38974863?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>cokemania2</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/junbo9"><img src="https://avatars.githubusercontent.com/u/96970186?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>junbo9</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/dydnrn12"><img src="https://avatars.githubusercontent.com/u/22445022?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>dydnrn12</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/qkoo0833"><img src="https://avatars.githubusercontent.com/u/49744571?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>qkoo0833</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/yongjunleeme"><img src="https://avatars.githubusercontent.com/u/48748376?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yongjunleeme</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/jokercsi"><img src="https://avatars.githubusercontent.com/u/39941719?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jokercsi</b><br>중도포기</sub></a><br /></td>
-         <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Yerin99</b><br>중도포기</sub></a><br /></td>
-</tr><tr>         <td align="center"><a href="https://github.com/shasuri"><img src="https://avatars.githubusercontent.com/u/29942514?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>shasuri</b><br>중도포기</sub></a><br /></td>
+</tr><tr>         <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Yerin99</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/shasuri"><img src="https://avatars.githubusercontent.com/u/29942514?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>shasuri</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Dongyeon-k</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/songmody"><img src="https://avatars.githubusercontent.com/u/48988927?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>songmody</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/shkisme"><img src="https://avatars.githubusercontent.com/u/92802207?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>shkisme</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/mia2583"><img src="https://avatars.githubusercontent.com/u/83392142?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>mia2583</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/HyeGyoungPark"><img src="https://avatars.githubusercontent.com/u/64782678?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>HyeGyoungPark</b><br>중도포기</sub></a><br /></td>
-         <td align="center"><a href="https://github.com/dmstj920"><img src="https://avatars.githubusercontent.com/u/96936437?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>dmstj920</b><br>중도포기</sub></a><br /></td>
-</tr><tr>         <td align="center"><a href="https://github.com/eodudrepublic"><img src="https://avatars.githubusercontent.com/u/71918029?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>eodudrepublic</b><br>중도포기</sub></a><br /></td>
+</tr><tr>         <td align="center"><a href="https://github.com/dmstj920"><img src="https://avatars.githubusercontent.com/u/96936437?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>dmstj920</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/eodudrepublic"><img src="https://avatars.githubusercontent.com/u/71918029?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>eodudrepublic</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/siren16"><img src="https://avatars.githubusercontent.com/u/89844201?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>siren16</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/CodeSik"><img src="https://avatars.githubusercontent.com/u/24884219?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>CodeSik</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/lcy8047"><img src="https://avatars.githubusercontent.com/u/35690965?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>lcy8047</b><br>중도포기</sub></a><br /></td>
-  <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/thkang727"><img src="https://avatars.githubusercontent.com/u/65062771?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>thkang727</b><br>중도포기</sub></a><br /></td>
-        
-</table><br />
+         <td align="center"><a href="https://github.com/JeonghakLee"><img src="https://avatars.githubusercontent.com/u/55916802?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>JeonghakLee</b><br>중도포기</sub></a><br /></td>
+</tr></table><br />
 
