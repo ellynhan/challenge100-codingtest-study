@@ -106,14 +106,14 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/jiyoon0701"><img src="https://avatars.githubusercontent.com/u/83527046?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jiyoon0701</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/37"/></sub></a><br /></td>
          
          <td align="center"><a href="https://github.com/JeongheonHa"><img src="https://avatars.githubusercontent.com/u/108064146?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>JeongheonHa</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/28"/></sub></a><br /></td>
-</tr><tr>         <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/26"/></sub></a><br /></td>
+</tr><tr>         
          <td align="center"><a href="https://github.com/chaeryeon823"><img src="https://avatars.githubusercontent.com/u/87600308?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>chaeryeon823</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/24"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/wlwl1011"><img src="https://avatars.githubusercontent.com/u/62577565?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>wlwl1011</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/16"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/watertree34"><img src="https://avatars.githubusercontent.com/u/40683453?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>watertree34</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/ehddud1006"><img src="https://avatars.githubusercontent.com/u/62373865?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ehddud1006</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
          
-</tr><tr>         <td align="center"><a href="https://github.com/weaver9651"><img src="https://avatars.githubusercontent.com/u/16550538?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>weaver9651</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/4"/></sub></a><br /></td>
+</tr><tr>         
 </table><br />
 
 ### 💀 챌린지 포기 💀
@@ -145,5 +145,7 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   <td align="center"><a href="https://github.com/jokercsi"><img src="https://avatars.githubusercontent.com/u/39941719?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jokercsi</b><br>중도포기</sub></a><br /></td>
   <td align="center"><a href="https://github.com/thkang727"><img src="https://avatars.githubusercontent.com/u/65062771?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>thkang727</b><br>중도포기</sub></a><br /></td>
   <td align="center"><a href="https://github.com/peppersora"><img src="https://avatars.githubusercontent.com/u/110614387?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>peppersora</b><br>중도포기</sub></a><br /></td>
+  <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br>중도포기</sub></a><br /></td>
+  <td align="center"><a href="https://github.com/weaver9651"><img src="https://avatars.githubusercontent.com/u/16550538?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>weaver9651</b><br>중도포기</sub></a><br /></td>
 </table><br />
 
