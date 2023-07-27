@@ -27,7 +27,11 @@ while queue:
     
     if x == N-1 and y == M-1 :
         break
-
+    print('-----------')
+    for i in range(2):
+        print(i)
+        for j in range(N):
+            print(answer[i][j])
     for i in range(4):
         cx = x + dx[i]
         cy = y + dy[i]
@@ -47,7 +51,7 @@ else:
     if answer[0][N-1][M-1] == 0:
         print(answer[1][N-1][M-1])    
     elif answer[1][N-1][M-1] == 0:   
-        print(answer[0][N-1][M-1])    
+        print(answer[0][N-1][M-1]) 
     else:
         print(min(answer[0][N-1][M-1], answer[1][N-1][M-1]))      
 
