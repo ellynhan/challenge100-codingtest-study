@@ -1,65 +1,37 @@
-import sys, io, os, atexit
-input = lambda : sys.stdin.readline().rstrip('\r\n')
-stdout = io.BytesIO()
-sys.stdout.write = lambda s: stdout.write(s.encode("ascii"))
-atexit.register(lambda : os.write(1, stdout.getvalue()))
-from collections import deque
-
-#거울의 개수를 어떻게 카운트 하느냐
+import collections
 
 
+def bfs(cur_r, cur_c, dst_r, dst_c):
+    q = collections.deque()
+    q.append([cur_r, cur_c, -1])
+    V[cur_r][cur_c] = 1
+    while q:
+        cur_r, cur_c, cnt = q.popleft()
+        if cur_r == dst_r and cur_c == dst_c:
+            return cnt
+        for dx, dy in dr:
+            nxt_r, nxt_c = cur_r, cur_c
+            while True:
+                nxt_r, nxt_c = nxt_r + dx, nxt_c + dy
+                if 0 <= nxt_r <= H - 1 and 0 <= nxt_c <= W - 1:
+                    if A[nxt_r][nxt_c] == '*':
+                        break
+                    if not V[nxt_r][nxt_c]:
+                        q.append([nxt_r, nxt_c, cnt + 1])
+                        V[nxt_r][nxt_c] = 1
+                else:
+                    break
 
-# def dfs(x, y, direction):
-#     #그 방향 그대로 갈래? 아니면 .. 방향을 틀래 ...?
-#     cx = x + dx[direction]
-#     cy = y + dy[direction]
 
-#     if 0 <= cx < H and 0 <= cy < W: 
-#         if arr[cx][cy] != '*': #벽이 아니면  
-#             dfs(x,y,direction) #직진하셈!
-#             #근데 꼭 직진해야하는 건 아니긴한데 ..
-  
-
-
-W, H  = map(int, input().split())        
-arr = [ ['' for _ in range(W)] for _ in range(H) ]
-can = set()
-queue = deque()
-visited = [ [int(1e9) for _ in range(W)] for _ in range(H) ]
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
-
-for i in range(H):
-    arr[i] = list(input()) #일단 냅다 집어넣자
-    for j in range(W):
-        if arr[i][j] == 'C': 
-            can.add((i,j))
-first_x,first_y = can.pop()
-last_x, last_y = can.pop()
-
-queue.append((first_x, first_y))
-
-visited[first_x][first_y] = 0
-while queue:
-
-    x, y= queue.popleft()
-    
-    for i in range(4):        
-        tx = x + dx[i]
-        ty = y + dy[i]
-        while True:
-            
-            if not ( 0 <= tx < H and 0 <= ty < W ):
-                break
-            if arr[tx][ty] == "*" :
-                break
-            if visited[tx][ty] < visited[x][y] + 1:
-                break
-            queue.append((tx, ty))
-            visited[tx][ty] = visited[x][y] + 1
-            tx += dx[i]    
-            ty += dy[i]
-        # for k in range(H):
-        #     print(visited[k])    
-
-print(visited[last_x][last_y]-1)            
+W, H = map(int, input().split())
+A = [list(input()) for _ in range(H)]
+V = [[0] * W for _ in range(H)]
+dr = [[0, -1], [0, 1], [-1, 0], [1, 0]]
+conn_points = []
+for r in range(H):
+    for c in range(W):
+        if A[r][c] == 'C':
+            conn_points.append([r, c])
+start_r, start_c = conn_points[0][0], conn_points[0][1]
+dst_r, dst_c = conn_points[1][0], conn_points[1][1]
+print(bfs(start_r, start_c, dst_r, dst_c))
