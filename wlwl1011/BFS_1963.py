@@ -4,31 +4,39 @@
 # sys.stdout.write = lambda s: stdout.write(s.encode("ascii"))
 # atexit.register(lambda : os. write(1,stdout.getvalue()))
 from collections import deque
+import math
 
 def isPrime(number):
     #1혹은 자기 자신으로만 나뉘어지는 수
     number = int(number)
-    for i in range(2, number):
-        if number%i == 0:
+    for i in range (2, int(math.sqrt(number)) + 1):
+        if number % i == 0:
             return False
-    return True    
+    return True
 
 T = int(input())
 queue = deque()
+visited = [[0] * 10000 for _ in range(T)]
+arr_inital = [['' for _  in range(4)] for _ in range(T)]
+arr_target = [['' for _  in range(4)] for _ in range(T)]
 
-for i in range(T):
-    visited = [0] * 10000
-    queue = deque()
+for x in range(T):
     initial, target = map(list, input().split())
-    queue.append((initial, 0))
-    
+    arr_inital[x] = initial
+    arr_target[x] = target
+
+for x in range(T):    
+    queue = deque()
+    queue.append((arr_inital[x],arr_target[x], 0))
+    flag = True
     while queue:
 
-       # print(queue)
+        #print(queue)
 
-        initial, cnt = queue.popleft()
+        initial,target, cnt = queue.popleft()
 
         if initial == target:
+            flag = False
             print(cnt)
             break
 
@@ -48,8 +56,10 @@ for i in range(T):
 
                 new_number[i] = str(j) #0에서 9까지의 수로 대체해봅시다!
 
-                if  isPrime(''.join(new_number)) and not visited[int(''.join(new_number))] :     
+                if  isPrime(''.join(new_number)) and not visited[x][int(''.join(new_number))] :     
                     #print(new_number)
-                    visited[int(''.join(new_number))] = 1
-                    queue.append((new_number, cnt+1))
+                    visited[x][int(''.join(new_number))] = 1
+                    queue.append((new_number, target, cnt+1))
+    if flag:
+        print('Impossible')              
          
