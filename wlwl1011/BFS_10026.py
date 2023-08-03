@@ -1,94 +1,48 @@
-# import sys, os, io, atexit
-# import copy
-# from collections import deque
-# input = lambda: sys.stdin.readline().rstrip('\r\n')
-# stdout = io.BytesIO()
-# sys.stdout.write = lambda s: stdout.write(s.encode("ascii"))
-# atexit.register(lambda: os.write(1, stdout.getvalue()))
-from collections import deque
+import sys
+sys.setrecursionlimit(1000000)
+input = sys.stdin.readline
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+n = int(input().rstrip())
+matrix = [list(input().rstrip()) for _ in range(n)]
+visited = [[False] * n for _ in range(n)]
 
-queue = deque()
-answer = []
-N = int(input())
-arr = [[ 0 for _ in range(N)] for _ in range(N)]
-visited = [[ [0,0] for _ in range(N)] for _ in range(N)]
+three_cnt, two_cnt = 0, 0
+dx = [-1,1,0,0]
+dy = [0,0,-1,1]
 
-queue.append((0, 0, 1, 1))
-visited[0][0] = [1,1]
+def dfs(x,y):
+    #현재 색상 좌표를 방문해준다.
+    visited[x][y] = True
+    current_color = matrix[x][y]
 
-for i in range(N):
-    arr[i] = list(input())
+    for k in range(4):
+        nx = x + dx[k]
+        ny = y + dy[k]
+        if (0 <= nx < n) and (0 <= ny < n):
+            #현재 좌표의 색상과 상하좌우 좌표에 있는 색상이 같으면 dfs로 넣어준다.
+            if visited[nx][ny]==False:
+                if matrix[nx][ny] == current_color:
+                    dfs(nx,ny)
 
-while queue:
+for i in range(n):
+    for j in range(n):
+        # 방문하지 않은 좌표이면 dfs로 넣어준다.
+        if visited[i][j]==False:
+            dfs(i,j)
+            three_cnt += 1
 
-    print(queue)
-    for i in range(N):
-        for j in range(N):
-            print(visited[i][j],end=' ')
-        print()    
+#R을 G로 바꾸어준다. --> 적록색약은 같은 색으로 보기 때문에
+for i in range(n):
+    for j in range(n):
+        if matrix[i][j]=='R':
+            matrix[i][j]='G'
 
-    x, y, cnt, rb_cnt = queue.popleft()
-    
-    for i in range(4):
-        
-        tx = x + dx[i]
-        ty = y + dy[i]
+visited = [[False] * n for _ in range(n)]
 
-        trb_cnt = rb_cnt 
-        tcnt = cnt
+for i in range(n):
+    for j in range(n):
+        if visited[i][j] == False:
+            dfs(i,j)
+            two_cnt += 1
 
-        if not (0 <= tx < N and 0 <= ty < N):
-            continue
-
-        if visited[tx][ty][0]:
-            #값이 있습니다만 ...
-            if arr[tx][ty] != arr[x][y]: #값이 다르면
-                if arr[x][y] == 'R' or arr[x][y] == 'G':
-                    if arr[tx][ty] == 'R' or arr[tx][ty] == 'G':
-                        visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]]
-                    else:
-                        visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]+1]
-                else:
-                    visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]+1]           
-            continue
-
-        while True:
-
-            if not (0 <= tx < N and 0 <= ty < N):
-                break
-            if visited[tx][ty][0]:
-                #값이 있습니다만 ...
-                if arr[tx][ty] != arr[x][y]: #값이 다르면
-                    if arr[x][y] == 'R' or arr[x][y] == 'G':
-                        if arr[tx][ty] == 'R' or arr[tx][ty] == 'G':
-                            visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]]
-                        else:
-                            visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]+1]
-                    else:
-                        visited[tx][ty] = [visited[tx][ty][0]+1,visited[tx][ty][1]+1]   
-                break  
-         
-            if arr[x][y] != arr[tx][ty]:
-                if arr[x][y] == 'R' or arr[x][y] == 'G':
-                    if arr[tx][ty] == 'R' or arr[tx][ty] == 'G':
-                            tcnt += 1    
-                    else:
-                            tcnt += 1
-                            trb_cnt += 1    
-                else:
-                    tcnt += 1
-                    trb_cnt += 1 
-                visited[tx][ty] = [tcnt, trb_cnt]        
-                break    
-            visited[tx][ty] = [tcnt, trb_cnt]   
-            tx += dx[i]
-            ty += dy[i]
-        if (0 <= tx < N and 0 <= ty < N):             
-            queue.append((tx, ty, tcnt, trb_cnt))                 
-            
-                       
-
-print(cnt, rb_cnt)
+print(three_cnt,two_cnt)
