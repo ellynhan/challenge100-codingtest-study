@@ -4,17 +4,24 @@ stdout = io.BytesIO()
 sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda : os.write(1, stdout.getvalue()))
 from collections import deque
-N, M = int(input().split())
+from itertools import combinations
+N, M = map(int,input().split())
 
 arr = [ [0 for _ in range(N)] for _ in range(N)]
-
+virus = []
 for i in range(N):
     arr[i] = list(map(int, input().split()))
-   
-queue = deque()
+    for j in range(N):
+        if arr[i][j] == 2:
+            virus.append((i,j))
 
+virus_list = list(combinations(virus,M))   
+
+queue = deque()
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
+for i,j,k in virus_list:
+
 count = 0
 for i in range(N):
     for j in range(M):
