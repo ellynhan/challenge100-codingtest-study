@@ -1,0 +1,83 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.Objects;
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+public class Main {
+	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+
+	StringTokenizer tokenizer;
+
+	int N;
+	Operator[] arr;
+
+	void input() throws IOException {
+		N = Integer.parseInt(reader.readLine());
+
+		arr = new Operator[N];
+
+		for (int i = 0; i < N; ++i) {
+			tokenizer = new StringTokenizer(reader.readLine());
+
+			arr[i] = new Operator();
+			arr[i].type = Operator.Type.valueOf(tokenizer.nextToken().toUpperCase());
+
+			if (tokenizer.hasMoreTokens()) {
+				arr[i].operand = Integer.parseInt(tokenizer.nextToken());
+			}
+		}
+	}
+
+	void solve() throws IOException {
+		Stack<Integer> stack = new Stack<>();
+
+		for (Operator operator : arr) {
+			if (Objects.requireNonNull(operator.type) == Operator.Type.PUSH) {
+				stack.push(operator.operand);
+				continue;
+			} else if (operator.type == Operator.Type.POP) {
+				if (stack.isEmpty()) {
+					writer.write("-1");
+				} else {
+					writer.write(Integer.toString(stack.pop()));
+				}
+			} else if (operator.type == Operator.Type.SIZE) {
+				writer.write(Integer.toString(stack.size()));
+			} else if (operator.type == Operator.Type.EMPTY) {
+				writer.write(Integer.toString(stack.isEmpty() ? 1 : 0));
+			} else if (operator.type == Operator.Type.TOP) {
+				if (stack.isEmpty()) {
+					writer.write("-1");
+				} else {
+					writer.write(Integer.toString(stack.peek()));
+				}
+			}
+
+			writer.newLine();
+		}
+	}
+
+	static class Operator {
+		public enum Type {
+			PUSH, POP, SIZE, EMPTY, TOP;
+		}
+
+		Type type;
+		int operand;
+	}
+
+	public static void main(String[] args) throws IOException {
+		Main main = new Main();
+
+		main.input();
+		main.solve();
+
+		main.reader.close();
+		main.writer.close();
+	}
+}
