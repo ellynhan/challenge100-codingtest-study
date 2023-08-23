@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int tablat[1000001]={};
+long long tablat[1000001]={};
 
 int main() {
     ios::sync_with_stdio(false);
@@ -13,7 +13,7 @@ int main() {
 	tablat[2] = 2;
 	tablat[3] = 4;
 
-	for(int i=4; i<1000000; i++) {
+	for(int i=4; i<=1000000; i++) {
 		tablat[i] = (tablat[i-3]+tablat[i-2]+tablat[i-1])%1000000009;
 	}
 	int t, n;
