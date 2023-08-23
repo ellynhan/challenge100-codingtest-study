@@ -4,7 +4,7 @@ input = sys.stdin.readline
 
 n = int(input())
 cases = list(map(int, input().split()))
-lis = [0]
+lis = [-1000000001]
 
 for case in cases:
     #print(lis)
