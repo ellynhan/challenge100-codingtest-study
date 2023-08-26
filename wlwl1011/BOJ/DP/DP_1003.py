@@ -4,26 +4,19 @@ stdout = io.BytesIO()
 sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda : os.write(1, stdout.getvalue()))
 
-global count_0, count_1
+
+dp = [ [0,0] for _ in range(41) ]
+
+dp[0] = [1,0]
+dp[1] = [0,1]
 
 
-def fibonacci(n) :
-    global count_0, count_1
-    if n == 0:
-        count_0 += 1
-        return 0
-    elif n == 1 :
-        count_1 += 1
-        return 1
-    else :
-        return fibonacci(n-1) + fibonacci(n-2)
-
+for i in range(2,41):
+    dp[i][0] = dp[i-2][0] + dp[i-1][0]
+    dp[i][1] = dp[i-1][0] + dp[i-1][1]
 
 T = int(input())
 
 for _ in range(T):
     n = int(input())
-    count_0 = 0
-    count_1 = 0
-    fibonacci(n)
-    print(count_0,count_1)
+    print(dp[n][0], dp[n][1])
