@@ -21,11 +21,13 @@ for i in range(M):
     res = 0
     while start <= end:
         mid = ( start + end ) // 2
-        
+        print(power, mid,arr[mid][1]  )
         if arr[mid][1] >= power:
+            print('>=')
             end = mid - 1
             res = mid
         else:
+            print('.')
             start = mid + 1
     print(arr[res][0])        
 
