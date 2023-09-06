@@ -8,24 +8,20 @@ atexit.register(lambda : os.write(1, stdout.getvalue()))
 
 #옮길 수 있는 볼의 색깔은 한 가지이다. 즉, 빨간색 볼을 처음에 옮겼으면 다음에도 빨간색 볼만 옮길 수 있다
 
-def compare(arr,ball):
-    count = 0
-    copy_arr = arr[:]
-    index = 0
-    for i in range(N-1,-1,-1):
-        if copy_arr[i] == ball:
-            copy_arr = copy_arr[:i]
-        else:
-            index = i
-            break    
-        #print(arr)    
-    for i in range(index-1,-1,-1):
-        if copy_arr[i] == ball:
-            count += 1      
-    return count   
+def init(color, ball):
+    for _ in range(len(ball)):
+        c = ball.pop()
+        if c != color:
+            ball.append(c)
+            break
+    return ball    
+
+def move(color, ball):
+    ball = init(color, ball)
+    return ball.count(color)
 
 
 N = int(input())
-arr = input()
+ball = list(input())
 
-print(min(compare(arr,'R'),compare(arr,'B')))
+print(min(move('R',ball[:]),move('R',ball[::-1]),move('B',ball[:]),move('R',ball[::-1])))
