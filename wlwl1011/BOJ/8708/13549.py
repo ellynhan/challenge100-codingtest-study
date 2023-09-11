@@ -8,17 +8,25 @@ from collections import deque
 
 N, K = map(int, input().split())
 queue = deque()
-queue.append((N,0))
+queue.append(N)
+visited = [-1] * 100001
+visited[N] = 0
 
 while queue:
-    time, cnt = queue.popleft()
+    time = queue.popleft()
     if time == K:
-        print(cnt)
+        print(visited[time])
         break
-    queue.append((time*2, cnt))
-    queue.append((time+1, cnt+1))
-    queue.append((time-1, cnt+1))
-       
+    if visited[time*2] == -1:
+        visited[time*2] = visited[time]
+        queue.append(time*2)
+    if visited[time+1] == -1:    
+        visited[time+1] = visited[time]+1
+        queue.append(time+1)
+    if visited[time-1] == -1:    
+        visited[time-1] = visited[time]+1
+        queue.append(time-1)
+        
 
 
 
