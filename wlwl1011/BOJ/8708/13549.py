@@ -17,13 +17,13 @@ while queue:
     if time == K:
         print(visited[time])
         break
-    if visited[time*2] == -1:
+    if time*2 < 100001 and visited[time*2] == -1:
         visited[time*2] = visited[time]
         queue.append(time*2)
-    if visited[time+1] == -1:    
+    if time+1 < 100001 and visited[time+1] == -1:    
         visited[time+1] = visited[time]+1
         queue.append(time+1)
-    if visited[time-1] == -1:    
+    if time-1 < 100001 and visited[time-1] == -1:    
         visited[time-1] = visited[time]+1
         queue.append(time-1)
         
