@@ -4,45 +4,24 @@
 # sys.stdout.write = lambda s: stdout.write(s.encode("ascii"))
 # atexit.register(lambda: os.write(1, stdout.getvalue()))
 
+
+#처음에 시간 초과를 고려해 이진 탐색을 이용해서 풀이했으나, 이진 탐색을 쓰더라도 시간 초과 발생
+#다른 풀이 필요 -> stack
+
 N = int(input())
 arr = list(map(int, input().split()))
-
-max_height = max(arr)
-max_height_idx = arr.index(max_height)
-answer = [0] * N
+stack = []
+answer = []
 
 
-#맨 뒤에서 부터 가장 높은 높이까지
-for i in range(N-1,-1,-1):
-
-    if arr[i] < arr[i-1]:
-        answer[i]= i
-    else:
-        temp = []
-        if i == max_height_idx or i == 0:
-            answer[i] = 0
-        elif i > max_height_idx:
-            temp = arr[max_height_idx:i]
-            
-            start = 0
-            end = len(temp)-1
-            
+for i in range(N):
+    while stack:
+        if stack[-1][1] > arr[i]: #수신 가능
+            answer.append(stack[-1][0] + 1)
+            break
         else:
-            temp = arr[i:max_height_idx]
-            
-            start = 0
-            end = len(temp)-1
-        temp.sort()    
-        
-        while start <= end:
-            mid = ( start + end ) // 2    
-            if mid >= len(temp):
-                break
-            if temp[mid] >=  arr[i]:
-                end = mid - 1
-                answer[i] = arr.index(temp[mid])+1
-                #print('binary search',temp[mid])
-            else:
-                start = mid + 1    
-
+            stack.pop()
+    if not stack: #수신할 탑 없음
+        answer.append(0)
+    stack.append([i, arr[i]]) #인덱스 값
 print(*answer)
