@@ -7,7 +7,7 @@ atexit.register(lambda : os.write(1, stdout.getvalue()))
 S = input()
 
 
-
+#문자열 이기때문에 int 변환해주기 잊지말것!
 zero_section = 0
 one_section = 0
 
