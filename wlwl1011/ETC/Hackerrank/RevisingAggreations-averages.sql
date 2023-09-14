@@ -1,3 +1,3 @@
 SELECT AVG(population)
 FROM city
-where district = 'California'
+where district = 'California're
