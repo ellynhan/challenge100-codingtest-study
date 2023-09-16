@@ -5,6 +5,30 @@ sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda : os.write(1, stdout.getvalue()))
 
 
+#다른 사람들의 손 쉬운 풀이...
+
+
+#레이저가 나오면, () 이면, 앞에 쌓인 ( 만큼 잘린다.
+#레이저가 아닌 쇠막대기 끝 ) 이면 +1만해준다. 그게 끝에 잘린 부분임.
+#지금 내 풀이는 마지막에 이중 for문을 쓰는데, 만약 입력 값의 크기가 더 커진다면 위험함.
+
+def otherAnswer(arr):
+    stack = []
+    answer = 0
+    for i in range(len(arr)):
+        if arr[i] == '(':
+            stack.append()
+        else:
+            if arr[i-1] == '(':
+                stack.pop()
+                answer += len(stack)  
+            else:
+                stack.pop()
+                answer += 1      
+    return answer
+
+
+
 batch = input() #냅다 입력을 받습니다.
 stack = []
 laser = []
@@ -39,3 +63,7 @@ for start,end in bar:
     answer += check + 1
 
 print(answer)
+
+
+
+
