@@ -4,6 +4,18 @@ stdout = io.BytesIO()
 sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda : os.write(1, stdout.getvalue()))
 
+#다른 사람들 풀이/ replace 이용
+#처음에 replace를 이용해서 풀고자했으나, ddz=z= 과 같은 문자열에서 문제발생.
+
+def otherAnswer():
+    cro_al = ['c=','c-','dz=','d-','lj','nj','s=','z=']
+    for i in cro_al:
+        x = x.replace(i, 'a')
+    print(len(x))
+ 
+
+
+
 alpabet = input()
 answer = 0
 
