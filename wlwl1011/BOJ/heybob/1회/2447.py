@@ -5,6 +5,8 @@ sys.stdout.write = lambda s : stdout.write(s.encode("ascii"))
 atexit.register(lambda : os.write(1, stdout.getvalue()))
 sys.setrecursionlimit(10**6)
 
+#기존에 진행했던 분할정복과 달리, 배열을 만들었음.
+#이유 - > 별찍을 때 \n 구분떄문에 별도의 배열 필요
 
 def printStar(x, y, n, isBlank):
     if n == 1:
