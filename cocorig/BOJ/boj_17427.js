@@ -17,19 +17,35 @@ const N = parseInt(input);
 //  2 * (2를 약수로 갖는 수의 개수) =>  6  , 2가 3개 있다는 뜻이므로 2 * 3을 해줘야함
 //  3 * (3을 약수로 갖는 수의 개수 ) => 6
 //  약수를 갖는 값들의 개수이므로 해당 수와 곱해야함
-let sum = 0;
+// let sum = 0;
 
-  for(let i = 1; i <= N; i++){
-    //                    (N / i ) ->  i의 배수의 개수를 구하는 식
-    sum += i * Math.floor((N) / i);
+//   for(let i = 1; i <= N; i++){
+//     //                    (N / i ) ->  i의 배수의 개수를 구하는 식
+//     sum += i * Math.floor((N) / i);
+//     }
+
+// console.log(sum);
+
+
+
+const sqrtN = Math.floor(Math.sqrt(N)); // 3
+const result = [];
+
+for(let i = 1; i <= sqrtN; i++){ // 1 ~ 3까지만 반복
+    if(N % i === 0){   // 12 % 1 , 12 % 2 , 12 % 3
+        result.push(i); // 1 , 2,3
+
+        if(i !== N / i){ // 1 != 12 / 1 , 2 != 12 / 2 , 3 != 12 /3
+            result.push(N / i); // 12 , 6, 4
+        }
     }
+}
+console.log(result);
+const ans = result.reduce((acc , v)=>{ 
+  return acc + v;
+}, 0);
 
-console.log(sum);
-
-
-
-
-
+console.log(ans);
 
 // 시간 초과 코드 
 // let result = 0;
@@ -48,4 +64,6 @@ console.log(sum);
 // }
 // const ans  =  getDivisor(N);
 // console.log(ans);
+
+
 
