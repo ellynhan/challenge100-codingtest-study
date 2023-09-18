@@ -1,6 +1,1 @@
-NO
-NO
-YES
-NO
-YES
-NO
+57
