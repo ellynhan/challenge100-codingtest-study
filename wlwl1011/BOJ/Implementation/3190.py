@@ -34,6 +34,12 @@ def turn(alpha):
 
 
 while True:
+    print(queue)
+    for i in range(n):
+        for j in range(n):
+            print(graph[i][j],end=' ')
+        print()    
+
     cnt += 1
     x += dx[direction]
     y += dy[direction]
