@@ -27,3 +27,13 @@ for _ in range(T):
     ans = max(ans, abs(new[-1]-new[0]) )
     print(ans)    
 
+#원리는 같지만 물리적으로 배열에 삽입하지 않고 풀이 ...
+# T = int(input())
+# for _ in range(T):
+#     N = int(input())
+#     S = list(map(int,input().split()))
+#     S.sort()
+#     maxv=0
+#     for i in range(N-2):
+#         maxv = max(maxv,abs(S[i]-S[i+2]))
+#     print(maxv)
