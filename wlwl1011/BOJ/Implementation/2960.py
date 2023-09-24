@@ -36,3 +36,16 @@ while arr:
             i +=1
         if flag == False:
             break    
+
+
+#다른 사람 풀이
+# nums = [True] * (N+1)
+
+# for i in range(2, len(nums) + 1):
+#     for j in range(i, N+1, i):
+#         if nums[j] == True:
+#             nums[j] = False
+#             cnt += 1
+#             if cnt == K:
+#                 print(j)
+#                 break
