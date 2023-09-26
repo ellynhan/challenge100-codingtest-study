@@ -46,13 +46,11 @@ while True:
         
         tr = r + dx[(d+2)%4]
         tc = c + dy[(d+2)%4]
-        if checkRange(tr,tc) and arr[tr][tc] == 1:#범위를 벗어나지 않고 벽이 아님/
-                break
-            
-        else:
+        if checkRange(tr,tc) and  arr[tr][tc] != 1:
             r = tr
             c = tc
-        
+        else:
+            break
     else: #청소해야함
         d = ChangeDirection(d)
         tr = r + dx[d]
