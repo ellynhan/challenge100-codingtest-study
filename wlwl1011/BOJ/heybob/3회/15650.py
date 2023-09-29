@@ -1,11 +1,11 @@
 import sys
 input = lambda : sys.stdin.readline().rstrip('\r\n')
-from itertools import permutations
+from itertools import combinations
 
 N, M = map(int, input().split())
-arr = [i for i in range(1,N+1)]
+arr = [i for i in range(1, N+1)]
 
-ans = list(permutations(arr,M))
+ans = list(combinations(arr,M))
 
 for i in range(len(ans)):
     print(*ans[i])
