@@ -19,7 +19,7 @@ for tc in range(1, 1 + int(input())):
             x, y, d, k = atoms[i]
             nx = x + dx[d]
             ny = y + dy[d]
-            if 0 <= nx <= 4000 and 0 <= ny < 4000:
+            if 0 <= nx <= 4000 and 0 <= ny <= 4000:
                 if (nx,ny) in loc:
                     hit.add((nx,ny))
                 else:
