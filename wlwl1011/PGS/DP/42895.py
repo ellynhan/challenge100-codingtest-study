@@ -11,9 +11,9 @@ def solution(N, number):
         x.add(int(str(N)*i))
     
     for i in range(1,8):
-        print('i:',i)
+       
         for j in range(i):
-            print(j)
+            
             for op1 in s[j]:
                 for op2 in s[i-j-1]:
                     s[i].add(op1 + op2)
