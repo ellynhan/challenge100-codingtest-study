@@ -26,7 +26,7 @@ for x in range(1,N+1):
 for x, y, d1, d2 in value:
     #print(x,y,d1,d2)
     section = [[0 for _ in range(N+1)] for _ in range(N+1)]
-    sum = [0 for _ in range(N)]
+    sum = [0 for _ in range(5)]
     for i in range(d1+1):
         section[x+i][y-i] = 5 
         section[x+d2+i][y+d2-i] = 5
@@ -66,6 +66,8 @@ for x, y, d1, d2 in value:
         for c in range(1,N+1):   
             sum[section[r][c]-1] += arr[r][c]                 
     # print("sum : ",sum , "diff : ", max(sum) - min(sum))
+    # print(x,y,d1,d2)
+    # print(sum)
     ans = min( ans, max(sum) - min(sum) )  
                
            
