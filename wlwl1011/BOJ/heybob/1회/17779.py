@@ -57,8 +57,8 @@ for x, y, d1, d2 in value:
                 section[r][c] = 3
             elif x + d2 < r <= N and y - d1 + d2 <= c <= N:
                 section[r][c] = 4
-            else:
-                section[r][c] = 5
+            # else:
+            #     section[r][c] = 5
 
     
 
