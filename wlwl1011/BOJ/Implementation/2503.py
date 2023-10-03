@@ -11,6 +11,7 @@ for _ in range(N):
     for i in range(len(num)):
         strike = ball = 0
         i -= rmcnt # num[0] 부터 시작
+        print(i,rmcnt)
         for j in range(3):
             if num[i][j] == n[j]:
                 strike += 1
