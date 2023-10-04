@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10**8)
+sys.setrecursionlimit(10**5)
 input = lambda : sys.stdin.readline().rstrip('\r\n')
 
 dx = [-1, 1, 0, 0]
