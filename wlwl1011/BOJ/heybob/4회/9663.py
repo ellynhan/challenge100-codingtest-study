@@ -1,38 +1,33 @@
-import sys
-input = lambda : sys.stdin.readline().rstrip('\r\n')
+count = 0
 
-global answer
-
-def check(n):
-    
+def isOk(arr,n):
+ 
     for i in range(n):
-        if chess[i] == chess[n]: #같은 행
+        if arr[i] == arr[n]:
+  
             return False
-        if abs(chess[i]-chess[n]) == abs(i-n): #대각선
+        if abs(n - i) == abs(arr[n]-arr[i]):
+   
             return False
     return True    
 
-def nQueen(n):
-    
-    global answer
+def nQueen(arr,n):
+ 
+    global count 
     if n == N:
-        answer += 1
+        count += 1
         return
-
     for i in range(N):
-        chess[n] = i
-        if check(n):
-            nQueen(n+1)
-          
-
+        arr[n] = i
+       
+        if isOk(arr,n):
+           
+            nQueen(arr,n+1)
+        arr[n] = 0    
+           
 
 N = int(input())
-chess = [0] * N
-answer = 0
-nQueen(0)
-print(answer)
+arr = [-1 for _ in range(N)]
 
-
-
-    
-
+nQueen(arr,0)
+print(count)
