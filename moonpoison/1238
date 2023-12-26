@@ -68,4 +68,4 @@ int main()
         if(i!=x&&ans<cost[i]+cost2[i]) ans=cost[i]+cost2[i];
     }
     cout<<ans;
-}
+} 
