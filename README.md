@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-61-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-62-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -107,19 +107,20 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/cocorig"><img src="https://avatars.githubusercontent.com/u/95855640?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>cocorig</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/34"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/JeongheonHa"><img src="https://avatars.githubusercontent.com/u/108064146?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>JeongheonHa</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/28"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/chaeryeon823"><img src="https://avatars.githubusercontent.com/u/87600308?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>chaeryeon823</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/24"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
+         <td align="center"><a href="https://github.com/ise-yen"><img src="https://avatars.githubusercontent.com/u/66158433?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ise-yen</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/13"/></sub></a><br /></td>
+         <td align="center"><a href="https://github.com/yangchang-n"><img src="https://avatars.githubusercontent.com/u/104478650?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yangchang-n</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/13"/></sub></a><br /></td>
+</tr><tr>         <td align="center"><a href="https://github.com/Glsme"><img src="https://avatars.githubusercontent.com/u/88874280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Glsme</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/watertree34"><img src="https://avatars.githubusercontent.com/u/40683453?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>watertree34</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
-</tr><tr>         <td align="center"><a href="https://github.com/yangchang-n"><img src="https://avatars.githubusercontent.com/u/104478650?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yangchang-n</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/11"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/SeungjaeLim"><img src="https://avatars.githubusercontent.com/u/74184274?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>SeungjaeLim</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/ehddud1006"><img src="https://avatars.githubusercontent.com/u/62373865?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ehddud1006</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/ise-yen"><img src="https://avatars.githubusercontent.com/u/66158433?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ise-yen</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/5"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/woohyun-jeong"><img src="https://avatars.githubusercontent.com/u/55433351?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>woohyun-jeong</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
+         <td align="center"><a href="https://github.com/HamsterStudent"><img src="https://avatars.githubusercontent.com/u/60914441?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>HamsterStudent</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/yuminn-k"><img src="https://avatars.githubusercontent.com/u/55650732?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yuminn-k</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1"/></sub></a><br /></td>
-</table><br />
+</tr></table><br />
 
 ### 💀 챌린지 포기 💀
 <table><tr>         <td align="center"><a href="https://github.com/JeonghakLee2"><img src="https://avatars.githubusercontent.com/u/97442280?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>JeonghakLee2</b><br>중도포기</sub></a><br /></td>
-         <td align="center"><a href="https://github.com/calla1109"><img src="https://avatars.githubusercontent.com/u/89240523?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>calla1109</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/maeve1109"><img src="https://avatars.githubusercontent.com/u/89240523?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>maeve1109</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/weaver9651"><img src="https://avatars.githubusercontent.com/u/16550538?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>weaver9651</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/seokho-lee"><img src="https://avatars.githubusercontent.com/u/112551962?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>seokho-lee</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/wldsbs"><img src="https://avatars.githubusercontent.com/u/52478817?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>wldsbs</b><br>중도포기</sub></a><br /></td>
