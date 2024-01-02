@@ -7,7 +7,7 @@
  
  */
 // 시간복잡도: O()
-// 최악시간:  
+// 최악시간: 
 // 난이도: 
 // Timer: 
 // Url: https://www.acmicpc.net/problem/___VARIABLE_productName___
