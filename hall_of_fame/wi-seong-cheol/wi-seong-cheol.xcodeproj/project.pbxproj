@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DFA69002B4664E40070E8E9 /* 12920.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA68FF2B4664E40070E8E9 /* 12920.cpp */; };
+		4DFA69022B466D730070E8E9 /* PICNIC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA69012B466D730070E8E9 /* PICNIC.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -743,6 +743,7 @@
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
 		4DFA68FD2B463DDC0070E8E9 /* 2159.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2159.cpp; sourceTree = "<group>"; };
 		4DFA68FF2B4664E40070E8E9 /* 12920.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12920.cpp; sourceTree = "<group>"; };
+		4DFA69012B466D730070E8E9 /* PICNIC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PICNIC.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1993,6 +1994,7 @@
 			isa = PBXGroup;
 			children = (
 				4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */,
+				4DFA69012B466D730070E8E9 /* PICNIC.cpp */,
 			);
 			path = ETC;
 			sourceTree = "<group>";
@@ -2054,7 +2056,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFA69002B4664E40070E8E9 /* 12920.cpp in Sources */,
+				4DFA69022B466D730070E8E9 /* PICNIC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
