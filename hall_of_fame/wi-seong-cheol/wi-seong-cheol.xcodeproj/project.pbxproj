@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DE4B45E2B4E5CBE00030FA5 /* 3908.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B45C2B4E5CA500030FA5 /* 3908.cpp */; };
+		4DE4B4632B4E882800030FA5 /* Wildcard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B4622B4E882800030FA5 /* Wildcard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -707,6 +707,8 @@
 		4DE4B4582B4E2E2500030FA5 /* 4198.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4198.cpp; sourceTree = "<group>"; };
 		4DE4B45A2B4E495800030FA5 /* 12019.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12019.cpp; sourceTree = "<group>"; };
 		4DE4B45C2B4E5CA500030FA5 /* 3908.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3908.cpp; sourceTree = "<group>"; };
+		4DE4B45F2B4E851C00030FA5 /* JUMPGAME.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JUMPGAME.cpp; sourceTree = "<group>"; };
+		4DE4B4622B4E882800030FA5 /* Wildcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wildcard.cpp; sourceTree = "<group>"; };
 		4DE81C8D2B40470700611D2D /* 20061.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20061.cpp; sourceTree = "<group>"; };
 		4DE81C8E2B40471A00611D2D /* 21608.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21608.cpp; sourceTree = "<group>"; };
 		4DE81C8F2B40472700611D2D /* 21609.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21609.cpp; sourceTree = "<group>"; };
@@ -2037,6 +2039,8 @@
 			children = (
 				4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */,
 				4DFA69012B466D730070E8E9 /* PICNIC.cpp */,
+				4DE4B45F2B4E851C00030FA5 /* JUMPGAME.cpp */,
+				4DE4B4622B4E882800030FA5 /* Wildcard.cpp */,
 			);
 			path = ETC;
 			sourceTree = "<group>";
@@ -2098,7 +2102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE4B45E2B4E5CBE00030FA5 /* 3908.cpp in Sources */,
+				4DE4B4632B4E882800030FA5 /* Wildcard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
