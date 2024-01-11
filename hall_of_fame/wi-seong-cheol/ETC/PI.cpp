@@ -24,7 +24,7 @@
 // 최악시간: 10,000
 // 난이도: 하
 // Timer: 1시간
-// Url: https://www.acmicpc.net/problem/PI
+// Url: https://algospot.com/judge/problem/read/PI
 
 #include <iostream>
 #include <cstring>
