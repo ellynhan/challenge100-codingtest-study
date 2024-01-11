@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DE4B47B2B4F9F9A00030FA5 /* 20005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B47A2B4F9F9A00030FA5 /* 20005.cpp */; };
+		4DE4B47D2B4FAB2000030FA5 /* 10836.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B47C2B4FAB2000030FA5 /* 10836.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -720,6 +720,7 @@
 		4DE4B4752B4F8D5600030FA5 /* SNAIL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SNAIL.cpp; sourceTree = "<group>"; };
 		4DE4B4782B4F951100030FA5 /* ASYMTILING.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ASYMTILING.cpp; sourceTree = "<group>"; };
 		4DE4B47A2B4F9F9A00030FA5 /* 20005.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20005.cpp; sourceTree = "<group>"; };
+		4DE4B47C2B4FAB2000030FA5 /* 10836.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10836.cpp; sourceTree = "<group>"; };
 		4DE81C8D2B40470700611D2D /* 20061.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20061.cpp; sourceTree = "<group>"; };
 		4DE81C8E2B40471A00611D2D /* 21608.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21608.cpp; sourceTree = "<group>"; };
 		4DE81C8F2B40472700611D2D /* 21609.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21609.cpp; sourceTree = "<group>"; };
@@ -1219,6 +1220,7 @@
 				4DE4B4492B4CBC4C00030FA5 /* 2923.cpp */,
 				4D471A6E292DCAA4004B5BE8 /* 3190.cpp */,
 				4D09A2522B3C0BDD001DBDA4 /* 5373.cpp */,
+				4DE4B47C2B4FAB2000030FA5 /* 10836.cpp */,
 				4D471A66292DCAA4004B5BE8 /* 11559.cpp */,
 				4D471A43292DCAA4004B5BE8 /* 12100.cpp */,
 				4D471A54292DCAA4004B5BE8 /* 13335.cpp */,
@@ -2124,7 +2126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE4B47B2B4F9F9A00030FA5 /* 20005.cpp in Sources */,
+				4DE4B47D2B4FAB2000030FA5 /* 10836.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
