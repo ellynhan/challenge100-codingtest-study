@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DE4B4932B512AC200030FA5 /* CLOCKSYNC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B4922B512AC200030FA5 /* CLOCKSYNC.cpp */; };
+		4DCEFB4F2B5167E70092E371 /* QUADTREE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEFB4E2B5167E70092E371 /* QUADTREE.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -688,6 +688,7 @@
 		4DCC5E4C29378D4500B23424 /* 10814.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10814.cpp; sourceTree = "<group>"; };
 		4DCC5E4D29378D4500B23424 /* 1431.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1431.cpp; sourceTree = "<group>"; };
 		4DCC5E4E29378D4500B23424 /* 1181.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1181.cpp; sourceTree = "<group>"; };
+		4DCEFB4E2B5167E70092E371 /* QUADTREE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QUADTREE.cpp; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2002,6 +2003,15 @@
 			path = "BOJ/0x0F Sort II";
 			sourceTree = SOURCE_ROOT;
 		};
+		4DCEFB4D2B5167D50092E371 /* 7장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DCEFB4E2B5167E70092E371 /* QUADTREE.cpp */,
+			);
+			name = "7장";
+			path = "7장";
+			sourceTree = "<group>";
+		};
 		4DE4B4882B50D2EA00030FA5 /* 8장 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2048,6 +2058,7 @@
 			isa = PBXGroup;
 			children = (
 				4DE4B4892B50D2F000030FA5 /* 6장 */,
+				4DCEFB4D2B5167D50092E371 /* 7장 */,
 				4DE4B4882B50D2EA00030FA5 /* 8장 */,
 				4DE4B48A2B50D30E00030FA5 /* 9장 */,
 				4DE4B48C2B50D3A200030FA5 /* 10장 */,
@@ -2186,7 +2197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE4B4932B512AC200030FA5 /* CLOCKSYNC.cpp in Sources */,
+				4DCEFB4F2B5167E70092E371 /* QUADTREE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
