@@ -1995,6 +1995,56 @@
 			path = "BOJ/0x0F Sort II";
 			sourceTree = SOURCE_ROOT;
 		};
+		4DE4B4882B50D2EA00030FA5 /* 8장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B45F2B4E851C00030FA5 /* JUMPGAME.cpp */,
+				4DE4B4622B4E882800030FA5 /* WILDCARD.cpp */,
+				4DE4B4642B4EAB8A00030FA5 /* TRIANGLEPATH.cpp */,
+				4DE4B4672B4EAFE700030FA5 /* LIS.cpp */,
+				4DE4B4692B4EB4DE00030FA5 /* JLIS.cpp */,
+				4DE4B46D2B4F519300030FA5 /* PI.cpp */,
+				4DE4B46F2B4F6D3300030FA5 /* QUANTIZE.cpp */,
+				4DE4B4712B4F75FF00030FA5 /* TILING2.cpp */,
+				4DE4B4732B4F78CD00030FA5 /* TRIPATHCNT.cpp */,
+				4DE4B4752B4F8D5600030FA5 /* SNAIL.cpp */,
+				4DE4B4782B4F951100030FA5 /* ASYMTILING.cpp */,
+				4DE4B4822B500FDC00030FA5 /* POLY.cpp */,
+				4DE4B4842B501B8400030FA5 /* NUMB3RS.cpp */,
+			);
+			name = "8장";
+			path = "8장";
+			sourceTree = "<group>";
+		};
+		4DE4B4892B50D2F000030FA5 /* 6장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */,
+				4DFA69012B466D730070E8E9 /* PICNIC.cpp */,
+			);
+			name = "6장";
+			path = "6장";
+			sourceTree = "<group>";
+		};
+		4DE4B48A2B50D30E00030FA5 /* 9장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B4862B50BE3F00030FA5 /* PACKING.cpp */,
+			);
+			name = "9장";
+			path = "9장";
+			sourceTree = "<group>";
+		};
+		4DE4B48B2B50D35500030FA5 /* ALGOSPOT */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B4892B50D2F000030FA5 /* 6장 */,
+				4DE4B4882B50D2EA00030FA5 /* 8장 */,
+				4DE4B48A2B50D30E00030FA5 /* 9장 */,
+			);
+			path = ALGOSPOT;
+			sourceTree = "<group>";
+		};
 		4DE8F4C6292B259C00FB909D /* 0x0B Recursion */ = {
 			isa = PBXGroup;
 			children = (
@@ -2055,22 +2105,7 @@
 		4DFA68F62B45A9DC0070E8E9 /* ETC */ = {
 			isa = PBXGroup;
 			children = (
-				4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */,
-				4DFA69012B466D730070E8E9 /* PICNIC.cpp */,
-				4DE4B45F2B4E851C00030FA5 /* JUMPGAME.cpp */,
-				4DE4B4622B4E882800030FA5 /* WILDCARD.cpp */,
-				4DE4B4642B4EAB8A00030FA5 /* TRIANGLEPATH.cpp */,
-				4DE4B4672B4EAFE700030FA5 /* LIS.cpp */,
-				4DE4B4692B4EB4DE00030FA5 /* JLIS.cpp */,
-				4DE4B46D2B4F519300030FA5 /* PI.cpp */,
-				4DE4B46F2B4F6D3300030FA5 /* QUANTIZE.cpp */,
-				4DE4B4712B4F75FF00030FA5 /* TILING2.cpp */,
-				4DE4B4732B4F78CD00030FA5 /* TRIPATHCNT.cpp */,
-				4DE4B4752B4F8D5600030FA5 /* SNAIL.cpp */,
-				4DE4B4782B4F951100030FA5 /* ASYMTILING.cpp */,
-				4DE4B4822B500FDC00030FA5 /* POLY.cpp */,
-				4DE4B4842B501B8400030FA5 /* NUMB3RS.cpp */,
-				4DE4B4862B50BE3F00030FA5 /* PACKING.cpp */,
+				4DE4B48B2B50D35500030FA5 /* ALGOSPOT */,
 			);
 			path = ETC;
 			sourceTree = "<group>";
