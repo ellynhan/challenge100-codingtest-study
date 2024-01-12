@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4DE4B48F2B510ADB00030FA5 /* BOGGLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		4D1363B02917CC720079237B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -722,6 +726,7 @@
 		4DE4B4822B500FDC00030FA5 /* POLY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = POLY.cpp; sourceTree = "<group>"; };
 		4DE4B4842B501B8400030FA5 /* NUMB3RS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NUMB3RS.cpp; sourceTree = "<group>"; };
 		4DE4B4862B50BE3F00030FA5 /* PACKING.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PACKING.cpp; sourceTree = "<group>"; };
+		4DE4B48D2B50D3F300030FA5 /* MATCHORDER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MATCHORDER.cpp; sourceTree = "<group>"; };
 		4DE81C8D2B40470700611D2D /* 20061.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20061.cpp; sourceTree = "<group>"; };
 		4DE81C8E2B40471A00611D2D /* 21608.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21608.cpp; sourceTree = "<group>"; };
 		4DE81C8F2B40472700611D2D /* 21609.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 21609.cpp; sourceTree = "<group>"; };
@@ -2041,8 +2046,18 @@
 				4DE4B4892B50D2F000030FA5 /* 6장 */,
 				4DE4B4882B50D2EA00030FA5 /* 8장 */,
 				4DE4B48A2B50D30E00030FA5 /* 9장 */,
+				4DE4B48C2B50D3A200030FA5 /* 10장 */,
 			);
 			path = ALGOSPOT;
+			sourceTree = "<group>";
+		};
+		4DE4B48C2B50D3A200030FA5 /* 10장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B48D2B50D3F300030FA5 /* MATCHORDER.cpp */,
+			);
+			name = "10장";
+			path = "10장";
 			sourceTree = "<group>";
 		};
 		4DE8F4C6292B259C00FB909D /* 0x0B Recursion */ = {
@@ -2167,6 +2182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE4B48F2B510ADB00030FA5 /* BOGGLE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
