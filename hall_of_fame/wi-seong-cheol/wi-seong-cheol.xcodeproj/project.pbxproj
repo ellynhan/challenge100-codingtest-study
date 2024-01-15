@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D7BB8A62B54CF9200E17E56 /* MORSE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BB8A52B54CF9200E17E56 /* MORSE.cpp */; };
+		4D7BB8A82B54E74400E17E56 /* KLIS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BB8A72B54E74400E17E56 /* KLIS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -330,6 +330,7 @@
 		4D6EADB1292CCC3D00EF82BF /* 15666.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15666.cpp; sourceTree = "<group>"; };
 		4D7BB8A32B528E5D00E17E56 /* OCR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OCR.cpp; sourceTree = "<group>"; };
 		4D7BB8A52B54CF9200E17E56 /* MORSE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MORSE.cpp; sourceTree = "<group>"; };
+		4D7BB8A72B54E74400E17E56 /* KLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KLIS.cpp; sourceTree = "<group>"; };
 		4D7F127D29EA26B500A303B8 /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
 		4D7F127E29EA26B500A303B8 /* 15657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15657.cpp; sourceTree = "<group>"; };
 		4D7F127F29EA26B500A303B8 /* 15655.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15655.cpp; sourceTree = "<group>"; };
@@ -2057,6 +2058,7 @@
 				4DE4B4862B50BE3F00030FA5 /* PACKING.cpp */,
 				4D7BB8A32B528E5D00E17E56 /* OCR.cpp */,
 				4D7BB8A52B54CF9200E17E56 /* MORSE.cpp */,
+				4D7BB8A72B54E74400E17E56 /* KLIS.cpp */,
 			);
 			name = "9장";
 			path = "9장";
@@ -2205,7 +2207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7BB8A62B54CF9200E17E56 /* MORSE.cpp in Sources */,
+				4D7BB8A82B54E74400E17E56 /* KLIS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
