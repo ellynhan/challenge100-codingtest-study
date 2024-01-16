@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D7BB8B02B5528AF00E17E56 /* MINASTIRITH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BB8AF2B5528AF00E17E56 /* MINASTIRITH.cpp */; };
+		4D7BB8B32B5658FA00E17E56 /* BOARDCOVER2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BB8B22B5658FA00E17E56 /* BOARDCOVER2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -335,6 +335,7 @@
 		4D7BB8AB2B55113A00E17E56 /* LUNCHBOX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUNCHBOX.cpp; sourceTree = "<group>"; };
 		4D7BB8AD2B5517ED00E17E56 /* STRJOIN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STRJOIN.cpp; sourceTree = "<group>"; };
 		4D7BB8AF2B5528AF00E17E56 /* MINASTIRITH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MINASTIRITH.cpp; sourceTree = "<group>"; };
+		4D7BB8B22B5658FA00E17E56 /* BOARDCOVER2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOARDCOVER2.cpp; sourceTree = "<group>"; };
 		4D7F127D29EA26B500A303B8 /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
 		4D7F127E29EA26B500A303B8 /* 15657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15657.cpp; sourceTree = "<group>"; };
 		4D7F127F29EA26B500A303B8 /* 15655.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15655.cpp; sourceTree = "<group>"; };
@@ -1393,6 +1394,15 @@
 			path = "0x0C BackTracking";
 			sourceTree = "<group>";
 		};
+		4D7BB8B12B5658E800E17E56 /* 11장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7BB8B22B5658FA00E17E56 /* BOARDCOVER2.cpp */,
+			);
+			name = "11장";
+			path = "11장";
+			sourceTree = "<group>";
+		};
 		4D7F127C29EA26B500A303B8 /* BackTracking */ = {
 			isa = PBXGroup;
 			children = (
@@ -2077,6 +2087,7 @@
 				4DE4B4882B50D2EA00030FA5 /* 8장 */,
 				4DE4B48A2B50D30E00030FA5 /* 9장 */,
 				4DE4B48C2B50D3A200030FA5 /* 10장 */,
+				4D7BB8B12B5658E800E17E56 /* 11장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2215,7 +2226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7BB8B02B5528AF00E17E56 /* MINASTIRITH.cpp in Sources */,
+				4D7BB8B32B5658FA00E17E56 /* BOARDCOVER2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
