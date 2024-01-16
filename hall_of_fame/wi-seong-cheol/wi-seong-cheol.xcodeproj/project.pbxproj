@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DEAF59A2B5660930055296D /* ALLERGY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAF5992B5660930055296D /* ALLERGY.cpp */; };
+		4DEAF59C2B566D000055296D /* KAKURO2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAF59B2B566D000055296D /* KAKURO2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -756,6 +756,7 @@
 		4DE8F4CF292B259C00FB909D /* 1780.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1780.cpp; sourceTree = "<group>"; };
 		4DE8F4D0292B259C00FB909D /* 2448.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2448.cpp; sourceTree = "<group>"; };
 		4DEAF5992B5660930055296D /* ALLERGY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALLERGY.cpp; sourceTree = "<group>"; };
+		4DEAF59B2B566D000055296D /* KAKURO2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KAKURO2.cpp; sourceTree = "<group>"; };
 		4DF0683F29225BD400F10B6B /* 1600.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600.cpp; sourceTree = "<group>"; };
 		4DF0684029225BD400F10B6B /* 1012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1012.cpp; sourceTree = "<group>"; };
 		4DF0684129225BD400F10B6B /* 9466.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9466.cpp; sourceTree = "<group>"; };
@@ -1400,6 +1401,7 @@
 			children = (
 				4D7BB8B22B5658FA00E17E56 /* BOARDCOVER2.cpp */,
 				4DEAF5992B5660930055296D /* ALLERGY.cpp */,
+				4DEAF59B2B566D000055296D /* KAKURO2.cpp */,
 			);
 			name = "11장";
 			path = "11장";
@@ -2228,7 +2230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEAF59A2B5660930055296D /* ALLERGY.cpp in Sources */,
+				4DEAF59C2B566D000055296D /* KAKURO2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
