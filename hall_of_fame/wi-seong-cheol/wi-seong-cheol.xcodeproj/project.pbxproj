@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D21CF672B58E61C000016CA /* PINBALL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D21CF662B58E61C000016CA /* PINBALL.cpp */; };
+		4D21CF6A2B592AD6000016CA /* TREASURE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D21CF692B592AD6000016CA /* TREASURE.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +95,7 @@
 		4D21CF622B57B225000016CA /* PASS486.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PASS486.cpp; sourceTree = "<group>"; };
 		4D21CF642B57B9D1000016CA /* POTION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = POTION.cpp; sourceTree = "<group>"; };
 		4D21CF662B58E61C000016CA /* PINBALL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PINBALL.cpp; sourceTree = "<group>"; };
+		4D21CF692B592AD6000016CA /* TREASURE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TREASURE.cpp; sourceTree = "<group>"; };
 		4D34B68A291C72B000DA6D66 /* 다리를 지나는 트럭.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다리를 지나는 트럭.cpp"; sourceTree = "<group>"; };
 		4D34B68C291C762C00DA6D66 /* 주식가격.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "주식가격.cpp"; sourceTree = "<group>"; };
 		4D34B692291C7CA200DA6D66 /* 10845.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10845.cpp; sourceTree = "<group>"; };
@@ -1007,6 +1008,7 @@
 			isa = PBXGroup;
 			children = (
 				4D21CF662B58E61C000016CA /* PINBALL.cpp */,
+				4D21CF692B592AD6000016CA /* TREASURE.cpp */,
 			);
 			name = "15장";
 			path = "15장";
@@ -2288,7 +2290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D21CF672B58E61C000016CA /* PINBALL.cpp in Sources */,
+				4D21CF6A2B592AD6000016CA /* TREASURE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
