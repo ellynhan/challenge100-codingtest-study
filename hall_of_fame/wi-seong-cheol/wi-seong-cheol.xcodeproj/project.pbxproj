@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D21CF652B57B9D1000016CA /* POTION.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D21CF642B57B9D1000016CA /* POTION.cpp */; };
+		4D21CF672B58E61C000016CA /* PINBALL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D21CF662B58E61C000016CA /* PINBALL.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +94,7 @@
 		4D21CF5F2B5799D4000016CA /* FOSSIL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FOSSIL.cpp; sourceTree = "<group>"; };
 		4D21CF622B57B225000016CA /* PASS486.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PASS486.cpp; sourceTree = "<group>"; };
 		4D21CF642B57B9D1000016CA /* POTION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = POTION.cpp; sourceTree = "<group>"; };
+		4D21CF662B58E61C000016CA /* PINBALL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PINBALL.cpp; sourceTree = "<group>"; };
 		4D34B68A291C72B000DA6D66 /* 다리를 지나는 트럭.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다리를 지나는 트럭.cpp"; sourceTree = "<group>"; };
 		4D34B68C291C762C00DA6D66 /* 주식가격.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "주식가격.cpp"; sourceTree = "<group>"; };
 		4D34B692291C7CA200DA6D66 /* 10845.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10845.cpp; sourceTree = "<group>"; };
@@ -1000,6 +1001,15 @@
 			);
 			name = "14장";
 			path = "14장";
+			sourceTree = "<group>";
+		};
+		4D21CF682B58F07B000016CA /* 15장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D21CF662B58E61C000016CA /* PINBALL.cpp */,
+			);
+			name = "15장";
+			path = "15장";
 			sourceTree = "<group>";
 		};
 		4D34B68E291C7C2700DA6D66 /* 0x06 Queue */ = {
@@ -2127,6 +2137,7 @@
 				4DEAF59D2B56B3930055296D /* 12장 */,
 				4D21CF582B575527000016CA /* 13장 */,
 				4D21CF612B57B214000016CA /* 14장 */,
+				4D21CF682B58F07B000016CA /* 15장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2277,7 +2288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D21CF652B57B9D1000016CA /* POTION.cpp in Sources */,
+				4D21CF672B58E61C000016CA /* PINBALL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
