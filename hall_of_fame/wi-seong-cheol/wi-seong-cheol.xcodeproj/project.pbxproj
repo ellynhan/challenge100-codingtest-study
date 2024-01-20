@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D5E8CCB2B5A6C360058C102 /* JOSEPHUS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E8CCA2B5A6C360058C102 /* JOSEPHUS.cpp */; };
+		4D5E8CD22B5B9C720058C102 /* BRACKETS2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E8CD12B5B9C720058C102 /* BRACKETS2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -310,6 +310,7 @@
 		4D5084E0291B834E0096DD61 /* 기능개발.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "기능개발.cpp"; sourceTree = "<group>"; };
 		4D5084E2291B8E980096DD61 /* 프린터.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "프린터.cpp"; sourceTree = "<group>"; };
 		4D5E8CCA2B5A6C360058C102 /* JOSEPHUS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JOSEPHUS.cpp; sourceTree = "<group>"; };
+		4D5E8CD12B5B9C720058C102 /* BRACKETS2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BRACKETS2.cpp; sourceTree = "<group>"; };
 		4D5FE6112B3BFEC700A5D68A /* 25330.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 25330.cpp; sourceTree = "<group>"; };
 		4D5FE6132B3BFEC700A5D68A /* 27210.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27210.cpp; sourceTree = "<group>"; };
 		4D5FE6142B3BFEC700A5D68A /* 27211.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27211.cpp; sourceTree = "<group>"; };
@@ -1380,6 +1381,15 @@
 			path = "0x06 Queue";
 			sourceTree = "<group>";
 		};
+		4D5E8CD02B5B9C5E0058C102 /* 19장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E8CD12B5B9C720058C102 /* BRACKETS2.cpp */,
+			);
+			name = "19장";
+			path = "19장";
+			sourceTree = "<group>";
+		};
 		4D5FE60F2B3BFEC700A5D68A /* ShowMeTheCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -2175,6 +2185,7 @@
 				4D7EA5ED2B5A317B0023E090 /* 16장 */,
 				4D7EA5F42B5A56400023E090 /* 17장 */,
 				4D7EA5F52B5A56A70023E090 /* 18장 */,
+				4D5E8CD02B5B9C5E0058C102 /* 19장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2325,7 +2336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5E8CCB2B5A6C360058C102 /* JOSEPHUS.cpp in Sources */,
+				4D5E8CD22B5B9C720058C102 /* BRACKETS2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
