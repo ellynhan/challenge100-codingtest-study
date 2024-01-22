@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D9A56812B5E3EA8002316FE /* HABIT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A56802B5E3EA8002316FE /* HABIT.cpp */; };
+		4D9A56882B5E69B9002316FE /* TRAVERSAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A56872B5E69B9002316FE /* TRAVERSAL.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -432,6 +432,7 @@
 		4D9A567B2B5E1AF2002316FE /* PALINDROMIZE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PALINDROMIZE.cpp; sourceTree = "<group>"; };
 		4D9A567E2B5E2EB4002316FE /* JAEHASAFE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JAEHASAFE.cpp; sourceTree = "<group>"; };
 		4D9A56802B5E3EA8002316FE /* HABIT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HABIT.cpp; sourceTree = "<group>"; };
+		4D9A56872B5E69B9002316FE /* TRAVERSAL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TRAVERSAL.cpp; sourceTree = "<group>"; };
 		4DA6B8502B44E5B2008CC9CC /* 20158.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20158.cpp; sourceTree = "<group>"; };
 		4DB8DF162B45564100FC76CE /* 1981.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1981.cpp; sourceTree = "<group>"; };
 		4DC85A5229E84AE000D363A6 /* 2468.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2468.cpp; sourceTree = "<group>"; };
@@ -1651,6 +1652,15 @@
 			path = "0x10 DP";
 			sourceTree = "<group>";
 		};
+		4D9A56822B5E40A7002316FE /* 21장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A56872B5E69B9002316FE /* TRAVERSAL.cpp */,
+			);
+			name = "21장";
+			path = "21장";
+			sourceTree = "<group>";
+		};
 		4DC85A4F29E84AE000D363A6 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -2213,6 +2223,7 @@
 				4D7EA5F52B5A56A70023E090 /* 18장 */,
 				4D5E8CD02B5B9C5E0058C102 /* 19장 */,
 				4D5975AB2B5BE4D8001C5E17 /* 20장 */,
+				4D9A56822B5E40A7002316FE /* 21장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2363,7 +2374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9A56812B5E3EA8002316FE /* HABIT.cpp in Sources */,
+				4D9A56882B5E69B9002316FE /* TRAVERSAL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
