@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1801062B5F770E00D340AA /* RUNNINGMEDIAN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801052B5F770E00D340AA /* RUNNINGMEDIAN.cpp */; };
+		4D1801082B5F86FC00D340AA /* MORDOR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801072B5F86FC00D340AA /* MORDOR.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +94,7 @@
 		4D1800FC2B5E9CAF00D340AA /* 2923.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2923.cpp; sourceTree = "<group>"; };
 		4D1800FF2B5F4D0500D340AA /* INSERTION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = INSERTION.cpp; sourceTree = "<group>"; };
 		4D1801052B5F770E00D340AA /* RUNNINGMEDIAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RUNNINGMEDIAN.cpp; sourceTree = "<group>"; };
+		4D1801072B5F86FC00D340AA /* MORDOR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MORDOR.cpp; sourceTree = "<group>"; };
 		4D21CF592B575535000016CA /* ROOTS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ROOTS.cpp; sourceTree = "<group>"; };
 		4D21CF5B2B578FF0000016CA /* LOAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LOAN.cpp; sourceTree = "<group>"; };
 		4D21CF5D2B579313000016CA /* RATIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RATIO.cpp; sourceTree = "<group>"; };
@@ -1027,6 +1028,7 @@
 		4D1801022B5F750B00D340AA /* 24장 */ = {
 			isa = PBXGroup;
 			children = (
+				4D1801072B5F86FC00D340AA /* MORDOR.cpp */,
 			);
 			name = "24장";
 			path = "24장";
@@ -2431,7 +2433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1801062B5F770E00D340AA /* RUNNINGMEDIAN.cpp in Sources */,
+				4D1801082B5F86FC00D340AA /* MORDOR.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
