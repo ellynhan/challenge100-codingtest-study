@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1801132B5FEE9D00D340AA /* NH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801122B5FEE9D00D340AA /* NH.cpp */; };
+		4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801152B6068CD00D340AA /* DICTIONARY.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +100,7 @@
 		4D18010D2B5FAEE200D340AA /* EDITORWARS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EDITORWARS.cpp; sourceTree = "<group>"; };
 		4D1801102B5FE2E200D340AA /* SOLONG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SOLONG.cpp; sourceTree = "<group>"; };
 		4D1801122B5FEE9D00D340AA /* NH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NH.cpp; sourceTree = "<group>"; };
+		4D1801152B6068CD00D340AA /* DICTIONARY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DICTIONARY.cpp; sourceTree = "<group>"; };
 		4D21CF592B575535000016CA /* ROOTS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ROOTS.cpp; sourceTree = "<group>"; };
 		4D21CF5B2B578FF0000016CA /* LOAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LOAN.cpp; sourceTree = "<group>"; };
 		4D21CF5D2B579313000016CA /* RATIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RATIO.cpp; sourceTree = "<group>"; };
@@ -1058,6 +1059,15 @@
 			);
 			name = "26장";
 			path = "26장";
+			sourceTree = "<group>";
+		};
+		4D1801142B60687F00D340AA /* 28장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D1801152B6068CD00D340AA /* DICTIONARY.cpp */,
+			);
+			name = "28장";
+			path = "28장";
 			sourceTree = "<group>";
 		};
 		4D21CF582B575527000016CA /* 13장 */ = {
@@ -2293,6 +2303,7 @@
 				4D1801022B5F750B00D340AA /* 24장 */,
 				4D1801032B5F750F00D340AA /* 25장 */,
 				4D1801042B5F751300D340AA /* 26장 */,
+				4D1801142B60687F00D340AA /* 28장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2443,7 +2454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1801132B5FEE9D00D340AA /* NH.cpp in Sources */,
+				4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
