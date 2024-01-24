@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801152B6068CD00D340AA /* DICTIONARY.cpp */; };
-		4D1801192B60E68700D340AA /* 가장 많이 받은 선물.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801182B60E68700D340AA /* 가장 많이 받은 선물.cpp */; };
-		4D18011B2B60F64500D340AA /* 산 모양 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D18011A2B60F64500D340AA /* 산 모양 타일링.cpp */; };
+		4D18011E2B6109BD00D340AA /* WORDCHAIN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D18011C2B6109B500D340AA /* WORDCHAIN.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +103,7 @@
 		4D1801152B6068CD00D340AA /* DICTIONARY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DICTIONARY.cpp; sourceTree = "<group>"; };
 		4D1801182B60E68700D340AA /* 가장 많이 받은 선물.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "가장 많이 받은 선물.cpp"; sourceTree = "<group>"; };
 		4D18011A2B60F64500D340AA /* 산 모양 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "산 모양 타일링.cpp"; sourceTree = "<group>"; };
+		4D18011C2B6109B500D340AA /* WORDCHAIN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WORDCHAIN.cpp; sourceTree = "<group>"; };
 		4D21CF592B575535000016CA /* ROOTS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ROOTS.cpp; sourceTree = "<group>"; };
 		4D21CF5B2B578FF0000016CA /* LOAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LOAN.cpp; sourceTree = "<group>"; };
 		4D21CF5D2B579313000016CA /* RATIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RATIO.cpp; sourceTree = "<group>"; };
@@ -1070,6 +1069,7 @@
 			isa = PBXGroup;
 			children = (
 				4D1801152B6068CD00D340AA /* DICTIONARY.cpp */,
+				4D18011C2B6109B500D340AA /* WORDCHAIN.cpp */,
 			);
 			name = "28장";
 			path = "28장";
@@ -2468,9 +2468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D18011B2B60F64500D340AA /* 산 모양 타일링.cpp in Sources */,
-				4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */,
-				4D1801192B60E68700D340AA /* 가장 많이 받은 선물.cpp in Sources */,
+				4D18011E2B6109BD00D340AA /* WORDCHAIN.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
