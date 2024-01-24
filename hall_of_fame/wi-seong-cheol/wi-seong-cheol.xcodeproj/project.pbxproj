@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801152B6068CD00D340AA /* DICTIONARY.cpp */; };
+		4D1801192B60E68700D340AA /* 가장 많이 받은 선물.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1801182B60E68700D340AA /* 가장 많이 받은 선물.cpp */; };
+		4D18011B2B60F64500D340AA /* 산 모양 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D18011A2B60F64500D340AA /* 산 모양 타일링.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,8 @@
 		4D1801102B5FE2E200D340AA /* SOLONG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SOLONG.cpp; sourceTree = "<group>"; };
 		4D1801122B5FEE9D00D340AA /* NH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NH.cpp; sourceTree = "<group>"; };
 		4D1801152B6068CD00D340AA /* DICTIONARY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DICTIONARY.cpp; sourceTree = "<group>"; };
+		4D1801182B60E68700D340AA /* 가장 많이 받은 선물.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "가장 많이 받은 선물.cpp"; sourceTree = "<group>"; };
+		4D18011A2B60F64500D340AA /* 산 모양 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "산 모양 타일링.cpp"; sourceTree = "<group>"; };
 		4D21CF592B575535000016CA /* ROOTS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ROOTS.cpp; sourceTree = "<group>"; };
 		4D21CF5B2B578FF0000016CA /* LOAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LOAN.cpp; sourceTree = "<group>"; };
 		4D21CF5D2B579313000016CA /* RATIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RATIO.cpp; sourceTree = "<group>"; };
@@ -946,6 +950,7 @@
 				4DC85B5629E84E5F00D363A6 /* 2021 KAKAO BLIND RECRUITMENT */,
 				4DC85B6A29E84E5F00D363A6 /* 2022 KAKAO BLIND RECRUITMENT */,
 				4DC85B7629E84E5F00D363A6 /* 2023 KAKAO BLIND RECRUITMENT */,
+				4D1801172B60E67500D340AA /* 2024 KAKAO WINTER INTERNSHIP  */,
 				4DC85B5329E84E5F00D363A6 /* 동적계획법(Dynamic Programming) */,
 				4DC85B5C29E84E5F00D363A6 /* 스킬 체크 테스트 */,
 			);
@@ -1068,6 +1073,15 @@
 			);
 			name = "28장";
 			path = "28장";
+			sourceTree = "<group>";
+		};
+		4D1801172B60E67500D340AA /* 2024 KAKAO WINTER INTERNSHIP  */ = {
+			isa = PBXGroup;
+			children = (
+				4D1801182B60E68700D340AA /* 가장 많이 받은 선물.cpp */,
+				4D18011A2B60F64500D340AA /* 산 모양 타일링.cpp */,
+			);
+			path = "2024 KAKAO WINTER INTERNSHIP ";
 			sourceTree = "<group>";
 		};
 		4D21CF582B575527000016CA /* 13장 */ = {
@@ -2454,7 +2468,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D18011B2B60F64500D340AA /* 산 모양 타일링.cpp in Sources */,
 				4D1801162B6068CD00D340AA /* DICTIONARY.cpp in Sources */,
+				4D1801192B60E68700D340AA /* 가장 많이 받은 선물.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
