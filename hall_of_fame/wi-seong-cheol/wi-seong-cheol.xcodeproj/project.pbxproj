@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D621B752B62317100AAB4F1 /* MEETINGROOM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D621B742B62317100AAB4F1 /* MEETINGROOM.cpp */; };
+		4D621B7A2B623C1A00AAB4F1 /* SORTGAME.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D621B792B623C1A00AAB4F1 /* SORTGAME.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -336,6 +336,7 @@
 		4D5FE6192B3BFEC700A5D68A /* 24956.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 24956.cpp; sourceTree = "<group>"; };
 		4D621B722B622EC200AAB4F1 /* GALLERY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GALLERY.cpp; sourceTree = "<group>"; };
 		4D621B742B62317100AAB4F1 /* MEETINGROOM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MEETINGROOM.cpp; sourceTree = "<group>"; };
+		4D621B792B623C1A00AAB4F1 /* SORTGAME.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SORTGAME.cpp; sourceTree = "<group>"; };
 		4D6C46AA294CBA34001266B8 /* 두 큐 합 같게 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 큐 합 같게 만들기.swift"; sourceTree = "<group>"; };
 		4D6EAD9E292CCC3D00EF82BF /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
 		4D6EAD9F292CCC3D00EF82BF /* 15657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15657.cpp; sourceTree = "<group>"; };
@@ -1542,6 +1543,31 @@
 			path = "2022-1";
 			sourceTree = "<group>";
 		};
+		4D621B762B6238EB00AAB4F1 /* 29장 */ = {
+			isa = PBXGroup;
+			children = (
+				4D621B792B623C1A00AAB4F1 /* SORTGAME.cpp */,
+			);
+			name = "29장";
+			path = "29장";
+			sourceTree = "<group>";
+		};
+		4D621B772B6238EE00AAB4F1 /* 30장 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "30장";
+			path = "30장";
+			sourceTree = "<group>";
+		};
+		4D621B782B6238F700AAB4F1 /* 31장 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "31장";
+			path = "31장";
+			sourceTree = "<group>";
+		};
 		4D6EAD9D292CCC3D00EF82BF /* 0x0C BackTracking */ = {
 			isa = PBXGroup;
 			children = (
@@ -2322,6 +2348,9 @@
 				4D1801032B5F750F00D340AA /* 25장 */,
 				4D1801042B5F751300D340AA /* 26장 */,
 				4D1801142B60687F00D340AA /* 28장 */,
+				4D621B762B6238EB00AAB4F1 /* 29장 */,
+				4D621B772B6238EE00AAB4F1 /* 30장 */,
+				4D621B782B6238F700AAB4F1 /* 31장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2472,7 +2501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D621B752B62317100AAB4F1 /* MEETINGROOM.cpp in Sources */,
+				4D621B7A2B623C1A00AAB4F1 /* SORTGAME.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
