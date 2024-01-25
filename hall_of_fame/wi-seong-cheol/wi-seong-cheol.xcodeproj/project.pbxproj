@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D621B732B622EC200AAB4F1 /* GALLERY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D621B722B622EC200AAB4F1 /* GALLERY.cpp */; };
+		4D621B752B62317100AAB4F1 /* MEETINGROOM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D621B742B62317100AAB4F1 /* MEETINGROOM.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -335,6 +335,7 @@
 		4D5FE6182B3BFEC700A5D68A /* 24955.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 24955.cpp; sourceTree = "<group>"; };
 		4D5FE6192B3BFEC700A5D68A /* 24956.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 24956.cpp; sourceTree = "<group>"; };
 		4D621B722B622EC200AAB4F1 /* GALLERY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GALLERY.cpp; sourceTree = "<group>"; };
+		4D621B742B62317100AAB4F1 /* MEETINGROOM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MEETINGROOM.cpp; sourceTree = "<group>"; };
 		4D6C46AA294CBA34001266B8 /* 두 큐 합 같게 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 큐 합 같게 만들기.swift"; sourceTree = "<group>"; };
 		4D6EAD9E292CCC3D00EF82BF /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
 		4D6EAD9F292CCC3D00EF82BF /* 15657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15657.cpp; sourceTree = "<group>"; };
@@ -1072,6 +1073,7 @@
 				4D1801152B6068CD00D340AA /* DICTIONARY.cpp */,
 				4D18011C2B6109B500D340AA /* WORDCHAIN.cpp */,
 				4D621B722B622EC200AAB4F1 /* GALLERY.cpp */,
+				4D621B742B62317100AAB4F1 /* MEETINGROOM.cpp */,
 			);
 			name = "28장";
 			path = "28장";
@@ -2470,7 +2472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D621B732B622EC200AAB4F1 /* GALLERY.cpp in Sources */,
+				4D621B752B62317100AAB4F1 /* MEETINGROOM.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
