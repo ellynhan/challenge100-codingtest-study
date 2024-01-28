@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DF78F3D2B662BC90094A978 /* MATCHFIX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F3C2B662BC90094A978 /* MATCHFIX.cpp */; };
+		4DF78F402B6643C60094A978 /* TRAPCARD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F3E2B662BDF0094A978 /* TRAPCARD.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -2538,7 +2538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF78F3D2B662BC90094A978 /* MATCHFIX.cpp in Sources */,
+				4DF78F402B6643C60094A978 /* TRAPCARD.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
