@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DF78F3A2B6609630094A978 /* TPATH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F392B6609630094A978 /* TPATH.cpp */; };
+		4DF78F3D2B662BC90094A978 /* MATCHFIX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F3C2B662BC90094A978 /* MATCHFIX.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -852,6 +852,8 @@
 		4DF78F352B653D0E0094A978 /* PROMISES.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PROMISES.cpp; sourceTree = "<group>"; };
 		4DF78F372B6601950094A978 /* LAN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LAN.cpp; sourceTree = "<group>"; };
 		4DF78F392B6609630094A978 /* TPATH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TPATH.cpp; sourceTree = "<group>"; };
+		4DF78F3C2B662BC90094A978 /* MATCHFIX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MATCHFIX.cpp; sourceTree = "<group>"; };
+		4DF78F3E2B662BDF0094A978 /* TRAPCARD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TRAPCARD.cpp; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -2375,6 +2377,7 @@
 				4D621B762B6238EB00AAB4F1 /* 29장 */,
 				4D621B772B6238EE00AAB4F1 /* 30장 */,
 				4D621B782B6238F700AAB4F1 /* 31장 */,
+				4DF78F3B2B662B070094A978 /* 32장 */,
 			);
 			path = ALGOSPOT;
 			sourceTree = "<group>";
@@ -2460,6 +2463,16 @@
 			path = "0x09 BFS";
 			sourceTree = "<group>";
 		};
+		4DF78F3B2B662B070094A978 /* 32장 */ = {
+			isa = PBXGroup;
+			children = (
+				4DF78F3C2B662BC90094A978 /* MATCHFIX.cpp */,
+				4DF78F3E2B662BDF0094A978 /* TRAPCARD.cpp */,
+			);
+			name = "32장";
+			path = "32장";
+			sourceTree = "<group>";
+		};
 		4DFA68F62B45A9DC0070E8E9 /* ETC */ = {
 			isa = PBXGroup;
 			children = (
@@ -2525,7 +2538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF78F3A2B6609630094A978 /* TPATH.cpp in Sources */,
+				4DF78F3D2B662BC90094A978 /* MATCHFIX.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
