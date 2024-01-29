@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DF78F4E2B6777FB0094A978 /* 14438.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F4C2B6777D50094A978 /* 14438.cpp */; };
 		4DF78F502B67D4DC0094A978 /* 최고의 집합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F4F2B67D4DC0094A978 /* 최고의 집합.cpp */; };
+		4DF78F532B67D96D0094A978 /* 기지국 설치.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F522B67D96D0094A978 /* 기지국 설치.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -862,6 +863,7 @@
 		4DF78F4A2B676C370094A978 /* 야근 지수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "야근 지수.cpp"; sourceTree = "<group>"; };
 		4DF78F4C2B6777D50094A978 /* 14438.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14438.cpp; sourceTree = "<group>"; };
 		4DF78F4F2B67D4DC0094A978 /* 최고의 집합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "최고의 집합.cpp"; sourceTree = "<group>"; };
+		4DF78F522B67D96D0094A978 /* 기지국 설치.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "기지국 설치.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -965,6 +967,7 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
+				4DF78F512B67D9510094A978 /* Summer Winter Coding(~2018)  */,
 				4DF78F412B6739DD0094A978 /* 연습문제 */,
 				4D9452F3291922C0004C5EE3 /* 0x05 Stack */,
 				4D5084DF291B7F8D0096DD61 /* 0x06 Queue */,
@@ -2497,6 +2500,14 @@
 			path = "연습문제";
 			sourceTree = "<group>";
 		};
+		4DF78F512B67D9510094A978 /* Summer Winter Coding(~2018)  */ = {
+			isa = PBXGroup;
+			children = (
+				4DF78F522B67D96D0094A978 /* 기지국 설치.cpp */,
+			);
+			path = "Summer Winter Coding(~2018) ";
+			sourceTree = "<group>";
+		};
 		4DFA68F62B45A9DC0070E8E9 /* ETC */ = {
 			isa = PBXGroup;
 			children = (
@@ -2562,6 +2573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF78F532B67D96D0094A978 /* 기지국 설치.cpp in Sources */,
 				4DF78F502B67D4DC0094A978 /* 최고의 집합.cpp in Sources */,
 				4DF78F4E2B6777FB0094A978 /* 14438.cpp in Sources */,
 			);
