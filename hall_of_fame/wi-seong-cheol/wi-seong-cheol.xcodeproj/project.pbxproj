@@ -11,6 +11,7 @@
 		4DF78F452B673BC40094A978 /* 최솟값 만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F442B673BC40094A978 /* 최솟값 만들기.cpp */; };
 		4DF78F472B673EFF0094A978 /* 숫자의 표현.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F462B673EFF0094A978 /* 숫자의 표현.cpp */; };
 		4DF78F492B674A170094A978 /* 다음 큰 숫자.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F482B674A170094A978 /* 다음 큰 숫자.cpp */; };
+		4DF78F4B2B676C370094A978 /* 야근 지수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F4A2B676C370094A978 /* 야근 지수.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -861,6 +862,7 @@
 		4DF78F442B673BC40094A978 /* 최솟값 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "최솟값 만들기.cpp"; sourceTree = "<group>"; };
 		4DF78F462B673EFF0094A978 /* 숫자의 표현.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "숫자의 표현.cpp"; sourceTree = "<group>"; };
 		4DF78F482B674A170094A978 /* 다음 큰 숫자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다음 큰 숫자.cpp"; sourceTree = "<group>"; };
+		4DF78F4A2B676C370094A978 /* 야근 지수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "야근 지수.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -2488,6 +2490,7 @@
 				4DF78F442B673BC40094A978 /* 최솟값 만들기.cpp */,
 				4DF78F462B673EFF0094A978 /* 숫자의 표현.cpp */,
 				4DF78F482B674A170094A978 /* 다음 큰 숫자.cpp */,
+				4DF78F4A2B676C370094A978 /* 야근 지수.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2558,6 +2561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF78F4B2B676C370094A978 /* 야근 지수.cpp in Sources */,
 				4DF78F492B674A170094A978 /* 다음 큰 숫자.cpp in Sources */,
 				4DF78F452B673BC40094A978 /* 최솟값 만들기.cpp in Sources */,
 				4DF78F402B6643C60094A978 /* TRAPCARD.cpp in Sources */,
