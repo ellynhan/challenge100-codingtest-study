@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DF78F5F2B68EE820094A978 /* LAN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F372B6601950094A978 /* LAN.cpp */; };
 		4DF78F622B68F0E50094A978 /* 섬 연결하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F612B68F0E50094A978 /* 섬 연결하기.cpp */; };
+		4DF78F652B68F9540094A978 /* 입국심사.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F642B68F9540094A978 /* 입국심사.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -868,6 +869,7 @@
 		4DF78F5A2B68D9CF0094A978 /* 징검다리 건너기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "징검다리 건너기.cpp"; sourceTree = "<group>"; };
 		4DF78F5D2B68DE450094A978 /* 가장 먼 노드.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "가장 먼 노드.cpp"; sourceTree = "<group>"; };
 		4DF78F612B68F0E50094A978 /* 섬 연결하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "섬 연결하기.cpp"; sourceTree = "<group>"; };
+		4DF78F642B68F9540094A978 /* 입국심사.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "입국심사.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -971,6 +973,7 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
+				4DF78F632B68F93B0094A978 /* 이분탐색 */,
 				4DF78F602B68F0D30094A978 /* 탐욕법(Greedy) */,
 				4DF78F5C2B68DE3B0094A978 /* 그래프 */,
 				4DF78F582B68CB850094A978 /* 2019 카카오 개발자 겨울 인턴십 */,
@@ -2544,6 +2547,15 @@
 			path = "탐욕법(Greedy)";
 			sourceTree = "<group>";
 		};
+		4DF78F632B68F93B0094A978 /* 이분탐색 */ = {
+			isa = PBXGroup;
+			children = (
+				4DF78F642B68F9540094A978 /* 입국심사.cpp */,
+			);
+			name = "이분탐색";
+			path = "이분탐색";
+			sourceTree = "<group>";
+		};
 		4DFA68F62B45A9DC0070E8E9 /* ETC */ = {
 			isa = PBXGroup;
 			children = (
@@ -2609,6 +2621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF78F652B68F9540094A978 /* 입국심사.cpp in Sources */,
 				4DF78F5F2B68EE820094A978 /* LAN.cpp in Sources */,
 				4DF78F622B68F0E50094A978 /* 섬 연결하기.cpp in Sources */,
 			);
