@@ -866,6 +866,7 @@
 		4DF78F4F2B67D4DC0094A978 /* 최고의 집합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "최고의 집합.cpp"; sourceTree = "<group>"; };
 		4DF78F522B67D96D0094A978 /* 기지국 설치.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "기지국 설치.cpp"; sourceTree = "<group>"; };
 		4DF78F542B68C1FC0094A978 /* 스티커 모으기(2).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "스티커 모으기(2).cpp"; sourceTree = "<group>"; };
+		4DF78F592B68CB940094A978 /* 불량 사용자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "불량 사용자.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -969,6 +970,7 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
+				4DF78F582B68CB850094A978 /* 2019 카카오 개발자 겨울 인턴십 */,
 				4DF78F512B67D9510094A978 /* Summer Winter Coding(~2018)  */,
 				4DF78F412B6739DD0094A978 /* 연습문제 */,
 				4D9452F3291922C0004C5EE3 /* 0x05 Stack */,
@@ -2509,6 +2511,15 @@
 				4DF78F542B68C1FC0094A978 /* 스티커 모으기(2).cpp */,
 			);
 			path = "Summer Winter Coding(~2018) ";
+			sourceTree = "<group>";
+		};
+		4DF78F582B68CB850094A978 /* 2019 카카오 개발자 겨울 인턴십 */ = {
+			isa = PBXGroup;
+			children = (
+				4DF78F592B68CB940094A978 /* 불량 사용자.cpp */,
+			);
+			name = "2019 카카오 개발자 겨울 인턴십";
+			path = "2019 카카오 개발자 겨울 인턴십";
 			sourceTree = "<group>";
 		};
 		4DFA68F62B45A9DC0070E8E9 /* ETC */ = {
