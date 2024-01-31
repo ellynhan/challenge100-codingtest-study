@@ -14,6 +14,7 @@
 		4DF78F692B693C300094A978 /* 연속 펄스 부분 수열의 합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F682B693C300094A978 /* 연속 펄스 부분 수열의 합.cpp */; };
 		4DF78F6C2B69D54B0094A978 /* 다단계 칫솔 판매.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F6B2B69D54B0094A978 /* 다단계 칫솔 판매.cpp */; };
 		4DF78F6E2B69DBE50094A978 /* 순위.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F6D2B69DBE50094A978 /* 순위.cpp */; };
+		4DF78F702B69EAAD0094A978 /* 거스름돈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F6F2B69EAAD0094A978 /* 거스름돈.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -878,6 +879,7 @@
 		4DF78F682B693C300094A978 /* 연속 펄스 부분 수열의 합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "연속 펄스 부분 수열의 합.cpp"; sourceTree = "<group>"; };
 		4DF78F6B2B69D54B0094A978 /* 다단계 칫솔 판매.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "다단계 칫솔 판매.cpp"; sourceTree = "<group>"; };
 		4DF78F6D2B69DBE50094A978 /* 순위.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "순위.cpp"; sourceTree = "<group>"; };
+		4DF78F6F2B69EAAD0094A978 /* 거스름돈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "거스름돈.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -2516,6 +2518,7 @@
 				4DF78F4F2B67D4DC0094A978 /* 최고의 집합.cpp */,
 				4DF78F662B6930050094A978 /* 가장 긴 팰린드롬.cpp */,
 				4DF78F682B693C300094A978 /* 연속 펄스 부분 수열의 합.cpp */,
+				4DF78F6F2B69EAAD0094A978 /* 거스름돈.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2648,6 +2651,7 @@
 				4DF78F5F2B68EE820094A978 /* LAN.cpp in Sources */,
 				4DF78F692B693C300094A978 /* 연속 펄스 부분 수열의 합.cpp in Sources */,
 				4DF78F672B6930050094A978 /* 가장 긴 팰린드롬.cpp in Sources */,
+				4DF78F702B69EAAD0094A978 /* 거스름돈.cpp in Sources */,
 				4DF78F622B68F0E50094A978 /* 섬 연결하기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
