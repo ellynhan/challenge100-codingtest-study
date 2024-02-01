@@ -22,6 +22,7 @@
 		4DF78F7C2B6B317B0094A978 /* 여행경로.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F7B2B6B317B0094A978 /* 여행경로.cpp */; };
 		4DF78F7F2B6B3D9F0094A978 /* 풍선 터뜨리기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F7E2B6B3D9F0094A978 /* 풍선 터뜨리기.cpp */; };
 		4DF78F812B6B6F680094A978 /* 도둑질.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F802B6B6F680094A978 /* 도둑질.cpp */; };
+		4DF78F832B6B77A90094A978 /* 호텔 방 배정.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78F822B6B77A90094A978 /* 호텔 방 배정.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -894,6 +895,7 @@
 		4DF78F7B2B6B317B0094A978 /* 여행경로.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "여행경로.cpp"; sourceTree = "<group>"; };
 		4DF78F7E2B6B3D9F0094A978 /* 풍선 터뜨리기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "풍선 터뜨리기.cpp"; sourceTree = "<group>"; };
 		4DF78F802B6B6F680094A978 /* 도둑질.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "도둑질.cpp"; sourceTree = "<group>"; };
+		4DF78F822B6B77A90094A978 /* 호텔 방 배정.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "호텔 방 배정.cpp"; sourceTree = "<group>"; };
 		4DFA68F72B45AAA00070E8E9 /* BOGGLE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOGGLE.cpp; sourceTree = "<group>"; };
 		4DFA68F92B462E230070E8E9 /* 11062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11062.cpp; sourceTree = "<group>"; };
 		4DFA68FB2B4636E20070E8E9 /* 17090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17090.cpp; sourceTree = "<group>"; };
@@ -2558,6 +2560,7 @@
 			children = (
 				4DF78F592B68CB940094A978 /* 불량 사용자.cpp */,
 				4DF78F5A2B68D9CF0094A978 /* 징검다리 건너기.cpp */,
+				4DF78F822B6B77A90094A978 /* 호텔 방 배정.cpp */,
 			);
 			name = "2019 카카오 개발자 겨울 인턴십";
 			path = "2019 카카오 개발자 겨울 인턴십";
@@ -2707,6 +2710,7 @@
 				4DF78F702B69EAAD0094A978 /* 거스름돈.cpp in Sources */,
 				4DF78F752B6A2D1F0094A978 /* 표 편집.cpp in Sources */,
 				4DF78F7C2B6B317B0094A978 /* 여행경로.cpp in Sources */,
+				4DF78F832B6B77A90094A978 /* 호텔 방 배정.cpp in Sources */,
 				4DF78F622B68F0E50094A978 /* 섬 연결하기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
