@@ -1,7 +1,7 @@
 <div align=center>
   
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fellynhan%2FChallenge100_Code_Test_Study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![All Contributors](https://img.shields.io/badge/All_contributors-65-orange.svg?style=flat-square)](#)
+[![All Contributors](https://img.shields.io/badge/All_contributors-66-orange.svg?style=flat-square)](#)
 [![Forks Welcome](https://img.shields.io/badge/Fork-welcome!!-brightgreen.svg?style=flat-square)](https://github.com/ellynhan/Challenge100_Code_Test_Study/fork)
 
 </div>
@@ -117,9 +117,8 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/SeungjaeLim"><img src="https://avatars.githubusercontent.com/u/74184274?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>SeungjaeLim</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/ehddud1006"><img src="https://avatars.githubusercontent.com/u/62373865?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>ehddud1006</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/8"/></sub></a><br /></td>
 </tr><tr>         <td align="center"><a href="https://github.com/woohyun-jeong"><img src="https://avatars.githubusercontent.com/u/55433351?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>woohyun-jeong</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/dajeong-kimm"><img src="https://avatars.githubusercontent.com/u/122199259?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>dajeong-kimm</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/3"/></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/yuminn-k"><img src="https://avatars.githubusercontent.com/u/55650732?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yuminn-k</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1"/></sub></a><br /></td>
          <td align="center"><a href="https://github.com/Sjaize"><img src="https://avatars.githubusercontent.com/u/137878087?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Sjaize</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1"/></sub></a><br /></td>
+         <td align="center"><a href="https://github.com/yuminn-k"><img src="https://avatars.githubusercontent.com/u/55650732?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yuminn-k</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/1"/></sub></a><br /></td>
 </table><br />
 
 ### 💀 챌린지 포기 💀
@@ -135,12 +134,12 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
          <td align="center"><a href="https://github.com/junbo9"><img src="https://avatars.githubusercontent.com/u/96970186?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>junbo9</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/dydnrn12"><img src="https://avatars.githubusercontent.com/u/22445022?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>dydnrn12</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/jopemachine"><img src="https://avatars.githubusercontent.com/u/18283033?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jopemachine</b><br>중도포기</sub></a><br /></td>
-         <td align="center"><a href="https://github.com/qkoo0833"><img src="https://avatars.githubusercontent.com/u/49744571?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>qkoo0833</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/yongjunleeme"><img src="https://avatars.githubusercontent.com/u/48748376?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>yongjunleeme</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/qkoo0833"><img src="https://avatars.githubusercontent.com/u/49744571?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>qkoo0833</b><br>중도포기</sub></a><br /></td>
 </tr><tr>         <td align="center"><a href="https://github.com/jokercsi"><img src="https://avatars.githubusercontent.com/u/39941719?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>jokercsi</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/Yerin99"><img src="https://avatars.githubusercontent.com/u/63496777?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Yerin99</b><br>중도포기</sub></a><br /></td>
-         <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Dongyeon-k</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/shasuri"><img src="https://avatars.githubusercontent.com/u/29942514?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>shasuri</b><br>중도포기</sub></a><br /></td>
+         <td align="center"><a href="https://github.com/Dongyeon-k"><img src="https://avatars.githubusercontent.com/u/67852646?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>Dongyeon-k</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/songmody"><img src="https://avatars.githubusercontent.com/u/48988927?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>songmody</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/mia2583"><img src="https://avatars.githubusercontent.com/u/83392142?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>mia2583</b><br>중도포기</sub></a><br /></td>
          <td align="center"><a href="https://github.com/shkisme"><img src="https://avatars.githubusercontent.com/u/92802207?v=4?s=100" width="100px;" alt=""/>         <br /><sub><b>shkisme</b><br>중도포기</sub></a><br /></td>
