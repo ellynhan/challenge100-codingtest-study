@@ -739,6 +739,7 @@
 		4DCEFB522B5175280092E371 /* FANMEETING.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FANMEETING.cpp; sourceTree = "<group>"; };
 		4DDE6BE22B6FABEF008A2413 /* 선입 선출 스케줄링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "선입 선출 스케줄링.cpp"; sourceTree = "<group>"; };
 		4DDE6BE32B6FD061008A2413 /* 아이템 줍기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "아이템 줍기.cpp"; sourceTree = "<group>"; };
+		4DDE6BE42B707226008A2413 /* 모두 0으로 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "모두 0으로 만들기.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2641,6 +2642,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF78F8A2B6B9C2B0094A978 /* 110 옮기기.cpp */,
+				4DDE6BE42B707226008A2413 /* 모두 0으로 만들기.cpp */,
 			);
 			name = "월간 코드 챌린지 시즌2";
 			path = "월간 코드 챌린지 시즌2 ";
