@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DDE6BE62B707FD7008A2413 /* 최적의 행렬 곱셈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BE52B707FC9008A2413 /* 최적의 행렬 곱셈.cpp */; };
+		4DDE6BE82B70A449008A2413 /* 카운트 다운.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BE72B70A449008A2413 /* 카운트 다운.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -745,6 +746,7 @@
 		4DDE6BE32B6FD061008A2413 /* 아이템 줍기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "아이템 줍기.cpp"; sourceTree = "<group>"; };
 		4DDE6BE42B707226008A2413 /* 모두 0으로 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "모두 0으로 만들기.cpp"; sourceTree = "<group>"; };
 		4DDE6BE52B707FC9008A2413 /* 최적의 행렬 곱셈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "최적의 행렬 곱셈.cpp"; sourceTree = "<group>"; };
+		4DDE6BE72B70A449008A2413 /* 카운트 다운.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "카운트 다운.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2542,6 +2544,7 @@
 				4DF78F872B6B8E450094A978 /* 올바른 괄호의 갯수.cpp */,
 				4DDE6BE22B6FABEF008A2413 /* 선입 선출 스케줄링.cpp */,
 				4DDE6BE52B707FC9008A2413 /* 최적의 행렬 곱셈.cpp */,
+				4DDE6BE72B70A449008A2413 /* 카운트 다운.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2720,6 +2723,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDE6BE62B707FD7008A2413 /* 최적의 행렬 곱셈.cpp in Sources */,
+				4DDE6BE82B70A449008A2413 /* 카운트 다운.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
