@@ -15,6 +15,7 @@
 		4DDE6BF22B70FB8B008A2413 /* 억억단을 외우자.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BF12B70FB8B008A2413 /* 억억단을 외우자.cpp */; };
 		4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BF32B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp */; };
 		4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BF52B71BB0B008A2413 /* 지형 편집.cpp */; };
+		4DDE6BF82B71CED2008A2413 /* 등대.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6BF72B71CED2008A2413 /* 등대.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -759,6 +760,7 @@
 		4DDE6BF12B70FB8B008A2413 /* 억억단을 외우자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "억억단을 외우자.cpp"; sourceTree = "<group>"; };
 		4DDE6BF32B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "[카카오 인턴] 동굴 탐험.cpp"; sourceTree = "<group>"; };
 		4DDE6BF52B71BB0B008A2413 /* 지형 편집.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지형 편집.cpp"; sourceTree = "<group>"; };
+		4DDE6BF72B71CED2008A2413 /* 등대.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "등대.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2580,6 +2582,7 @@
 				4DDE6BE72B70A449008A2413 /* 카운트 다운.cpp */,
 				4DDE6BE92B70BCB2008A2413 /* 2차원 동전 뒤집기.cpp */,
 				4DDE6BF12B70FB8B008A2413 /* 억억단을 외우자.cpp */,
+				4DDE6BF72B71CED2008A2413 /* 등대.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2760,6 +2763,7 @@
 			files = (
 				4DDE6BEA2B70BCB2008A2413 /* 2차원 동전 뒤집기.cpp in Sources */,
 				4DDE6BE62B707FD7008A2413 /* 최적의 행렬 곱셈.cpp in Sources */,
+				4DDE6BF82B71CED2008A2413 /* 등대.cpp in Sources */,
 				4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */,
 				4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */,
 				4DDE6BF02B70E2C0008A2413 /* 공 이동 시뮬레이션.cpp in Sources */,
