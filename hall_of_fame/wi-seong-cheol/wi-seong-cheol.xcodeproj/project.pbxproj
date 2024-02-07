@@ -25,6 +25,7 @@
 		4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */; };
 		4DDE6C0D2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */; };
 		4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */; };
+		4DDE6C112B73AFE2008A2413 /* 구명보트.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C102B73AFE2008A2413 /* 구명보트.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -780,6 +781,7 @@
 		4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "상담원 인원.cpp"; sourceTree = "<group>"; };
 		4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "JadenCase 문자열 만들기.cpp"; sourceTree = "<group>"; };
 		4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "짝지어 제거하기.cpp"; sourceTree = "<group>"; };
+		4DDE6C102B73AFE2008A2413 /* 구명보트.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "구명보트.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2678,6 +2680,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF78F612B68F0E50094A978 /* 섬 연결하기.cpp */,
+				4DDE6C102B73AFE2008A2413 /* 구명보트.cpp */,
 			);
 			name = "탐욕법(Greedy)";
 			path = "탐욕법(Greedy)";
@@ -2823,6 +2826,7 @@
 				4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */,
 				4DDE6BFE2B7274FF008A2413 /* 트리 트리오 중간값.cpp in Sources */,
 				4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */,
+				4DDE6C112B73AFE2008A2413 /* 구명보트.cpp in Sources */,
 				4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */,
 				4DDE6C012B7328A8008A2413 /* 리틀 프렌즈 사천성.cpp in Sources */,
 				4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */,
