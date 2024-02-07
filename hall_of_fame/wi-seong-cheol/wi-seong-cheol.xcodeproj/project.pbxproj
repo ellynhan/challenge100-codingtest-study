@@ -26,6 +26,7 @@
 		4DDE6C0D2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */; };
 		4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */; };
 		4DDE6C112B73AFE2008A2413 /* 구명보트.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C102B73AFE2008A2413 /* 구명보트.cpp */; };
+		4DDE6C132B73B5D6008A2413 /* 캠핑.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C122B73B5D6008A2413 /* 캠핑.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -782,6 +783,7 @@
 		4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "JadenCase 문자열 만들기.cpp"; sourceTree = "<group>"; };
 		4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "짝지어 제거하기.cpp"; sourceTree = "<group>"; };
 		4DDE6C102B73AFE2008A2413 /* 구명보트.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "구명보트.cpp"; sourceTree = "<group>"; };
+		4DDE6C122B73B5D6008A2413 /* 캠핑.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "캠핑.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2739,6 +2741,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF78F852B6B899B0094A978 /* 보행자 천국.cpp */,
+				4DDE6C122B73B5D6008A2413 /* 캠핑.cpp */,
 			);
 			name = "2017 카카오코드 예선";
 			path = "2017 카카오코드 예선 ";
@@ -2820,6 +2823,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDE6BEA2B70BCB2008A2413 /* 2차원 동전 뒤집기.cpp in Sources */,
+				4DDE6C132B73B5D6008A2413 /* 캠핑.cpp in Sources */,
 				4DDE6BE62B707FD7008A2413 /* 최적의 행렬 곱셈.cpp in Sources */,
 				4DDE6BF82B71CED2008A2413 /* 등대.cpp in Sources */,
 				4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */,
