@@ -24,6 +24,7 @@
 		4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C072B7376C6008A2413 /* GPS.cpp */; };
 		4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */; };
 		4DDE6C0D2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */; };
+		4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -778,6 +779,7 @@
 		4DDE6C072B7376C6008A2413 /* GPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GPS.cpp; sourceTree = "<group>"; };
 		4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "상담원 인원.cpp"; sourceTree = "<group>"; };
 		4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "JadenCase 문자열 만들기.cpp"; sourceTree = "<group>"; };
+		4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "짝지어 제거하기.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2395,6 +2397,7 @@
 			isa = PBXGroup;
 			children = (
 				4DDE6BEC2B70CB68008A2413 /* 단어 퍼즐.cpp */,
+				4DDE6C0E2B73A91C008A2413 /* 짝지어 제거하기.cpp */,
 			);
 			name = "2017 팁스타운";
 			path = "2017 팁스타운";
@@ -2820,6 +2823,7 @@
 				4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */,
 				4DDE6BFE2B7274FF008A2413 /* 트리 트리오 중간값.cpp in Sources */,
 				4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */,
+				4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */,
 				4DDE6C012B7328A8008A2413 /* 리틀 프렌즈 사천성.cpp in Sources */,
 				4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */,
 				4DDE6BFA2B7209D1008A2413 /* 금과 은 운반하기.cpp in Sources */,
