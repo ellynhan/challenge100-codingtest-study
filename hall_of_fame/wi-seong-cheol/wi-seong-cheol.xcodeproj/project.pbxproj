@@ -23,6 +23,7 @@
 		4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C022B735BA8008A2413 /* n + 1 카드게임.cpp */; };
 		4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C072B7376C6008A2413 /* GPS.cpp */; };
 		4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */; };
+		4DDE6C0D2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -776,6 +777,7 @@
 		4DDE6C062B73688A008A2413 /* 지형 이동.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지형 이동.cpp"; sourceTree = "<group>"; };
 		4DDE6C072B7376C6008A2413 /* GPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GPS.cpp; sourceTree = "<group>"; };
 		4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "상담원 인원.cpp"; sourceTree = "<group>"; };
+		4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "JadenCase 문자열 만들기.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2631,6 +2633,7 @@
 				4DDE6BF12B70FB8B008A2413 /* 억억단을 외우자.cpp */,
 				4DDE6BF72B71CED2008A2413 /* 등대.cpp */,
 				4DDE6BFB2B722196008A2413 /* 숫자 타자 대회.cpp */,
+				4DDE6C0C2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2821,6 +2824,7 @@
 				4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */,
 				4DDE6BFA2B7209D1008A2413 /* 금과 은 운반하기.cpp in Sources */,
 				4DDE6BF02B70E2C0008A2413 /* 공 이동 시뮬레이션.cpp in Sources */,
+				4DDE6C0D2B73A6DA008A2413 /* JadenCase 문자열 만들기.cpp in Sources */,
 				4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */,
 				4DDE6BFC2B722196008A2413 /* 숫자 타자 대회.cpp in Sources */,
 				4DDE6BF22B70FB8B008A2413 /* 억억단을 외우자.cpp in Sources */,
