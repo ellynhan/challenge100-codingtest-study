@@ -22,6 +22,7 @@
 		4DDE6C012B7328A8008A2413 /* 리틀 프렌즈 사천성.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C002B7328A8008A2413 /* 리틀 프렌즈 사천성.cpp */; };
 		4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C022B735BA8008A2413 /* n + 1 카드게임.cpp */; };
 		4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C072B7376C6008A2413 /* GPS.cpp */; };
+		4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -774,6 +775,7 @@
 		4DDE6C022B735BA8008A2413 /* n + 1 카드게임.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "n + 1 카드게임.cpp"; sourceTree = "<group>"; };
 		4DDE6C062B73688A008A2413 /* 지형 이동.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지형 이동.cpp"; sourceTree = "<group>"; };
 		4DDE6C072B7376C6008A2413 /* GPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GPS.cpp; sourceTree = "<group>"; };
+		4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "상담원 인원.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -1023,6 +1025,7 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
+				4DDE6C092B73857B008A2413 /* 2023 현대모비스 알고리즘 경진대회 예선 */,
 				4DDE6C052B736855008A2413 /* Summer\Winter Coding(2019) */,
 				4D9452F3291922C0004C5EE3 /* 0x05 Stack */,
 				4D5084DF291B7F8D0096DD61 /* 0x06 Queue */,
@@ -2423,6 +2426,15 @@
 			path = "Summer\\Winter Coding(2019)";
 			sourceTree = "<group>";
 		};
+		4DDE6C092B73857B008A2413 /* 2023 현대모비스 알고리즘 경진대회 예선 */ = {
+			isa = PBXGroup;
+			children = (
+				4DDE6C0A2B738589008A2413 /* 상담원 인원.cpp */,
+			);
+			name = "2023 현대모비스 알고리즘 경진대회 예선";
+			path = "2023 현대모비스 알고리즘 경진대회 예선 ";
+			sourceTree = "<group>";
+		};
 		4DE4B4882B50D2EA00030FA5 /* 8장 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2809,6 +2821,7 @@
 				4DDE6BF62B71BB0B008A2413 /* 지형 편집.cpp in Sources */,
 				4DDE6BFA2B7209D1008A2413 /* 금과 은 운반하기.cpp in Sources */,
 				4DDE6BF02B70E2C0008A2413 /* 공 이동 시뮬레이션.cpp in Sources */,
+				4DDE6C0B2B738589008A2413 /* 상담원 인원.cpp in Sources */,
 				4DDE6BFC2B722196008A2413 /* 숫자 타자 대회.cpp in Sources */,
 				4DDE6BF22B70FB8B008A2413 /* 억억단을 외우자.cpp in Sources */,
 				4DDE6BE82B70A449008A2413 /* 카운트 다운.cpp in Sources */,
