@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */; };
+		4D06DF1A2B79EECC00FFFF28 /* 수레 움직이기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */; };
 		4D0793702B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */; };
 		4D0793722B7739A700D74D1A /* 땅따먹기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793712B7739A700D74D1A /* 땅따먹기.cpp */; };
 		4D0793742B775F8100D74D1A /* 에어컨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793732B775F8100D74D1A /* 에어컨.cpp */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2 x n 타일링.cpp"; sourceTree = "<group>"; };
+		4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수레 움직이기.cpp"; path = "[PCCP 기출문제] 4번 /수레 움직이기.cpp"; sourceTree = "<group>"; };
 		4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "뒤에 있는 큰 수 찾기.cpp"; sourceTree = "<group>"; };
 		4D0793712B7739A700D74D1A /* 땅따먹기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "땅따먹기.cpp"; sourceTree = "<group>"; };
 		4D0793732B775F8100D74D1A /* 에어컨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "에어컨.cpp"; sourceTree = "<group>"; };
@@ -983,6 +985,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D06DF182B79EEBC00FFFF28 /* PCCP 기출문제 */ = {
+			isa = PBXGroup;
+			children = (
+				4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */,
+			);
+			name = "PCCP 기출문제";
+			path = "PCCP 기출문제 ";
+			sourceTree = "<group>";
+		};
 		4D0B96EC295C2A12001C8394 /* 0x11 Greedy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1067,6 +1078,7 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
+				4D06DF182B79EEBC00FFFF28 /* PCCP 기출문제 */,
 				4DDE6C092B73857B008A2413 /* 2023 현대모비스 알고리즘 경진대회 예선 */,
 				4DDE6C052B736855008A2413 /* Summer\Winter Coding(2019) */,
 				4D9452F3291922C0004C5EE3 /* 0x05 Stack */,
@@ -2888,6 +2900,7 @@
 				4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */,
 				4DDE6BFE2B7274FF008A2413 /* 트리 트리오 중간값.cpp in Sources */,
 				4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */,
+				4D06DF1A2B79EECC00FFFF28 /* 수레 움직이기.cpp in Sources */,
 				4DDE6C112B73AFE2008A2413 /* 구명보트.cpp in Sources */,
 				4D0793782B78A70100D74D1A /* 스킬트리.cpp in Sources */,
 				4DDE6C0F2B73A91C008A2413 /* 짝지어 제거하기.cpp in Sources */,
