@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */; };
 		4D06DF1A2B79EECC00FFFF28 /* 수레 움직이기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */; };
+		4D06DF1C2B79F3F900FFFF28 /* 블록 이동하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */; };
 		4D0793702B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */; };
 		4D0793722B7739A700D74D1A /* 땅따먹기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793712B7739A700D74D1A /* 땅따먹기.cpp */; };
 		4D0793742B775F8100D74D1A /* 에어컨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793732B775F8100D74D1A /* 에어컨.cpp */; };
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2 x n 타일링.cpp"; sourceTree = "<group>"; };
 		4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수레 움직이기.cpp"; path = "[PCCP 기출문제] 4번 /수레 움직이기.cpp"; sourceTree = "<group>"; };
+		4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "블록 이동하기.cpp"; sourceTree = "<group>"; };
 		4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "뒤에 있는 큰 수 찾기.cpp"; sourceTree = "<group>"; };
 		4D0793712B7739A700D74D1A /* 땅따먹기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "땅따먹기.cpp"; sourceTree = "<group>"; };
 		4D0793732B775F8100D74D1A /* 에어컨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "에어컨.cpp"; sourceTree = "<group>"; };
@@ -2281,6 +2283,7 @@
 				4DC85B4629E84E5F00D363A6 /* 외벽 점검.cpp */,
 				4DC85B4729E84E5F00D363A6 /* 기둥과 보 설치.cpp */,
 				4DF78F902B6CC8520094A978 /* 가사 검색.cpp */,
+				4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */,
 			);
 			path = "2020 KAKAO BLIND RECRUITMENT";
 			sourceTree = "<group>";
@@ -2894,6 +2897,7 @@
 				4DDE6BE62B707FD7008A2413 /* 최적의 행렬 곱셈.cpp in Sources */,
 				4DDE6BF82B71CED2008A2413 /* 등대.cpp in Sources */,
 				4DDE6C252B7734BB008A2413 /* 행렬의 곱셈.cpp in Sources */,
+				4D06DF1C2B79F3F900FFFF28 /* 블록 이동하기.cpp in Sources */,
 				4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */,
 				4DDE6C192B74A9F9008A2413 /* 몸짱 트레이너 라이언의 고민.cpp in Sources */,
 				4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */,
