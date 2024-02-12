@@ -10,6 +10,7 @@
 		4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */; };
 		4D06DF1A2B79EECC00FFFF28 /* 수레 움직이기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */; };
 		4D06DF1C2B79F3F900FFFF28 /* 블록 이동하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */; };
+		4D06DF1E2B7A09CD00FFFF28 /* 4단 고음.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF1D2B7A09CD00FFFF28 /* 4단 고음.cpp */; };
 		4D0793702B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */; };
 		4D0793722B7739A700D74D1A /* 땅따먹기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793712B7739A700D74D1A /* 땅따먹기.cpp */; };
 		4D0793742B775F8100D74D1A /* 에어컨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793732B775F8100D74D1A /* 에어컨.cpp */; };
@@ -64,6 +65,7 @@
 		4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2 x n 타일링.cpp"; sourceTree = "<group>"; };
 		4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수레 움직이기.cpp"; path = "[PCCP 기출문제] 4번 /수레 움직이기.cpp"; sourceTree = "<group>"; };
 		4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "블록 이동하기.cpp"; sourceTree = "<group>"; };
+		4D06DF1D2B7A09CD00FFFF28 /* 4단 고음.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4단 고음.cpp"; sourceTree = "<group>"; };
 		4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "뒤에 있는 큰 수 찾기.cpp"; sourceTree = "<group>"; };
 		4D0793712B7739A700D74D1A /* 땅따먹기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "땅따먹기.cpp"; sourceTree = "<group>"; };
 		4D0793732B775F8100D74D1A /* 에어컨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "에어컨.cpp"; sourceTree = "<group>"; };
@@ -2808,6 +2810,7 @@
 				4DF78F852B6B899B0094A978 /* 보행자 천국.cpp */,
 				4DDE6C122B73B5D6008A2413 /* 캠핑.cpp */,
 				4D0793752B77BB9600D74D1A /* 브라이언의 고민.cpp */,
+				4D06DF1D2B7A09CD00FFFF28 /* 4단 고음.cpp */,
 			);
 			name = "2017 카카오코드 예선";
 			path = "2017 카카오코드 예선 ";
@@ -2888,6 +2891,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D06DF1E2B7A09CD00FFFF28 /* 4단 고음.cpp in Sources */,
 				4DDE6C1D2B751B85008A2413 /* N개의 최소공배수.cpp in Sources */,
 				4D07937C2B78D5D200D74D1A /* 택배상자.cpp in Sources */,
 				4DDE6BEA2B70BCB2008A2413 /* 2차원 동전 뒤집기.cpp in Sources */,
