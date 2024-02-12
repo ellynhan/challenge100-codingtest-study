@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */; };
 		4D0793702B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */; };
 		4D0793722B7739A700D74D1A /* 땅따먹기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793712B7739A700D74D1A /* 땅따먹기.cpp */; };
 		4D0793742B775F8100D74D1A /* 에어컨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0793732B775F8100D74D1A /* 에어컨.cpp */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2 x n 타일링.cpp"; sourceTree = "<group>"; };
 		4D07936F2B7737EE00D74D1A /* 뒤에 있는 큰 수 찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "뒤에 있는 큰 수 찾기.cpp"; sourceTree = "<group>"; };
 		4D0793712B7739A700D74D1A /* 땅따먹기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "땅따먹기.cpp"; sourceTree = "<group>"; };
 		4D0793732B775F8100D74D1A /* 에어컨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "에어컨.cpp"; sourceTree = "<group>"; };
@@ -2687,6 +2689,7 @@
 				4D0793712B7739A700D74D1A /* 땅따먹기.cpp */,
 				4D0793792B78CE5F00D74D1A /* 롤케이크 자르기.cpp */,
 				4D07937B2B78D5D200D74D1A /* 택배상자.cpp */,
+				4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */,
 			);
 			name = "연습문제";
 			path = "연습문제";
@@ -2881,6 +2884,7 @@
 				4DDE6C252B7734BB008A2413 /* 행렬의 곱셈.cpp in Sources */,
 				4DDE6C082B7376C6008A2413 /* GPS.cpp in Sources */,
 				4DDE6C192B74A9F9008A2413 /* 몸짱 트레이너 라이언의 고민.cpp in Sources */,
+				4D06DF172B79DCF900FFFF28 /* 2 x n 타일링.cpp in Sources */,
 				4DDE6BF42B711F9B008A2413 /* [카카오 인턴] 동굴 탐험.cpp in Sources */,
 				4DDE6BFE2B7274FF008A2413 /* 트리 트리오 중간값.cpp in Sources */,
 				4DDE6C032B735BA8008A2413 /* n + 1 카드게임.cpp in Sources */,
