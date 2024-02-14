@@ -1,3 +1,4 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/68645
 class Solution {
     int currentNumber = 1;
     public int[] solution(int n) {
@@ -6,6 +7,7 @@ class Solution {
         drawing(answer, n, level);
         return answer;
     }
+    
     private int[] getLevel(int n) {
         int[] level = new int[n*(n+1)/2];
         int num = 1;
@@ -20,6 +22,7 @@ class Solution {
         }
         return level;
     }
+    
     private void drawing(int[] snail, int n, int[] level) {
         int height = n;
         snail[0] = 1;
@@ -36,6 +39,7 @@ class Solution {
             if (--n == 0) break;
         }
     }
+    
     private int moveDown(int[] snail, int drawingBlock, int currentIndex, int[] level)     {
         while (drawingBlock != 0) {
             currentIndex = level[currentIndex] + currentIndex;
@@ -44,6 +48,7 @@ class Solution {
         }
         return currentIndex;
     }
+    
     private int moveRight(int[] snail, int drawingBlock, int currentIndex) {
         while (drawingBlock != 0) {
             currentIndex = currentIndex + 1;
@@ -52,6 +57,7 @@ class Solution {
         }
         return currentIndex;
     }
+    
     private int moveUp(int[] snail, int drawingBlock, int currentIndex, int[] level) 
     {
         while (drawingBlock != 0) {
