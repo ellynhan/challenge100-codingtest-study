@@ -16,6 +16,8 @@
 		4D7C15A22B7F1A99002E99BE /* 유사 칸토어 비트열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15A12B7F1A99002E99BE /* 유사 칸토어 비트열.cpp */; };
 		4D7C15A42B7F290C002E99BE /* 도넛과 막대 그래프.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15A32B7F290C002E99BE /* 도넛과 막대 그래프.cpp */; };
 		4D7C15A62B7F3CE5002E99BE /* 당구 연습.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15A52B7F3CE5002E99BE /* 당구 연습.cpp */; };
+		4D7C15A82B7F437F002E99BE /* 아날로그 시계.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15A72B7F437F002E99BE /* 아날로그 시계.cpp */; };
+		4D7C15AA2B7F43CC002E99BE /* 수레 움직이기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15A92B7F43CC002E99BE /* 수레 움직이기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		4D06DF162B79DCF900FFFF28 /* 2 x n 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2 x n 타일링.cpp"; sourceTree = "<group>"; };
-		4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "수레 움직이기.cpp"; path = "[PCCP 기출문제] 4번 /수레 움직이기.cpp"; sourceTree = "<group>"; };
 		4D06DF1B2B79F3F900FFFF28 /* 블록 이동하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "블록 이동하기.cpp"; sourceTree = "<group>"; };
 		4D06DF1D2B7A09CD00FFFF28 /* 4단 고음.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4단 고음.cpp"; sourceTree = "<group>"; };
 		4D06DF1F2B7B0E1B00FFFF28 /* 쌍둥이 빌딩 숲.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "쌍둥이 빌딩 숲.cpp"; sourceTree = "<group>"; };
@@ -419,6 +420,8 @@
 		4D7C15A12B7F1A99002E99BE /* 유사 칸토어 비트열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "유사 칸토어 비트열.cpp"; sourceTree = "<group>"; };
 		4D7C15A32B7F290C002E99BE /* 도넛과 막대 그래프.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "도넛과 막대 그래프.cpp"; sourceTree = "<group>"; };
 		4D7C15A52B7F3CE5002E99BE /* 당구 연습.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "당구 연습.cpp"; sourceTree = "<group>"; };
+		4D7C15A72B7F437F002E99BE /* 아날로그 시계.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "아날로그 시계.cpp"; sourceTree = "<group>"; };
+		4D7C15A92B7F43CC002E99BE /* 수레 움직이기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "수레 움직이기.cpp"; sourceTree = "<group>"; };
 		4D7EA5EE2B5A319E0023E090 /* GRADUATION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GRADUATION.cpp; sourceTree = "<group>"; };
 		4D7EA5F22B5A49F00023E090 /* CHRISTMAS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHRISTMAS.cpp; sourceTree = "<group>"; };
 		4D7F127D29EA26B500A303B8 /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
@@ -995,8 +998,9 @@
 		4D06DF182B79EEBC00FFFF28 /* PCCP 기출문제 */ = {
 			isa = PBXGroup;
 			children = (
-				4D06DF192B79EECC00FFFF28 /* 수레 움직이기.cpp */,
+				4D7C15A92B7F43CC002E99BE /* 수레 움직이기.cpp */,
 				4D7C159F2B7F07FB002E99BE /* 석유 시추.cpp */,
+				4D7C15A72B7F437F002E99BE /* 아날로그 시계.cpp */,
 			);
 			name = "PCCP 기출문제";
 			path = "PCCP 기출문제 ";
@@ -2958,7 +2962,9 @@
 				4D7C15A22B7F1A99002E99BE /* 유사 칸토어 비트열.cpp in Sources */,
 				4D7C15A62B7F3CE5002E99BE /* 당구 연습.cpp in Sources */,
 				4D7C15972B7E0628002E99BE /* 두 원 사이의 정수 쌍.cpp in Sources */,
+				4D7C15AA2B7F43CC002E99BE /* 수레 움직이기.cpp in Sources */,
 				4D7C15A42B7F290C002E99BE /* 도넛과 막대 그래프.cpp in Sources */,
+				4D7C15A82B7F437F002E99BE /* 아날로그 시계.cpp in Sources */,
 				4D7C15992B7E2F46002E99BE /* 과제 진행하기.cpp in Sources */,
 				4D7C15A02B7F07FB002E99BE /* 석유 시추.cpp in Sources */,
 				4D7C159E2B7F0293002E99BE /* 교점에 별 만들기.cpp in Sources */,
