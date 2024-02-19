@@ -23,6 +23,7 @@
 		4D7C15B02B7F9C72002E99BE /* 시험장 나누기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15AF2B7F9C72002E99BE /* 시험장 나누기.cpp */; };
 		4D7C15B32B81D9F7002E99BE /* 경사로의 개수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15B22B81D9F7002E99BE /* 경사로의 개수.cpp */; };
 		4D7C15B52B8235FF002E99BE /* 안티 세포.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15B42B8235FF002E99BE /* 안티 세포.cpp */; };
+		4D7C15B72B830289002E99BE /* 미로 탈출.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15B62B830289002E99BE /* 미로 탈출.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -432,6 +433,7 @@
 		4D7C15AF2B7F9C72002E99BE /* 시험장 나누기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "시험장 나누기.cpp"; sourceTree = "<group>"; };
 		4D7C15B22B81D9F7002E99BE /* 경사로의 개수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "경사로의 개수.cpp"; sourceTree = "<group>"; };
 		4D7C15B42B8235FF002E99BE /* 안티 세포.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "안티 세포.cpp"; sourceTree = "<group>"; };
+		4D7C15B62B830289002E99BE /* 미로 탈출.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "미로 탈출.cpp"; sourceTree = "<group>"; };
 		4D7EA5EE2B5A319E0023E090 /* GRADUATION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GRADUATION.cpp; sourceTree = "<group>"; };
 		4D7EA5F22B5A49F00023E090 /* CHRISTMAS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHRISTMAS.cpp; sourceTree = "<group>"; };
 		4D7F127D29EA26B500A303B8 /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
@@ -1100,8 +1102,6 @@
 		4D1363B92917CCA10079237B /* PGS */ = {
 			isa = PBXGroup;
 			children = (
-				4D7C15B12B81D9E6002E99BE /* 2023 현대모비스 알고리즘 경진대회 예선 */,
-				4D7C159C2B7F0282002E99BE /* 위클리 챌린지 */,
 				4D9452F3291922C0004C5EE3 /* 0x05 Stack */,
 				4D5084DF291B7F8D0096DD61 /* 0x06 Queue */,
 				4DDE6BFF2B73289D008A2413 /* 2017 카카오코드 본선 */,
@@ -1116,6 +1116,7 @@
 				4DF78F6A2B69D5370094A978 /* 2021 Dev-Matching 웹 백엔드 개발자(상반기) */,
 				4DC85B5629E84E5F00D363A6 /* 2021 KAKAO BLIND RECRUITMENT */,
 				4DC85B6A29E84E5F00D363A6 /* 2022 KAKAO BLIND RECRUITMENT */,
+				4D7C15B12B81D9E6002E99BE /* 2023 현대모비스 알고리즘 경진대회 예선 */,
 				4DDE6C092B73857B008A2413 /* 2023 현대모비스 알고리즘 경진대회 예선 */,
 				4DC85B7629E84E5F00D363A6 /* 2023 KAKAO BLIND RECRUITMENT */,
 				4D1801172B60E67500D340AA /* 2024 KAKAO WINTER INTERNSHIP  */,
@@ -1128,6 +1129,7 @@
 				4DF78F7D2B6B3D8E0094A978 /* 월간 코드 챌린지 시즌1 */,
 				4DF78F892B6B9C150094A978 /* 월간 코드 챌린지 시즌2 */,
 				4DDE6BEE2B70E2AB008A2413 /* 월간 코드 챌린지 시즌3 */,
+				4D7C159C2B7F0282002E99BE /* 위클리 챌린지 */,
 				4DF78F632B68F93B0094A978 /* 이분탐색 */,
 				4D7C15682B7C5103002E99BE /* 정렬 */,
 				4DF78F602B68F0D30094A978 /* 탐욕법(Greedy) */,
@@ -2869,6 +2871,7 @@
 			children = (
 				4DF78F742B6A2D1F0094A978 /* 표 편집.cpp */,
 				4D7C15AF2B7F9C72002E99BE /* 시험장 나누기.cpp */,
+				4D7C15B62B830289002E99BE /* 미로 탈출.cpp */,
 			);
 			name = "2021 카카오 채용연계형 인턴십";
 			path = "2021 카카오 채용연계형 인턴십";
@@ -2998,6 +3001,7 @@
 				4D7C159B2B7E3FB1002E99BE /* 숫자 블록.cpp in Sources */,
 				4D7C15AE2B7F7C0F002E99BE /* 단체사진 찍기.cpp in Sources */,
 				4D7C15952B7DFACB002E99BE /* 혼자 놀기의 달인.cpp in Sources */,
+				4D7C15B72B830289002E99BE /* 미로 탈출.cpp in Sources */,
 				4D7C15B02B7F9C72002E99BE /* 시험장 나누기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
