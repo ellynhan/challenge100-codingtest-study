@@ -28,6 +28,7 @@
 		4D7C15BC2B834EF1002E99BE /* 네오의 목걸이.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15BB2B834EF1002E99BE /* 네오의 목걸이.cpp */; };
 		4D7C15BE2B8352FA002E99BE /* 방의 개수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15BD2B8352FA002E99BE /* 방의 개수.cpp */; };
 		4D7C15C02B84758C002E99BE /* 문자열의 아름다움.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15BF2B84758C002E99BE /* 문자열의 아름다움.cpp */; };
+		4D7C15C22B84DC76002E99BE /* 재밌는 레이싱 경기장 설계하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C15C12B84DC76002E99BE /* 재밌는 레이싱 경기장 설계하기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -442,6 +443,7 @@
 		4D7C15BB2B834EF1002E99BE /* 네오의 목걸이.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "네오의 목걸이.cpp"; sourceTree = "<group>"; };
 		4D7C15BD2B8352FA002E99BE /* 방의 개수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "방의 개수.cpp"; sourceTree = "<group>"; };
 		4D7C15BF2B84758C002E99BE /* 문자열의 아름다움.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "문자열의 아름다움.cpp"; sourceTree = "<group>"; };
+		4D7C15C12B84DC76002E99BE /* 재밌는 레이싱 경기장 설계하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "재밌는 레이싱 경기장 설계하기.cpp"; sourceTree = "<group>"; };
 		4D7EA5EE2B5A319E0023E090 /* GRADUATION.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GRADUATION.cpp; sourceTree = "<group>"; };
 		4D7EA5F22B5A49F00023E090 /* CHRISTMAS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHRISTMAS.cpp; sourceTree = "<group>"; };
 		4D7F127D29EA26B500A303B8 /* 15656.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15656.cpp; sourceTree = "<group>"; };
@@ -1848,6 +1850,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7C15B92B834E74002E99BE /* 미로 주행 테스트.cpp */,
+				4D7C15C12B84DC76002E99BE /* 재밌는 레이싱 경기장 설계하기.cpp */,
 			);
 			name = "2023 현대모비스 알고리즘 경진대회 본선";
 			path = "2023 현대모비스 알고리즘 경진대회 본선";
@@ -3028,6 +3031,7 @@
 				4D7C15952B7DFACB002E99BE /* 혼자 놀기의 달인.cpp in Sources */,
 				4D7C15B72B830289002E99BE /* 미로 탈출.cpp in Sources */,
 				4D7C15B02B7F9C72002E99BE /* 시험장 나누기.cpp in Sources */,
+				4D7C15C22B84DC76002E99BE /* 재밌는 레이싱 경기장 설계하기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
