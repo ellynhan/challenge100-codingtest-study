@@ -361,6 +361,9 @@
 		4D5084DD291B7E8E0096DD61 /* 올바른 괄호.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "올바른 괄호.cpp"; sourceTree = "<group>"; };
 		4D5084E0291B834E0096DD61 /* 기능개발.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "기능개발.cpp"; sourceTree = "<group>"; };
 		4D5084E2291B8E980096DD61 /* 프린터.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "프린터.cpp"; sourceTree = "<group>"; };
+		4D53CEAA2B86425E007B7E6D /* 1517.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1517.cpp; sourceTree = "<group>"; };
+		4D53CEAB2B86428E007B7E6D /* 7626.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7626.cpp; sourceTree = "<group>"; };
+		4D53CEAC2B864298007B7E6D /* 3392.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3392.cpp; sourceTree = "<group>"; };
 		4D5E8CCA2B5A6C360058C102 /* JOSEPHUS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JOSEPHUS.cpp; sourceTree = "<group>"; };
 		4D5E8CD12B5B9C720058C102 /* BRACKETS2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BRACKETS2.cpp; sourceTree = "<group>"; };
 		4D5FE6112B3BFEC700A5D68A /* 25330.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 25330.cpp; sourceTree = "<group>"; };
@@ -1185,6 +1188,7 @@
 				4D3CC7C22962BCFC00F1E8F3 /* 0x1D Dijkstra */,
 				4D3CC7BB2962BCFC00F1E8F3 /* 0x1E KMP */,
 				4D3CC7A02962BCFC00F1E8F3 /* 0x1F Trie */,
+				4D53CEA82B86422F007B7E6D /* 0x20 SegmentTree */,
 				4DC85B4029E84DE000D363A6 /* 부록 4 Union Find */,
 			);
 			path = BOJ;
@@ -1677,6 +1681,16 @@
 				4D5084E2291B8E980096DD61 /* 프린터.cpp */,
 			);
 			path = "0x06 Queue";
+			sourceTree = "<group>";
+		};
+		4D53CEA82B86422F007B7E6D /* 0x20 SegmentTree */ = {
+			isa = PBXGroup;
+			children = (
+				4D53CEAA2B86425E007B7E6D /* 1517.cpp */,
+				4D53CEAC2B864298007B7E6D /* 3392.cpp */,
+				4D53CEAB2B86428E007B7E6D /* 7626.cpp */,
+			);
+			path = "0x20 SegmentTree";
 			sourceTree = "<group>";
 		};
 		4D5975AB2B5BE4D8001C5E17 /* 20장 */ = {
