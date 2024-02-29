@@ -8,4 +8,7 @@
       </list>
     </option>
   </component>
+  <component name="explorerToolWindow">
+    <option name="selectedTab" value="Developer Tools" />
+  </component>
 </project>
