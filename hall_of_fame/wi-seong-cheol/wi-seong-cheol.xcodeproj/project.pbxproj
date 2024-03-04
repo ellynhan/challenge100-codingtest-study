@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D91DE2D2B8B1B9400611B84 /* 1557.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DE2C2B8B1B4100611B84 /* 1557.cpp */; };
+		4D3F536C2B95A50B00D2DEBF /* 13460.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F536A2B95A50400D2DEBF /* 13460.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -273,6 +273,7 @@
 		4D3CC7E02962BCFD00F1E8F3 /* 2887.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2887.cpp; sourceTree = "<group>"; };
 		4D3CC7E12962BCFD00F1E8F3 /* 1197.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1197.cpp; sourceTree = "<group>"; };
 		4D3CC7E22962BCFD00F1E8F3 /* 1368.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1368.cpp; sourceTree = "<group>"; };
+		4D3F536A2B95A50400D2DEBF /* 13460.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13460.cpp; sourceTree = "<group>"; };
 		4D451F19294AF11500014202 /* 1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1003.swift; sourceTree = "<group>"; };
 		4D454E6029ED585D00034C7B /* 10597.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10597.cpp; sourceTree = "<group>"; };
 		4D454E6329ED7B3200034C7B /* 2448.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2448.cpp; sourceTree = "<group>"; };
@@ -1151,6 +1152,7 @@
 		4D1363BA2917CCA70079237B /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				4D3F53692B95A4DE00D2DEBF /* 삼성 SW 역량 테스트 기출 문제 */,
 				4DC85A4F29E84AE000D363A6 /* CodingTest */,
 				4D1363BE2917D2E60079237B /* 0x03 Array */,
 				4D1363BF2917D2F40079237B /* 0x04 LinkedList */,
@@ -1572,6 +1574,15 @@
 				4D3CC7DC2962BCFD00F1E8F3 /* 16398.cpp */,
 			);
 			path = "0x1B MST";
+			sourceTree = "<group>";
+		};
+		4D3F53692B95A4DE00D2DEBF /* 삼성 SW 역량 테스트 기출 문제 */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F536A2B95A50400D2DEBF /* 13460.cpp */,
+			);
+			name = "삼성 SW 역량 테스트 기출 문제";
+			path = "삼성 SW 역량 테스트 기출 문제";
 			sourceTree = "<group>";
 		};
 		4D454E6229ED7AE500034C7B /* Recursion */ = {
@@ -3007,6 +3018,7 @@
 				TargetAttributes = {
 					4D1363B12917CC720079237B = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -3033,7 +3045,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D91DE2D2B8B1B9400611B84 /* 1557.cpp in Sources */,
+				4D3F536C2B95A50B00D2DEBF /* 13460.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3152,10 +3164,12 @@
 		4D1363B72917CC720079237B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KQLD72485;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -3163,6 +3177,7 @@
 		4D1363B82917CC720079237B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KQLD72485;
 				ENABLE_HARDENED_RUNTIME = YES;
