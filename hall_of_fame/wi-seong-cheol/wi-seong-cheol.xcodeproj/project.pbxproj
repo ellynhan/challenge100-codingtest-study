@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3F536C2B95A50B00D2DEBF /* 13460.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F536A2B95A50400D2DEBF /* 13460.cpp */; };
+		4D3F536E2B95C0A900D2DEBF /* 12100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F536D2B95C0A900D2DEBF /* 12100.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -274,6 +274,7 @@
 		4D3CC7E12962BCFD00F1E8F3 /* 1197.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1197.cpp; sourceTree = "<group>"; };
 		4D3CC7E22962BCFD00F1E8F3 /* 1368.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1368.cpp; sourceTree = "<group>"; };
 		4D3F536A2B95A50400D2DEBF /* 13460.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13460.cpp; sourceTree = "<group>"; };
+		4D3F536D2B95C0A900D2DEBF /* 12100.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12100.cpp; sourceTree = "<group>"; };
 		4D451F19294AF11500014202 /* 1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1003.swift; sourceTree = "<group>"; };
 		4D454E6029ED585D00034C7B /* 10597.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10597.cpp; sourceTree = "<group>"; };
 		4D454E6329ED7B3200034C7B /* 2448.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2448.cpp; sourceTree = "<group>"; };
@@ -1580,6 +1581,7 @@
 			isa = PBXGroup;
 			children = (
 				4D3F536A2B95A50400D2DEBF /* 13460.cpp */,
+				4D3F536D2B95C0A900D2DEBF /* 12100.cpp */,
 			);
 			name = "삼성 SW 역량 테스트 기출 문제";
 			path = "삼성 SW 역량 테스트 기출 문제";
@@ -3045,7 +3047,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3F536C2B95A50B00D2DEBF /* 13460.cpp in Sources */,
+				4D3F536E2B95C0A900D2DEBF /* 12100.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
