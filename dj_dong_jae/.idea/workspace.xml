@@ -42,7 +42,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BOJ_11726.Main">
+  <component name="RunManager" selected="Application.BOJ_1753.Main">
     <configuration name="BOJ_1003.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1003.Main" />
       <module name="dj_dong_jae" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_4386.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_4386.Main" />
+    <configuration name="BOJ_1753.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1753.Main" />
       <module name="dj_dong_jae" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ_4386.*" />
+          <option name="PATTERN" value="BOJ_1753.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1753.Main" />
         <item itemvalue="Application.BOJ_11726.Main" />
         <item itemvalue="Application.BOJ_1003.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BOJ_1463.Main" />
-        <item itemvalue="Application.BOJ_4386.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,8 @@
       <workItem from="1708676321603" duration="6656000" />
       <workItem from="1709054682658" duration="2660000" />
       <workItem from="1709139933598" duration="3514000" />
-      <workItem from="1709440908351" duration="1898000" />
+      <workItem from="1709440908351" duration="2831000" />
+      <workItem from="1709536849970" duration="7782000" />
     </task>
     <servers />
   </component>
