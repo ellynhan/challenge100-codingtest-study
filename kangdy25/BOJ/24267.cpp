@@ -8,5 +8,5 @@ int main() {
     long long N;
     cin >> N;
     
-    cout << 4 * N;
+    cout << (N - 2) * (N - 1) * N / 6 << "\n" << "3";
 }
