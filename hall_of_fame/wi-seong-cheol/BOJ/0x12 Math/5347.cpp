@@ -25,14 +25,16 @@
 #include <iostream>
 
 using namespace std;
-int t, n, m;
+#define ll long long
+int t;
+ll n, m;
 
-int gcd(int a, int b) {
+ll gcd(ll a, ll b) {
     return b == 0 ? a : gcd(b, a % b);
 }
 
-int lcm(int a, int b) {
-    return a * (b / gcd(a, b));
+ll lcm(ll a, ll b) {
+    return (a * b) / gcd(a, b);
 }
 
 int main() {
