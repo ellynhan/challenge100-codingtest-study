@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DEC64D92BA09C5200721AC9 /* 12018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC64D82BA09C5200721AC9 /* 12018.cpp */; };
+		4DEC64E22BA1CC3C00721AC9 /* 17837.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC64E12BA1CC3C00721AC9 /* 17837.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -941,6 +941,9 @@
 		4DEC64D42BA09AA700721AC9 /* 3135.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3135.cpp; sourceTree = "<group>"; };
 		4DEC64D62BA09B7000721AC9 /* 13417.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13417.cpp; sourceTree = "<group>"; };
 		4DEC64D82BA09C5200721AC9 /* 12018.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12018.cpp; sourceTree = "<group>"; };
+		4DEC64DA2BA194EE00721AC9 /* 17142.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17142.cpp; sourceTree = "<group>"; };
+		4DEC64DD2BA19C8D00721AC9 /* 17779.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17779.cpp; sourceTree = "<group>"; };
+		4DEC64E12BA1CC3C00721AC9 /* 17837.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17837.cpp; sourceTree = "<group>"; };
 		4DF0683F29225BD400F10B6B /* 1600.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600.cpp; sourceTree = "<group>"; };
 		4DF0684029225BD400F10B6B /* 1012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1012.cpp; sourceTree = "<group>"; };
 		4DF0684129225BD400F10B6B /* 9466.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9466.cpp; sourceTree = "<group>"; };
@@ -1653,8 +1656,11 @@
 				4DEC64AD2B9ED23F00721AC9 /* 16235.cpp */,
 				4DEC64C22B9FECFF00721AC9 /* 16236.cpp */,
 				4DEC64C82B9FED1F00721AC9 /* 17140.cpp */,
+				4DEC64DA2BA194EE00721AC9 /* 17142.cpp */,
 				4DEC64C62B9FED1500721AC9 /* 17143.cpp */,
 				4DEC64C42B9FED0B00721AC9 /* 17144.cpp */,
+				4DEC64DD2BA19C8D00721AC9 /* 17779.cpp */,
+				4DEC64E12BA1CC3C00721AC9 /* 17837.cpp */,
 			);
 			name = "삼성 SW 역량 테스트 기출 문제";
 			path = "삼성 SW 역량 테스트 기출 문제";
@@ -3139,7 +3145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEC64D92BA09C5200721AC9 /* 12018.cpp in Sources */,
+				4DEC64E22BA1CC3C00721AC9 /* 17837.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
