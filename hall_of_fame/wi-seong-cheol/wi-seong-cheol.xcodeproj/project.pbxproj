@@ -846,6 +846,12 @@
 		4DE410E12BA950EB00BE6274 /* 피보나치 수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "피보나치 수.cpp"; sourceTree = "<group>"; };
 		4DE410E42BA9588300BE6274 /* 지형 이동.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지형 이동.cpp"; sourceTree = "<group>"; };
 		4DE410E52BA9588400BE6274 /* 멀쩡한 사각형.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "멀쩡한 사각형.cpp"; sourceTree = "<group>"; };
+		4DE410E72BA9591100BE6274 /* 정수 삼각형.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "정수 삼각형.cpp"; sourceTree = "<group>"; };
+		4DE410E92BA95FBC00BE6274 /* 등굣길.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "등굣길.cpp"; sourceTree = "<group>"; };
+		4DE410EB2BA96A6000BE6274 /* 사칙연산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "사칙연산.cpp"; sourceTree = "<group>"; };
+		4DE410ED2BA96D9500BE6274 /* 스킬트리.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "스킬트리.cpp"; sourceTree = "<group>"; };
+		4DE410F12BA971ED00BE6274 /* 타겟넘버.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "타겟넘버.cpp"; sourceTree = "<group>"; };
+		4DE410F32BA973B500BE6274 /* 네트워크.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "네트워크.cpp"; sourceTree = "<group>"; };
 		4DE4B4372B4BBEDD00030FA5 /* 1884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1884.cpp; sourceTree = "<group>"; };
 		4DE4B4392B4BCFC800030FA5 /* 6209.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6209.cpp; sourceTree = "<group>"; };
 		4DE4B43B2B4BDC4C00030FA5 /* 22953.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 22953.cpp; sourceTree = "<group>"; };
@@ -2736,6 +2742,12 @@
 			isa = PBXGroup;
 			children = (
 				4DE410E12BA950EB00BE6274 /* 피보나치 수.cpp */,
+				4DE410E72BA9591100BE6274 /* 정수 삼각형.cpp */,
+				4DE410E92BA95FBC00BE6274 /* 등굣길.cpp */,
+				4DE410EB2BA96A6000BE6274 /* 사칙연산.cpp */,
+				4DE410ED2BA96D9500BE6274 /* 스킬트리.cpp */,
+				4DE410F12BA971ED00BE6274 /* 타겟넘버.cpp */,
+				4DE410F32BA973B500BE6274 /* 네트워크.cpp */,
 			);
 			path = Resolve;
 			sourceTree = "<group>";
