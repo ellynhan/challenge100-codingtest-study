@@ -11,9 +11,10 @@ class Solution {
             b.add(Integer.parseInt(c));
         }
         
-        Collections.sort(b);
-
-        answer = b.get(0) + " " + b.get(b.size()-1);
+        int maxNum = (int)Collections.max(b);
+        int minNum = (int)Collections.min(b);
+        
+        answer = minNum + " " + maxNum;
         
         return answer;
     }
