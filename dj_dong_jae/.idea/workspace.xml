@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cfd1664-67ff-4db7-91dd-e6aaa7a37154" name="Changes" comment="" />
+    <list default="true" id="3cfd1664-67ff-4db7-91dd-e6aaa7a37154" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BOJ_1753.Main">
+  <component name="RunManager" selected="Application.BOJ_2588.Main">
     <configuration name="BOJ_1003.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1003.Main" />
       <module name="dj_dong_jae" />
@@ -70,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1463.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_1463.Main" />
+    <configuration name="BOJ_1753.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1753.Main" />
       <module name="dj_dong_jae" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ_1463.*" />
+          <option name="PATTERN" value="BOJ_1753.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1753.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_1753.Main" />
+    <configuration name="BOJ_2588.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2588.Main" />
       <module name="dj_dong_jae" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ_1753.*" />
+          <option name="PATTERN" value="BOJ_2588.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2588.Main" />
         <item itemvalue="Application.BOJ_1753.Main" />
         <item itemvalue="Application.BOJ_11726.Main" />
         <item itemvalue="Application.BOJ_1003.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BOJ_1463.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +159,8 @@
       <workItem from="1710479922126" duration="604000" />
       <workItem from="1710739146869" duration="8000" />
       <workItem from="1711259274859" duration="2330000" />
+      <workItem from="1711600778950" duration="1907000" />
+      <workItem from="1711879681389" duration="600000" />
     </task>
     <servers />
   </component>
