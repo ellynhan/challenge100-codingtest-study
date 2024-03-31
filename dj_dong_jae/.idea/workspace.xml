@@ -23,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2aRZ5BcanVUJkOkIOwWC22QOTmc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BOJ_1753.Main">
+  <component name="RunManager" selected="Application.BOJ_2884.Main">
     <configuration name="BOJ_1003.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1003.Main" />
       <module name="dj_dong_jae" />
@@ -69,19 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1463.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_1463.Main" />
-      <module name="dj_dong_jae" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ_1463.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BOJ_1753.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1753.Main" />
       <module name="dj_dong_jae" />
@@ -95,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_9095.Main" />
+    <configuration name="BOJ_2588.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2588.Main" />
       <module name="dj_dong_jae" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ_9095.*" />
+          <option name="PATTERN" value="BOJ_2588.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ_2884.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2884.Main" />
+      <module name="dj_dong_jae" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ_2884.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2884.Main" />
+        <item itemvalue="Application.BOJ_2588.Main" />
         <item itemvalue="Application.BOJ_1753.Main" />
         <item itemvalue="Application.BOJ_11726.Main" />
         <item itemvalue="Application.BOJ_1003.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BOJ_1463.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +153,14 @@
       <workItem from="1709440908351" duration="2831000" />
       <workItem from="1709536849970" duration="8821000" />
       <workItem from="1709718201043" duration="598000" />
+      <workItem from="1709794638134" duration="863000" />
+      <workItem from="1709882954237" duration="759000" />
+      <workItem from="1710221728405" duration="707000" />
+      <workItem from="1710479922126" duration="604000" />
+      <workItem from="1710739146869" duration="8000" />
+      <workItem from="1711259274859" duration="2330000" />
+      <workItem from="1711600778950" duration="1907000" />
+      <workItem from="1711879681389" duration="1376000" />
     </task>
     <servers />
   </component>
