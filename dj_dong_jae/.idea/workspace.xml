@@ -45,20 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BOJ_2884.Main">
-    <configuration name="BOJ_1003.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_1003.Main" />
-      <module name="dj_dong_jae" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ_1003.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BOJ_11726.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_11726.Main" />
       <module name="dj_dong_jae" />
@@ -111,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2439.Main" />
+      <module name="dj_dong_jae" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ_2439.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BOJ_2884.Main" />
         <item itemvalue="Application.BOJ_2588.Main" />
         <item itemvalue="Application.BOJ_1753.Main" />
         <item itemvalue="Application.BOJ_11726.Main" />
-        <item itemvalue="Application.BOJ_1003.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,7 @@
       <workItem from="1710739146869" duration="8000" />
       <workItem from="1711259274859" duration="2330000" />
       <workItem from="1711600778950" duration="1907000" />
-      <workItem from="1711879681389" duration="1376000" />
+      <workItem from="1711879681389" duration="3506000" />
     </task>
     <servers />
   </component>
